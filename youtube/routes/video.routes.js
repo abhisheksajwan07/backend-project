@@ -147,7 +147,11 @@ router.put(
       await video.save();
 
       // remove internal ids
-      const { videoId: _, thumbnailId: _, ...safeVideo } = video.toObject();
+      const {
+        videoId: vidToHide,
+        thumbnailId: thumbIdToHide,
+        ...safeVideo
+      } = video.toObject();
 
       logger.info(`Video metadata updated successfully: ${videoIdParam}`);
       res
@@ -207,6 +211,42 @@ router.delete("/delete/:id", checkAuth, async (req, res) => {
     res
       .status(500)
       .json({ error: "Something went wrong", message: err.message });
+  }
+});
+
+router.get("/all", async (req, res) => {
+  try {
+    logger.info("Fetching all videos");
+
+    // optional: pagination
+    const page = parseInt(req.query.page) || 1;
+    const limit = parseInt(req.query.limit) || 10;
+    const skip = (page - 1) * limit;
+
+    const videos = await Video.find()
+      .sort({ createdAt: -1 })
+      .skip(skip)
+      .limit(limit)
+      .populate("user_id", "channelName email");
+
+    const safeVideos = videos.map((v) => {
+      const { videoId: vid, thumbnailId: thumb, ...rest } = v.toObject();
+      return rest;
+    });
+
+    res.status(200).json({
+      message: "Videos fetched successfully",
+      page,
+      limit,
+      videos: safeVideos,
+    });
+    
+  } catch (err) {
+    logger.error(`Error fetching videos: ${err.message}`);
+    res.status(500).json({
+      message: "Something went wrong",
+      error: err.message,
+    });
   }
 });
 export default router;
