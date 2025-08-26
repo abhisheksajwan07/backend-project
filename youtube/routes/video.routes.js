@@ -162,4 +162,51 @@ router.put(
   }
 );
 
+router.delete("/delete/:id", checkAuth, async (req, res) => {
+  try {
+    const videoId = req.params.id;
+    logger.info(
+      `Delete request hit by user: ${req.user._id} for video: ${videoId}`
+    );
+
+    const video = await Video.findById(videoId);
+
+    if (!video) {
+      logger.warn(
+        `Video not found: ${videoId} requested by user: ${req.user._id}`
+      );
+
+      return res.status(404).json({
+        error: "video not found",
+      });
+    }
+
+    if (video.user_id.toString() !== req.user._id.toString()) {
+      logger.warn(
+        `Unauthorized delete attempt by user: ${req.user._id} for video: ${videoId}`
+      );
+
+      return res.status(403).json({ error: "Unauthorized" });
+    }
+
+    if (video.videoId) {
+      await cloudinary.uploader.destroy(video.videoId, {
+        resource_type: "video",
+      });
+    }
+
+    if (video.thumbnailId) {
+      await cloudinary.uploader.destroy(video.thumbnailId);
+    }
+
+    await Video.findByIdAndDelete(videoId);
+    logger.info(`Video ${videoId} removed from DB`);
+    res.status(200).json({ message: "Video deleted successfully" });
+  } catch (err) {
+    logger.error(`Video deletion failed: ${err.message}`);
+    res
+      .status(500)
+      .json({ error: "Something went wrong", message: err.message });
+  }
+});
 export default router;
