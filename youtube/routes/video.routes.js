@@ -240,12 +240,53 @@ router.get("/all", async (req, res) => {
       limit,
       videos: safeVideos,
     });
-    
   } catch (err) {
     logger.error(`Error fetching videos: ${err.message}`);
     res.status(500).json({
       message: "Something went wrong",
       error: err.message,
+    });
+  }
+});
+router.get("/my-videos", checkAuth, async (req, res) => {
+  try {
+    const page = parseInt(req.query.page) || 1;
+    const limit = parseInt(req.query.limit) || 10;
+    const skip = (page - 1) * limit;
+
+    logger.info(`fetching page ${page} of videos for user : ${req.user._id}`);
+
+    const videos = await Video.find({
+      user_id: req.user._id,
+    })
+      .sort({ createdAt: -1 })
+      .skip(skip)
+      .limit(limit);
+
+    const  safeVideos = await videos.map(v=>{
+      const {thumbnailId:thumb , videoId:vid, ...rest}= v.toObject();
+      return rest
+    })
+
+    const totalVideos = await Video.countDocuments({user_id:req.user._id})
+    const totalPages = Math.ceil(totalVideos/limit)
+
+    res.status(200).json({
+      message:"User videos fetched successfully",
+      page,
+      totalPages,
+      totalVideos,
+      videos:safeVideos
+
+    })
+
+  } catch (error) {
+    logger.error(
+      `Error fetching user videos for ${req.user._id}: ${error.message}`
+    );
+    res.status(500).json({
+      message: "Something went wrong",
+      error: error.message,
     });
   }
 });
