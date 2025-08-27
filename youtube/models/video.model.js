@@ -1,4 +1,5 @@
 import mongoose from "mongoose";
+import { type } from "os";
 
 const videoSchema = new mongoose.Schema(
   {
@@ -49,6 +50,10 @@ const videoSchema = new mongoose.Schema(
         trim: true,
       },
     ],
+    viewsCount:{
+      type:Number,
+      default:0
+    },
     likedBy: [{ type: mongoose.Schema.Types.ObjectId, ref: "User" }],
     disLikedBy: [{ type: mongoose.Schema.Types.ObjectId, ref: "User" }],
     viewedBy: [{ type: mongoose.Schema.Types.ObjectId, ref: "User" }],
