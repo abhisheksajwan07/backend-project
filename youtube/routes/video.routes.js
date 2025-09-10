@@ -263,23 +263,21 @@ router.get("/my-videos", checkAuth, async (req, res) => {
       .skip(skip)
       .limit(limit);
 
-    const  safeVideos = await videos.map(v=>{
-      const {thumbnailId:thumb , videoId:vid, ...rest}= v.toObject();
-      return rest
-    })
+    const safeVideos = await videos.map((v) => {
+      const { thumbnailId: thumb, videoId: vid, ...rest } = v.toObject();
+      return rest;
+    });
 
-    const totalVideos = await Video.countDocuments({user_id:req.user._id})
-    const totalPages = Math.ceil(totalVideos/limit)
+    const totalVideos = await Video.countDocuments({ user_id: req.user._id });
+    const totalPages = Math.ceil(totalVideos / limit);
 
     res.status(200).json({
-      message:"User videos fetched successfully",
+      message: "User videos fetched successfully",
       page,
       totalPages,
       totalVideos,
-      videos:safeVideos
-
-    })
-
+      videos: safeVideos,
+    });
   } catch (error) {
     logger.error(
       `Error fetching user videos for ${req.user._id}: ${error.message}`
@@ -290,4 +288,58 @@ router.get("/my-videos", checkAuth, async (req, res) => {
     });
   }
 });
+
+router.get("/:id", checkAuth, async (req, res) => {
+  try {
+    const videoId = req.params.id;
+
+    const video = await Video.findByIdAndUpdate(
+      videoId,
+      { $inc: { viewsCount: 1 } },
+      {
+        new: true,
+        select:
+          "title description category tags thumbnailUrl videoUrl user_id viewsCount createdAt",
+      }
+    );
+
+    if (!video) return res.status(404).json({ error: "Video not found" });
+
+    res.status(200).json(video);
+  } catch (error) {
+    console.error(error);
+    res.status(500).json({ error: "Something went wrong" });
+  }
+});
+
+router.get("/category/:category", async (req, res) => {
+  try {
+    const { page = 1, limit = 10 } = req.query;
+    const category = req.params.category;
+
+    const totalVideos = await Video.countDocuments({ category });
+    const videos = await Video.find({ category })
+      .sort({ createdAt: -1 })
+      .limit(Number(limit))
+      .skip((page - 1) * limit)
+      .select(
+        "title description category tags thumbnailUrl videoUrl user_id createdAt likes dislikes views"
+      );
+
+    res.status(200).json({
+      totalVideos,
+      totalPages: Math.ceil(totalVideos / limit),
+      currentPage: Number(page),
+      videos,
+    });
+  } catch (err) {
+    console.err("Fetch Error:", err);
+    res.status(500).json({ message: "Something went wrong" });
+  }
+});
+
+router.get("/tags/:tag", async (req, res) => {
+  
+});
+
 export default router;
