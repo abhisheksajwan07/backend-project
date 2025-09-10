@@ -1,0 +1,6 @@
+{"level":"warn","message":"The `uri` parameter to `openUri()` must be a string, got \"undefined\". Make sure the first parameter to `mongoose.connect()` or `mongoose.createConnection()` is a string.","service":"identity-services","timestamp":"2025-09-10T13:54:56.412Z"}
+{"level":"info","message":"indentity service runnning on port 3001","service":"identity-services","timestamp":"2025-09-10T13:54:56.422Z"}
+{"level":"warn","message":"The `uri` parameter to `openUri()` must be a string, got \"undefined\". Make sure the first parameter to `mongoose.connect()` or `mongoose.createConnection()` is a string.","service":"identity-services","timestamp":"2025-09-10T13:55:03.638Z"}
+{"level":"info","message":"indentity service runnning on port 3001","service":"identity-services","timestamp":"2025-09-10T13:55:03.647Z"}
+{"0":"r","1":"e","2":"a","3":"s","4":"o","5":"n","6":":","level":"error","message":"Unhandled Rejection at","service":"identity-services","timestamp":"2025-09-10T13:55:14.330Z"}
+{"0":"r","1":"e","2":"a","3":"s","4":"o","5":"n","6":":","level":"error","message":"Unhandled Rejection at","service":"identity-services","timestamp":"2025-09-10T13:55:14.333Z"}
