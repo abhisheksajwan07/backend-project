@@ -47,3 +47,11 @@ Isliye sequence important hai:
  * Subscriber subscribe karo (await)
 
  * Publisher message bhejo
+
+```
+ Subscriber ko pehle room me enter karna padta hai
+
+Publisher message bhejta hai → agar subscriber room me ho tabhi message receive karega
+
+await ensure karta hai ki subscriber pehle room me enter kar le, fir message bhejo
+```
