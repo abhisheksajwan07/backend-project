@@ -4,3 +4,145 @@
 {"level":"info","message":"indentity service runnning on port 3001","service":"identity-services","timestamp":"2025-09-10T13:55:03.647Z"}
 {"0":"r","1":"e","2":"a","3":"s","4":"o","5":"n","6":":","level":"error","message":"Unhandled Rejection at","service":"identity-services","timestamp":"2025-09-10T13:55:14.330Z"}
 {"0":"r","1":"e","2":"a","3":"s","4":"o","5":"n","6":":","level":"error","message":"Unhandled Rejection at","service":"identity-services","timestamp":"2025-09-10T13:55:14.333Z"}
+{"level":"info","message":"indentity service runnning on port 3001","service":"identity-services","timestamp":"2025-10-19T06:35:19.233Z"}
+{"level":"info","message":"db connected ","service":"identity-services","timestamp":"2025-10-19T06:35:19.755Z"}
+{"level":"info","message":"received GET request to /","service":"identity-services","timestamp":"2025-10-19T06:35:45.461Z"}
+{"level":"info","message":"request body undefined ","service":"identity-services","timestamp":"2025-10-19T06:35:45.462Z"}
+{"level":"info","message":"indentity service runnning on port 3001","service":"identity-services","timestamp":"2025-10-19T12:59:59.440Z"}
+{"level":"info","message":"db connected ","service":"identity-services","timestamp":"2025-10-19T12:59:59.965Z"}
+{"level":"info","message":"indentity service runnning on port 3001","service":"identity-services","timestamp":"2025-10-19T13:00:00.924Z"}
+{"level":"info","message":"db connected ","service":"identity-services","timestamp":"2025-10-19T13:00:01.339Z"}
+{"level":"info","message":"received POST request to /api/auth/register","service":"identity-services","timestamp":"2025-10-19T13:00:12.026Z"}
+{"level":"info","message":"request body [object Object] ","service":"identity-services","timestamp":"2025-10-19T13:00:12.026Z"}
+{"level":"info","message":"Registration endpoint hit...","service":"identity-services","timestamp":"2025-10-19T13:00:12.029Z"}
+{"0":"{","1":"\n","10":"a","11":"m","12":"e","13":"\"","14":":","15":" ","16":"\"","17":"j","18":"o","19":"h","2":" ","20":"n","21":"\"","22":",","23":"\n","24":" ","25":" ","26":"\"","27":"e","28":"m","29":"a","3":" ","30":"i","31":"l","32":"\"","33":":","34":" ","35":"\"","36":"j","37":"o","38":"h","39":"n","4":"\"","40":"2","41":"g","42":"m","43":"a","44":"i","45":"l","46":".","47":"c","48":"o","49":"m","5":"u","50":"\"","51":",","52":"\n","53":" ","54":" ","55":"\"","56":"p","57":"a","58":"s","59":"s","6":"s","60":"w","61":"o","62":"r","63":"d","64":"\"","65":":","66":" ","67":"\"","68":"1","69":"2","7":"e","70":"3","71":"4","72":"5","73":"6","74":"J","75":"j","76":"@","77":"\"","78":"\n","79":"}","8":"r","9":"n","level":"info","message":"Request body:","service":"identity-services","timestamp":"2025-10-19T13:00:12.029Z"}
+{"0":"\"","1":"e","10":"s","11":"t","12":" ","13":"b","14":"e","15":" ","16":"a","17":" ","18":"v","19":"a","2":"m","20":"l","21":"i","22":"d","23":" ","24":"e","25":"m","26":"a","27":"i","28":"l","3":"a","4":"i","5":"l","6":"\"","7":" ","8":"m","9":"u","level":"warn","message":"validation err","service":"identity-services","timestamp":"2025-10-19T13:00:12.035Z"}
+{"level":"info","message":"indentity service runnning on port 3001","service":"identity-services","timestamp":"2025-10-19T13:00:46.555Z"}
+{"level":"info","message":"db connected ","service":"identity-services","timestamp":"2025-10-19T13:00:46.956Z"}
+{"level":"info","message":"received POST request to /api/auth/register","service":"identity-services","timestamp":"2025-10-19T13:00:52.480Z"}
+{"level":"info","message":"request body [object Object] ","service":"identity-services","timestamp":"2025-10-19T13:00:52.480Z"}
+{"level":"info","message":"Registration endpoint hit...","service":"identity-services","timestamp":"2025-10-19T13:00:52.493Z"}
+{"0":"{","1":"\n","10":"a","11":"m","12":"e","13":"\"","14":":","15":" ","16":"\"","17":"j","18":"o","19":"h","2":" ","20":"n","21":"\"","22":",","23":"\n","24":" ","25":" ","26":"\"","27":"e","28":"m","29":"a","3":" ","30":"i","31":"l","32":"\"","33":":","34":" ","35":"\"","36":"j","37":"o","38":"h","39":"n","4":"\"","40":"2","41":"@","42":"g","43":"m","44":"a","45":"i","46":"l","47":".","48":"c","49":"o","5":"u","50":"m","51":"\"","52":",","53":"\n","54":" ","55":" ","56":"\"","57":"p","58":"a","59":"s","6":"s","60":"s","61":"w","62":"o","63":"r","64":"d","65":"\"","66":":","67":" ","68":"\"","69":"1","7":"e","70":"2","71":"3","72":"4","73":"5","74":"6","75":"J","76":"j","77":"@","78":"\"","79":"\n","8":"r","80":"}","9":"n","level":"info","message":"Request body:","service":"identity-services","timestamp":"2025-10-19T13:00:52.494Z"}
+{"buffer":{"data":[104,244,225,4,86,52,239,65,104,113,155,254],"type":"Buffer"},"level":"warn","message":"User saved successfully","service":"identity-services","timestamp":"2025-10-19T13:00:52.655Z"}
+{"level":"error","message":"Registration error occured generateTokens is not defined","service":"identity-services","stack":"ReferenceError: generateTokens is not defined\n    at registerUser (file:///C:/Users/abhis/OneDrive/Desktop/backend-project/social-microservices/identity-services/src/controller/identity.controller.js:32:43)\n    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)","timestamp":"2025-10-19T13:00:52.656Z"}
+{"level":"info","message":"indentity service runnning on port 3001","service":"identity-services","timestamp":"2025-10-19T13:01:08.513Z"}
+{"level":"info","message":"db connected ","service":"identity-services","timestamp":"2025-10-19T13:01:08.960Z"}
+{"level":"info","message":"received POST request to /api/auth/register","service":"identity-services","timestamp":"2025-10-19T13:01:12.932Z"}
+{"level":"info","message":"request body [object Object] ","service":"identity-services","timestamp":"2025-10-19T13:01:12.932Z"}
+{"level":"info","message":"Registration endpoint hit...","service":"identity-services","timestamp":"2025-10-19T13:01:12.935Z"}
+{"0":"{","1":"\n","10":"a","11":"m","12":"e","13":"\"","14":":","15":" ","16":"\"","17":"j","18":"o","19":"h","2":" ","20":"n","21":"\"","22":",","23":"\n","24":" ","25":" ","26":"\"","27":"e","28":"m","29":"a","3":" ","30":"i","31":"l","32":"\"","33":":","34":" ","35":"\"","36":"j","37":"o","38":"h","39":"n","4":"\"","40":"2","41":"@","42":"g","43":"m","44":"a","45":"i","46":"l","47":".","48":"c","49":"o","5":"u","50":"m","51":"\"","52":",","53":"\n","54":" ","55":" ","56":"\"","57":"p","58":"a","59":"s","6":"s","60":"s","61":"w","62":"o","63":"r","64":"d","65":"\"","66":":","67":" ","68":"\"","69":"1","7":"e","70":"2","71":"3","72":"4","73":"5","74":"6","75":"J","76":"j","77":"@","78":"\"","79":"\n","8":"r","80":"}","9":"n","level":"info","message":"Request body:","service":"identity-services","timestamp":"2025-10-19T13:01:12.935Z"}
+{"level":"warn","message":"User already exists","service":"identity-services","timestamp":"2025-10-19T13:01:12.971Z"}
+{"level":"info","message":"received POST request to /api/auth/register","service":"identity-services","timestamp":"2025-10-19T13:01:29.469Z"}
+{"level":"info","message":"request body [object Object] ","service":"identity-services","timestamp":"2025-10-19T13:01:29.469Z"}
+{"level":"info","message":"Registration endpoint hit...","service":"identity-services","timestamp":"2025-10-19T13:01:29.471Z"}
+{"0":"{","1":"\n","10":"a","11":"m","12":"e","13":"\"","14":":","15":" ","16":"\"","17":"j","18":"o","19":"h","2":" ","20":"n","21":"n","22":"\"","23":",","24":"\n","25":" ","26":" ","27":"\"","28":"e","29":"m","3":" ","30":"a","31":"i","32":"l","33":"\"","34":":","35":" ","36":"\"","37":"j","38":"o","39":"h","4":"\"","40":"n","41":"@","42":"g","43":"m","44":"a","45":"i","46":"l","47":".","48":"c","49":"o","5":"u","50":"m","51":"\"","52":",","53":"\n","54":" ","55":" ","56":"\"","57":"p","58":"a","59":"s","6":"s","60":"s","61":"w","62":"o","63":"r","64":"d","65":"\"","66":":","67":" ","68":"\"","69":"1","7":"e","70":"2","71":"3","72":"4","73":"5","74":"6","75":"J","76":"j","77":"@","78":"\"","79":"\n","8":"r","80":"}","9":"n","level":"info","message":"Request body:","service":"identity-services","timestamp":"2025-10-19T13:01:29.471Z"}
+{"buffer":{"data":[104,244,225,41,170,196,246,134,120,106,145,245],"type":"Buffer"},"level":"warn","message":"User saved successfully","service":"identity-services","timestamp":"2025-10-19T13:01:29.655Z"}
+{"level":"error","message":"Registration error occured generateTokens is not defined","service":"identity-services","stack":"ReferenceError: generateTokens is not defined\n    at registerUser (file:///C:/Users/abhis/OneDrive/Desktop/backend-project/social-microservices/identity-services/src/controller/identity.controller.js:32:43)\n    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)","timestamp":"2025-10-19T13:01:29.656Z"}
+{"level":"info","message":"indentity service runnning on port 3001","service":"identity-services","timestamp":"2025-10-19T13:05:44.333Z"}
+{"level":"info","message":"db connected ","service":"identity-services","timestamp":"2025-10-19T13:05:44.846Z"}
+{"level":"info","message":"indentity service runnning on port 3001","service":"identity-services","timestamp":"2025-10-19T13:05:58.829Z"}
+{"level":"info","message":"db connected ","service":"identity-services","timestamp":"2025-10-19T13:05:59.250Z"}
+{"level":"info","message":"received POST request to /api/auth/register","service":"identity-services","timestamp":"2025-10-19T13:06:01.392Z"}
+{"level":"info","message":"request body [object Object] ","service":"identity-services","timestamp":"2025-10-19T13:06:01.392Z"}
+{"level":"info","message":"Registration endpoint hit...","service":"identity-services","timestamp":"2025-10-19T13:06:01.396Z"}
+{"0":"{","1":"\n","10":"a","11":"m","12":"e","13":"\"","14":":","15":" ","16":"\"","17":"j","18":"o","19":"h","2":" ","20":"n","21":"n","22":"\"","23":",","24":"\n","25":" ","26":" ","27":"\"","28":"e","29":"m","3":" ","30":"a","31":"i","32":"l","33":"\"","34":":","35":" ","36":"\"","37":"j","38":"o","39":"h","4":"\"","40":"n","41":"@","42":"g","43":"m","44":"a","45":"i","46":"l","47":".","48":"c","49":"o","5":"u","50":"m","51":"\"","52":",","53":"\n","54":" ","55":" ","56":"\"","57":"p","58":"a","59":"s","6":"s","60":"s","61":"w","62":"o","63":"r","64":"d","65":"\"","66":":","67":" ","68":"\"","69":"1","7":"e","70":"2","71":"3","72":"4","73":"5","74":"6","75":"J","76":"j","77":"@","78":"\"","79":"\n","8":"r","80":"}","9":"n","level":"info","message":"Request body:","service":"identity-services","timestamp":"2025-10-19T13:06:01.396Z"}
+{"level":"warn","message":"User already exists","service":"identity-services","timestamp":"2025-10-19T13:06:01.440Z"}
+{"level":"info","message":"received POST request to /api/auth/register","service":"identity-services","timestamp":"2025-10-19T13:06:42.599Z"}
+{"level":"info","message":"request body [object Object] ","service":"identity-services","timestamp":"2025-10-19T13:06:42.600Z"}
+{"level":"info","message":"Registration endpoint hit...","service":"identity-services","timestamp":"2025-10-19T13:06:42.601Z"}
+{"0":"{","1":"\n","10":"a","11":"m","12":"e","13":"\"","14":":","15":" ","16":"\"","17":"j","18":"o","19":"h","2":" ","20":"n","21":"n","22":"\"","23":",","24":"\n","25":" ","26":" ","27":"\"","28":"e","29":"m","3":" ","30":"a","31":"i","32":"l","33":"\"","34":":","35":" ","36":"\"","37":"j","38":"o","39":"h","4":"\"","40":"n","41":"@","42":"g","43":"m","44":"a","45":"i","46":"l","47":".","48":"c","49":"o","5":"u","50":"m","51":"\"","52":",","53":"\n","54":" ","55":" ","56":"\"","57":"p","58":"a","59":"s","6":"s","60":"s","61":"w","62":"o","63":"r","64":"d","65":"\"","66":":","67":" ","68":"\"","69":"1","7":"e","70":"2","71":"3","72":"4","73":"5","74":"6","75":"J","76":"j","77":"@","78":"\"","79":"\n","8":"r","80":"}","9":"n","level":"info","message":"Request body:","service":"identity-services","timestamp":"2025-10-19T13:06:42.601Z"}
+{"buffer":{"data":[104,244,226,98,8,32,1,168,84,74,139,123],"type":"Buffer"},"level":"warn","message":"User saved successfully","service":"identity-services","timestamp":"2025-10-19T13:06:42.750Z"}
+{"level":"error","message":"Registration error occured generateTokens is not defined","service":"identity-services","stack":"ReferenceError: generateTokens is not defined\n    at registerUser (file:///C:/Users/abhis/OneDrive/Desktop/backend-project/social-microservices/identity-services/src/controller/identity.controller.js:32:43)\n    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)","timestamp":"2025-10-19T13:06:42.750Z"}
+{"level":"info","message":"indentity service runnning on port 3001","service":"identity-services","timestamp":"2025-10-19T13:07:22.386Z"}
+{"level":"info","message":"db connected ","service":"identity-services","timestamp":"2025-10-19T13:07:22.846Z"}
+{"level":"info","message":"received POST request to /api/auth/register","service":"identity-services","timestamp":"2025-10-19T13:07:26.139Z"}
+{"level":"info","message":"request body [object Object] ","service":"identity-services","timestamp":"2025-10-19T13:07:26.139Z"}
+{"level":"info","message":"Registration endpoint hit...","service":"identity-services","timestamp":"2025-10-19T13:07:26.142Z"}
+{"0":"{","1":"\n","10":"a","11":"m","12":"e","13":"\"","14":":","15":" ","16":"\"","17":"j","18":"o","19":"h","2":" ","20":"n","21":"n","22":"\"","23":",","24":"\n","25":" ","26":" ","27":"\"","28":"e","29":"m","3":" ","30":"a","31":"i","32":"l","33":"\"","34":":","35":" ","36":"\"","37":"j","38":"o","39":"h","4":"\"","40":"n","41":"@","42":"g","43":"m","44":"a","45":"i","46":"l","47":".","48":"c","49":"o","5":"u","50":"m","51":"\"","52":",","53":"\n","54":" ","55":" ","56":"\"","57":"p","58":"a","59":"s","6":"s","60":"s","61":"w","62":"o","63":"r","64":"d","65":"\"","66":":","67":" ","68":"\"","69":"1","7":"e","70":"2","71":"3","72":"4","73":"5","74":"6","75":"J","76":"j","77":"@","78":"\"","79":"\n","8":"r","80":"}","9":"n","level":"info","message":"Request body:","service":"identity-services","timestamp":"2025-10-19T13:07:26.142Z"}
+{"level":"warn","message":"User already exists","service":"identity-services","timestamp":"2025-10-19T13:07:26.180Z"}
+{"level":"info","message":"received POST request to /api/auth/register","service":"identity-services","timestamp":"2025-10-19T13:07:41.127Z"}
+{"level":"info","message":"request body [object Object] ","service":"identity-services","timestamp":"2025-10-19T13:07:41.128Z"}
+{"level":"info","message":"Registration endpoint hit...","service":"identity-services","timestamp":"2025-10-19T13:07:41.129Z"}
+{"0":"{","1":"\n","10":"a","11":"m","12":"e","13":"\"","14":":","15":" ","16":"\"","17":"k","18":"i","19":"n","2":" ","20":"g","21":"\"","22":",","23":"\n","24":" ","25":" ","26":"\"","27":"e","28":"m","29":"a","3":" ","30":"i","31":"l","32":"\"","33":":","34":" ","35":"\"","36":"k","37":"i","38":"n","39":"g","4":"\"","40":"@","41":"g","42":"m","43":"a","44":"i","45":"l","46":".","47":"c","48":"o","49":"m","5":"u","50":"\"","51":",","52":"\n","53":" ","54":" ","55":"\"","56":"p","57":"a","58":"s","59":"s","6":"s","60":"w","61":"o","62":"r","63":"d","64":"\"","65":":","66":" ","67":"\"","68":"1","69":"2","7":"e","70":"3","71":"4","72":"5","73":"6","74":"J","75":"j","76":"@","77":"\"","78":"\n","79":"}","8":"r","9":"n","level":"info","message":"Request body:","service":"identity-services","timestamp":"2025-10-19T13:07:41.129Z"}
+{"buffer":{"data":[104,244,226,157,216,224,239,163,96,13,11,108],"type":"Buffer"},"level":"warn","message":"User saved successfully","service":"identity-services","timestamp":"2025-10-19T13:07:41.265Z"}
+{"level":"error","message":"Registration error occured jwt is not defined","service":"identity-services","stack":"ReferenceError: jwt is not defined\n    at generateToken (file:///C:/Users/abhis/OneDrive/Desktop/backend-project/social-microservices/identity-services/src/utils/generateToken.js:5:23)\n    at registerUser (file:///C:/Users/abhis/OneDrive/Desktop/backend-project/social-microservices/identity-services/src/controller/identity.controller.js:32:49)\n    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)","timestamp":"2025-10-19T13:07:41.266Z"}
+{"level":"info","message":"indentity service runnning on port 3001","service":"identity-services","timestamp":"2025-10-19T13:08:03.129Z"}
+{"level":"info","message":"db connected ","service":"identity-services","timestamp":"2025-10-19T13:08:03.569Z"}
+{"level":"info","message":"received POST request to /api/auth/register","service":"identity-services","timestamp":"2025-10-19T13:08:10.590Z"}
+{"level":"info","message":"request body [object Object] ","service":"identity-services","timestamp":"2025-10-19T13:08:10.591Z"}
+{"level":"info","message":"Registration endpoint hit...","service":"identity-services","timestamp":"2025-10-19T13:08:10.593Z"}
+{"0":"{","1":"\n","10":"a","11":"m","12":"e","13":"\"","14":":","15":" ","16":"\"","17":"k","18":"i","19":"n","2":" ","20":"g","21":"g","22":"\"","23":",","24":"\n","25":" ","26":" ","27":"\"","28":"e","29":"m","3":" ","30":"a","31":"i","32":"l","33":"\"","34":":","35":" ","36":"\"","37":"k","38":"i","39":"n","4":"\"","40":"g","41":"g","42":"@","43":"g","44":"m","45":"a","46":"i","47":"l","48":".","49":"c","5":"u","50":"o","51":"m","52":"\"","53":",","54":"\n","55":" ","56":" ","57":"\"","58":"p","59":"a","6":"s","60":"s","61":"s","62":"w","63":"o","64":"r","65":"d","66":"\"","67":":","68":" ","69":"\"","7":"e","70":"1","71":"2","72":"3","73":"4","74":"5","75":"6","76":"J","77":"j","78":"@","79":"\"","8":"r","80":"\n","81":"}","9":"n","level":"info","message":"Request body:","service":"identity-services","timestamp":"2025-10-19T13:08:10.594Z"}
+{"buffer":{"data":[104,244,226,186,65,165,60,154,83,214,133,4],"type":"Buffer"},"level":"warn","message":"User saved successfully","service":"identity-services","timestamp":"2025-10-19T13:08:10.750Z"}
+{"level":"info","message":"indentity service runnning on port 3001","service":"identity-services","timestamp":"2025-10-19T14:20:01.127Z"}
+{"level":"info","message":"db connected ","service":"identity-services","timestamp":"2025-10-19T14:20:01.595Z"}
+{"level":"info","message":"indentity service runnning on port 3001","service":"identity-services","timestamp":"2025-10-19T14:20:39.745Z"}
+{"level":"info","message":"db connected ","service":"identity-services","timestamp":"2025-10-19T14:20:40.151Z"}
+{"level":"info","message":"indentity service runnning on port 3001","service":"identity-services","timestamp":"2025-10-19T14:20:57.379Z"}
+{"level":"info","message":"db connected ","service":"identity-services","timestamp":"2025-10-19T14:20:57.782Z"}
+{"level":"info","message":"indentity service runnning on port 3001","service":"identity-services","timestamp":"2025-10-19T14:21:00.632Z"}
+{"level":"info","message":"db connected ","service":"identity-services","timestamp":"2025-10-19T14:21:01.180Z"}
+{"level":"info","message":"indentity service runnning on port 3001","service":"identity-services","timestamp":"2025-10-19T14:21:07.312Z"}
+{"level":"info","message":"db connected ","service":"identity-services","timestamp":"2025-10-19T14:21:07.732Z"}
+{"level":"info","message":"indentity service runnning on port 3001","service":"identity-services","timestamp":"2025-10-19T14:23:03.343Z"}
+{"level":"info","message":"db connected ","service":"identity-services","timestamp":"2025-10-19T14:23:03.842Z"}
+{"level":"info","message":"indentity service runnning on port 3001","service":"identity-services","timestamp":"2025-10-19T14:26:11.268Z"}
+{"level":"info","message":"db connected ","service":"identity-services","timestamp":"2025-10-19T14:26:11.741Z"}
+{"level":"info","message":"indentity service runnning on port 3001","service":"identity-services","timestamp":"2025-10-19T14:26:16.203Z"}
+{"level":"info","message":"db connected ","service":"identity-services","timestamp":"2025-10-19T14:26:16.645Z"}
+{"level":"info","message":"indentity service runnning on port 3001","service":"identity-services","timestamp":"2025-10-19T14:26:26.415Z"}
+{"level":"info","message":"db connected ","service":"identity-services","timestamp":"2025-10-19T14:26:26.819Z"}
+{"level":"info","message":"indentity service runnning on port 3001","service":"identity-services","timestamp":"2025-10-19T14:26:32.058Z"}
+{"level":"info","message":"db connected ","service":"identity-services","timestamp":"2025-10-19T14:26:32.451Z"}
+{"level":"info","message":"indentity service runnning on port 3001","service":"identity-services","timestamp":"2025-10-19T14:26:42.075Z"}
+{"level":"info","message":"db connected ","service":"identity-services","timestamp":"2025-10-19T14:26:42.497Z"}
+{"level":"info","message":"indentity service runnning on port 3001","service":"identity-services","timestamp":"2025-10-19T14:26:45.567Z"}
+{"level":"info","message":"db connected ","service":"identity-services","timestamp":"2025-10-19T14:26:45.990Z"}
+{"level":"info","message":"indentity service runnning on port 3001","service":"identity-services","timestamp":"2025-10-19T14:26:55.421Z"}
+{"level":"info","message":"db connected ","service":"identity-services","timestamp":"2025-10-19T14:26:55.800Z"}
+{"level":"info","message":"indentity service runnning on port 3001","service":"identity-services","timestamp":"2025-10-19T14:27:12.553Z"}
+{"level":"info","message":"db connected ","service":"identity-services","timestamp":"2025-10-19T14:27:13.012Z"}
+{"level":"info","message":"indentity service runnning on port 3001","service":"identity-services","timestamp":"2025-10-19T14:27:17.666Z"}
+{"level":"info","message":"db connected ","service":"identity-services","timestamp":"2025-10-19T14:27:18.099Z"}
+{"level":"info","message":"indentity service runnning on port 3001","service":"identity-services","timestamp":"2025-10-19T14:27:21.382Z"}
+{"level":"info","message":"db connected ","service":"identity-services","timestamp":"2025-10-19T14:27:21.783Z"}
+{"level":"info","message":"indentity service runnning on port 3001","service":"identity-services","timestamp":"2025-10-19T14:27:27.394Z"}
+{"level":"info","message":"db connected ","service":"identity-services","timestamp":"2025-10-19T14:27:27.837Z"}
+{"level":"info","message":"indentity service runnning on port 3001","service":"identity-services","timestamp":"2025-10-19T14:27:30.170Z"}
+{"level":"info","message":"db connected ","service":"identity-services","timestamp":"2025-10-19T14:27:30.566Z"}
+{"level":"info","message":"indentity service runnning on port 3001","service":"identity-services","timestamp":"2025-10-19T14:27:57.357Z"}
+{"level":"info","message":"db connected ","service":"identity-services","timestamp":"2025-10-19T14:27:57.800Z"}
+{"level":"info","message":"indentity service runnning on port 3001","service":"identity-services","timestamp":"2025-10-19T14:27:59.938Z"}
+{"level":"info","message":"db connected ","service":"identity-services","timestamp":"2025-10-19T14:28:00.306Z"}
+{"level":"info","message":"indentity service runnning on port 3001","service":"identity-services","timestamp":"2025-10-19T14:28:07.925Z"}
+{"level":"info","message":"indentity service runnning on port 3001","service":"identity-services","timestamp":"2025-10-19T14:28:09.273Z"}
+{"level":"info","message":"db connected ","service":"identity-services","timestamp":"2025-10-19T14:28:09.687Z"}
+{"level":"info","message":"indentity service runnning on port 3001","service":"identity-services","timestamp":"2025-10-19T14:28:53.820Z"}
+{"level":"info","message":"db connected ","service":"identity-services","timestamp":"2025-10-19T14:28:54.243Z"}
+{"level":"info","message":"indentity service runnning on port 3001","service":"identity-services","timestamp":"2025-10-19T14:29:12.252Z"}
+{"level":"info","message":"db connected ","service":"identity-services","timestamp":"2025-10-19T14:29:12.669Z"}
+{"level":"info","message":"indentity service runnning on port 3001","service":"identity-services","timestamp":"2025-10-19T14:29:14.325Z"}
+{"level":"info","message":"db connected ","service":"identity-services","timestamp":"2025-10-19T14:29:14.791Z"}
+{"level":"info","message":"indentity service runnning on port 3001","service":"identity-services","timestamp":"2025-10-19T14:29:22.733Z"}
+{"level":"info","message":"db connected ","service":"identity-services","timestamp":"2025-10-19T14:29:23.190Z"}
+{"level":"info","message":"indentity service runnning on port 3001","service":"identity-services","timestamp":"2025-10-19T14:29:27.960Z"}
+{"level":"info","message":"db connected ","service":"identity-services","timestamp":"2025-10-19T14:29:28.382Z"}
+{"level":"info","message":"indentity service runnning on port 3001","service":"identity-services","timestamp":"2025-10-19T14:35:51.435Z"}
+{"level":"info","message":"db connected ","service":"identity-services","timestamp":"2025-10-19T14:35:51.948Z"}
+{"level":"info","message":"received POST request to /api/auth/login","service":"identity-services","timestamp":"2025-10-19T14:35:59.789Z"}
+{"level":"info","message":"request body [object Object] ","service":"identity-services","timestamp":"2025-10-19T14:35:59.790Z"}
+{"level":"info","message":"login endpoint hit","service":"identity-services","timestamp":"2025-10-19T14:35:59.790Z"}
+{"level":"info","message":"received POST request to /api/auth/login","service":"identity-services","timestamp":"2025-10-19T14:37:16.498Z"}
+{"level":"info","message":"request body [object Object] ","service":"identity-services","timestamp":"2025-10-19T14:37:16.498Z"}
+{"level":"info","message":"login endpoint hit","service":"identity-services","timestamp":"2025-10-19T14:37:16.499Z"}
+{"level":"info","message":"indentity service runnning on port 3001","service":"identity-services","timestamp":"2025-10-19T17:25:54.925Z"}
+{"level":"info","message":"db connected ","service":"identity-services","timestamp":"2025-10-19T17:25:55.410Z"}
+{"level":"info","message":"indentity service runnning on port 3001","service":"identity-services","timestamp":"2025-10-19T17:26:06.420Z"}
+{"level":"info","message":"db connected ","service":"identity-services","timestamp":"2025-10-19T17:26:06.840Z"}
+{"level":"info","message":"received POST request to /api/auth/register","service":"identity-services","timestamp":"2025-10-19T17:26:48.955Z"}
+{"level":"info","message":"request body [object Object] ","service":"identity-services","timestamp":"2025-10-19T17:26:48.956Z"}
+{"level":"info","message":"Registration endpoint hit...","service":"identity-services","timestamp":"2025-10-19T17:26:48.960Z"}
+{"0":"{","1":"\n","10":"a","11":"m","12":"e","13":"\"","14":":","15":" ","16":"\"","17":"k","18":"i","19":"n","2":" ","20":"g","21":"g","22":"g","23":"\"","24":",","25":"\n","26":" ","27":" ","28":"\"","29":"e","3":" ","30":"m","31":"a","32":"i","33":"l","34":"\"","35":":","36":" ","37":"\"","38":"k","39":"i","4":"\"","40":"n","41":"g","42":"g","43":"g","44":"@","45":"g","46":"m","47":"a","48":"i","49":"l","5":"u","50":".","51":"c","52":"o","53":"m","54":"\"","55":",","56":"\n","57":" ","58":" ","59":"\"","6":"s","60":"p","61":"a","62":"s","63":"s","64":"w","65":"o","66":"r","67":"d","68":"\"","69":":","7":"e","70":" ","71":"\"","72":"1","73":"2","74":"3","75":"4","76":"5","77":"6","78":"J","79":"j","8":"r","80":"@","81":"\"","82":"\n","83":"}","9":"n","level":"info","message":"Request body:","service":"identity-services","timestamp":"2025-10-19T17:26:48.960Z"}
+{"buffer":{"data":[104,245,31,89,31,240,210,15,165,61,166,136],"type":"Buffer"},"level":"warn","message":"User saved successfully","service":"identity-services","timestamp":"2025-10-19T17:26:49.156Z"}
+{"level":"info","message":"received POST request to /api/auth/login","service":"identity-services","timestamp":"2025-10-19T17:26:55.083Z"}
+{"level":"info","message":"request body [object Object] ","service":"identity-services","timestamp":"2025-10-19T17:26:55.083Z"}
+{"level":"info","message":"login endpoint hit","service":"identity-services","timestamp":"2025-10-19T17:26:55.084Z"}

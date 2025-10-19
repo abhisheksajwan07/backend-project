@@ -1,0 +1,10 @@
+{"level":"error","message":"Proxy error:getaddrinfo ENOTFOUND hhtp","service":"identity-services","timestamp":"2025-10-19T12:18:54.402Z"}
+{"level":"error","message":"Proxy error:","service":"identity-services","timestamp":"2025-10-19T12:19:49.504Z"}
+{"level":"error","message":"Proxy error:","service":"identity-services","timestamp":"2025-10-19T12:21:18.860Z"}
+{"level":"error","message":"Proxy error:","service":"identity-services","timestamp":"2025-10-19T12:26:03.980Z"}
+{"level":"error","message":"Proxy error:","service":"identity-services","timestamp":"2025-10-19T12:38:17.364Z"}
+{"level":"error","message":"Proxy error:","service":"identity-services","timestamp":"2025-10-19T12:38:25.369Z"}
+{"level":"error","message":"Proxy error:","service":"identity-services","timestamp":"2025-10-19T12:45:37.318Z"}
+{"level":"error","message":"Proxy error:","service":"identity-services","timestamp":"2025-10-19T12:46:01.080Z"}
+{"level":"error","message":"Proxy error:","service":"identity-services","timestamp":"2025-10-19T13:00:41.106Z"}
+{"level":"error","message":"Proxy error:","service":"identity-services","timestamp":"2025-10-19T13:05:52.263Z"}
