@@ -1,0 +1,417 @@
+{"level":"info","message":"indentity service runnning on port 3003","service":"media-service","timestamp":"2025-10-22T06:41:15.507Z"}
+{"level":"info","message":"db connected ","service":"media-service","timestamp":"2025-10-22T06:41:15.965Z"}
+{"level":"info","message":"indentity service runnning on port 3003","service":"media-service","timestamp":"2025-10-22T07:49:29.966Z"}
+{"level":"info","message":"db connected ","service":"media-service","timestamp":"2025-10-22T07:49:30.341Z"}
+{"level":"info","message":"indentity service runnning on port 3003","service":"media-service","timestamp":"2025-10-22T07:49:38.863Z"}
+{"level":"info","message":"db connected ","service":"media-service","timestamp":"2025-10-22T07:49:39.251Z"}
+{"level":"info","message":"indentity service runnning on port 3003","service":"media-service","timestamp":"2025-10-22T07:53:07.635Z"}
+{"level":"info","message":"db connected ","service":"media-service","timestamp":"2025-10-22T07:53:08.077Z"}
+{"level":"info","message":"indentity service runnning on port 3003","service":"media-service","timestamp":"2025-10-22T07:53:25.972Z"}
+{"level":"info","message":"db connected ","service":"media-service","timestamp":"2025-10-22T07:53:26.327Z"}
+{"level":"info","message":"indentity service runnning on port 3003","service":"media-service","timestamp":"2025-10-22T07:53:30.126Z"}
+{"level":"info","message":"db connected ","service":"media-service","timestamp":"2025-10-22T07:53:30.479Z"}
+{"level":"info","message":"indentity service runnning on port 3003","service":"media-service","timestamp":"2025-10-22T08:49:12.127Z"}
+{"level":"info","message":"db connected ","service":"media-service","timestamp":"2025-10-22T08:49:12.479Z"}
+{"level":"info","message":"indentity service runnning on port 3003","service":"media-service","timestamp":"2025-10-22T08:50:56.685Z"}
+{"level":"info","message":"db connected ","service":"media-service","timestamp":"2025-10-22T08:50:57.117Z"}
+{"level":"info","message":"indentity service runnning on port 3003","service":"media-service","timestamp":"2025-10-22T09:02:48.040Z"}
+{"level":"info","message":"db connected ","service":"media-service","timestamp":"2025-10-22T09:02:48.499Z"}
+{"level":"info","message":"indentity service runnning on port 3003","service":"media-service","timestamp":"2025-10-22T09:11:06.034Z"}
+{"level":"info","message":"db connected ","service":"media-service","timestamp":"2025-10-22T09:11:06.470Z"}
+{"level":"info","message":"received POST request to /api/media/upload","service":"media-service","timestamp":"2025-10-22T09:12:00.210Z"}
+{"level":"info","message":"request body undefined ","service":"media-service","timestamp":"2025-10-22T09:12:00.211Z"}
+{"level":"info","message":"Starting media upload","service":"media-service","timestamp":"2025-10-22T09:12:00.223Z"}
+{"level":"info","message":"File details: name=Screenshot 2025-09-01 211424.png, type=image/png","service":"media-service","timestamp":"2025-10-22T09:12:00.223Z"}
+{"level":"info","message":"Uploading to cloudinary starting...","service":"media-service","timestamp":"2025-10-22T09:12:00.224Z"}
+{"level":"error","message":"Error creating media Must supply api_key","service":"media-service","stack":"Error: Must supply api_key\n    at ensureOption (C:\\Users\\abhis\\OneDrive\\Desktop\\backend-project\\social-microservices\\media-services\\node_modules\\cloudinary\\lib\\utils\\ensureOption.js:19:13)\n    at Object.sign_request (C:\\Users\\abhis\\OneDrive\\Desktop\\backend-project\\social-microservices\\media-services\\node_modules\\cloudinary\\lib\\utils\\index.js:1151:16)\n    at Object.process_request_params (C:\\Users\\abhis\\OneDrive\\Desktop\\backend-project\\social-microservices\\media-services\\node_modules\\cloudinary\\lib\\utils\\index.js:1203:22)\n    at call_api (C:\\Users\\abhis\\OneDrive\\Desktop\\backend-project\\social-microservices\\media-services\\node_modules\\cloudinary\\lib\\uploader.js:474:18)\n    at Object.upload (C:\\Users\\abhis\\OneDrive\\Desktop\\backend-project\\social-microservices\\media-services\\node_modules\\cloudinary\\lib\\uploader.js:53:10)\n    at Object.upload_stream (C:\\Users\\abhis\\OneDrive\\Desktop\\backend-project\\social-microservices\\media-services\\node_modules\\cloudinary\\lib\\uploader.js:40:18)\n    at file:///C:/Users/abhis/OneDrive/Desktop/backend-project/social-microservices/media-services/src/utils/cloudinary.js:12:46\n    at new Promise (<anonymous>)\n    at uploadMediaToCloudinary (file:///C:/Users/abhis/OneDrive/Desktop/backend-project/social-microservices/media-services/src/utils/cloudinary.js:11:10)\n    at uploadMedia (file:///C:/Users/abhis/OneDrive/Desktop/backend-project/social-microservices/media-services/src/controller/media.controller.js:24:42)","timestamp":"2025-10-22T09:12:00.227Z"}
+{"level":"info","message":"indentity service runnning on port 3003","service":"media-service","timestamp":"2025-10-22T09:13:52.430Z"}
+{"level":"info","message":"db connected ","service":"media-service","timestamp":"2025-10-22T09:13:52.831Z"}
+{"level":"info","message":"indentity service runnning on port 3003","service":"media-service","timestamp":"2025-10-22T09:13:56.449Z"}
+{"level":"info","message":"db connected ","service":"media-service","timestamp":"2025-10-22T09:13:56.807Z"}
+{"level":"info","message":"received POST request to /api/media/upload","service":"media-service","timestamp":"2025-10-22T09:13:57.528Z"}
+{"level":"info","message":"request body undefined ","service":"media-service","timestamp":"2025-10-22T09:13:57.529Z"}
+{"level":"info","message":"Starting media upload","service":"media-service","timestamp":"2025-10-22T09:13:57.540Z"}
+{"level":"info","message":"File details: name=Screenshot 2025-09-01 211424.png, type=image/png","service":"media-service","timestamp":"2025-10-22T09:13:57.541Z"}
+{"level":"info","message":"Uploading to cloudinary starting...","service":"media-service","timestamp":"2025-10-22T09:13:57.542Z"}
+{"level":"error","message":"Error creating media Must supply api_key","service":"media-service","stack":"Error: Must supply api_key\n    at ensureOption (C:\\Users\\abhis\\OneDrive\\Desktop\\backend-project\\social-microservices\\media-services\\node_modules\\cloudinary\\lib\\utils\\ensureOption.js:19:13)\n    at Object.sign_request (C:\\Users\\abhis\\OneDrive\\Desktop\\backend-project\\social-microservices\\media-services\\node_modules\\cloudinary\\lib\\utils\\index.js:1151:16)\n    at Object.process_request_params (C:\\Users\\abhis\\OneDrive\\Desktop\\backend-project\\social-microservices\\media-services\\node_modules\\cloudinary\\lib\\utils\\index.js:1203:22)\n    at call_api (C:\\Users\\abhis\\OneDrive\\Desktop\\backend-project\\social-microservices\\media-services\\node_modules\\cloudinary\\lib\\uploader.js:474:18)\n    at Object.upload (C:\\Users\\abhis\\OneDrive\\Desktop\\backend-project\\social-microservices\\media-services\\node_modules\\cloudinary\\lib\\uploader.js:53:10)\n    at Object.upload_stream (C:\\Users\\abhis\\OneDrive\\Desktop\\backend-project\\social-microservices\\media-services\\node_modules\\cloudinary\\lib\\uploader.js:40:18)\n    at file:///C:/Users/abhis/OneDrive/Desktop/backend-project/social-microservices/media-services/src/utils/cloudinary.js:12:46\n    at new Promise (<anonymous>)\n    at uploadMediaToCloudinary (file:///C:/Users/abhis/OneDrive/Desktop/backend-project/social-microservices/media-services/src/utils/cloudinary.js:11:10)\n    at uploadMedia (file:///C:/Users/abhis/OneDrive/Desktop/backend-project/social-microservices/media-services/src/controller/media.controller.js:24:42)","timestamp":"2025-10-22T09:13:57.548Z"}
+{"level":"info","message":"indentity service runnning on port 3003","service":"media-service","timestamp":"2025-10-22T09:14:53.069Z"}
+{"level":"info","message":"indentity service runnning on port 3003","service":"media-service","timestamp":"2025-10-22T09:14:55.627Z"}
+{"level":"info","message":"db connected ","service":"media-service","timestamp":"2025-10-22T09:14:55.978Z"}
+{"level":"info","message":"indentity service runnning on port 3003","service":"media-service","timestamp":"2025-10-22T09:14:57.266Z"}
+{"level":"info","message":"db connected ","service":"media-service","timestamp":"2025-10-22T09:14:57.612Z"}
+{"level":"info","message":"indentity service runnning on port 3003","service":"media-service","timestamp":"2025-10-22T09:15:06.548Z"}
+{"level":"info","message":"db connected ","service":"media-service","timestamp":"2025-10-22T09:15:06.912Z"}
+{"level":"info","message":"indentity service runnning on port 3003","service":"media-service","timestamp":"2025-10-22T09:15:10.242Z"}
+{"level":"info","message":"db connected ","service":"media-service","timestamp":"2025-10-22T09:15:10.604Z"}
+{"level":"info","message":"indentity service runnning on port 3003","service":"media-service","timestamp":"2025-10-22T09:15:15.625Z"}
+{"level":"info","message":"db connected ","service":"media-service","timestamp":"2025-10-22T09:15:15.999Z"}
+{"level":"info","message":"received POST request to /api/media/upload","service":"media-service","timestamp":"2025-10-22T09:15:16.615Z"}
+{"level":"info","message":"request body undefined ","service":"media-service","timestamp":"2025-10-22T09:15:16.615Z"}
+{"level":"info","message":"Starting media upload","service":"media-service","timestamp":"2025-10-22T09:15:16.622Z"}
+{"level":"info","message":"File details: name=Screenshot 2025-09-01 211424.png, type=image/png","service":"media-service","timestamp":"2025-10-22T09:15:16.623Z"}
+{"level":"info","message":"Uploading to cloudinary starting...","service":"media-service","timestamp":"2025-10-22T09:15:16.623Z"}
+{"level":"error","message":"Error creating media Must supply api_key","service":"media-service","stack":"Error: Must supply api_key\n    at ensureOption (C:\\Users\\abhis\\OneDrive\\Desktop\\backend-project\\social-microservices\\media-services\\node_modules\\cloudinary\\lib\\utils\\ensureOption.js:19:13)\n    at Object.sign_request (C:\\Users\\abhis\\OneDrive\\Desktop\\backend-project\\social-microservices\\media-services\\node_modules\\cloudinary\\lib\\utils\\index.js:1151:16)\n    at Object.process_request_params (C:\\Users\\abhis\\OneDrive\\Desktop\\backend-project\\social-microservices\\media-services\\node_modules\\cloudinary\\lib\\utils\\index.js:1203:22)\n    at call_api (C:\\Users\\abhis\\OneDrive\\Desktop\\backend-project\\social-microservices\\media-services\\node_modules\\cloudinary\\lib\\uploader.js:474:18)\n    at Object.upload (C:\\Users\\abhis\\OneDrive\\Desktop\\backend-project\\social-microservices\\media-services\\node_modules\\cloudinary\\lib\\uploader.js:53:10)\n    at Object.upload_stream (C:\\Users\\abhis\\OneDrive\\Desktop\\backend-project\\social-microservices\\media-services\\node_modules\\cloudinary\\lib\\uploader.js:40:18)\n    at file:///C:/Users/abhis/OneDrive/Desktop/backend-project/social-microservices/media-services/src/utils/cloudinary.js:12:46\n    at new Promise (<anonymous>)\n    at uploadMediaToCloudinary (file:///C:/Users/abhis/OneDrive/Desktop/backend-project/social-microservices/media-services/src/utils/cloudinary.js:11:10)\n    at uploadMedia (file:///C:/Users/abhis/OneDrive/Desktop/backend-project/social-microservices/media-services/src/controller/media.controller.js:24:42)","timestamp":"2025-10-22T09:15:16.626Z"}
+{"level":"info","message":"indentity service runnning on port 3003","service":"media-service","timestamp":"2025-10-22T09:15:31.082Z"}
+{"level":"info","message":"db connected ","service":"media-service","timestamp":"2025-10-22T09:15:31.457Z"}
+{"level":"info","message":"received POST request to /api/media/upload","service":"media-service","timestamp":"2025-10-22T09:15:37.643Z"}
+{"level":"info","message":"request body undefined ","service":"media-service","timestamp":"2025-10-22T09:15:37.644Z"}
+{"level":"info","message":"Starting media upload","service":"media-service","timestamp":"2025-10-22T09:15:37.653Z"}
+{"level":"info","message":"File details: name=Screenshot 2025-09-01 211424.png, type=image/png","service":"media-service","timestamp":"2025-10-22T09:15:37.654Z"}
+{"level":"info","message":"Uploading to cloudinary starting...","service":"media-service","timestamp":"2025-10-22T09:15:37.654Z"}
+{"level":"error","message":"Error creating media Must supply api_key","service":"media-service","stack":"Error: Must supply api_key\n    at ensureOption (C:\\Users\\abhis\\OneDrive\\Desktop\\backend-project\\social-microservices\\media-services\\node_modules\\cloudinary\\lib\\utils\\ensureOption.js:19:13)\n    at Object.sign_request (C:\\Users\\abhis\\OneDrive\\Desktop\\backend-project\\social-microservices\\media-services\\node_modules\\cloudinary\\lib\\utils\\index.js:1151:16)\n    at Object.process_request_params (C:\\Users\\abhis\\OneDrive\\Desktop\\backend-project\\social-microservices\\media-services\\node_modules\\cloudinary\\lib\\utils\\index.js:1203:22)\n    at call_api (C:\\Users\\abhis\\OneDrive\\Desktop\\backend-project\\social-microservices\\media-services\\node_modules\\cloudinary\\lib\\uploader.js:474:18)\n    at Object.upload (C:\\Users\\abhis\\OneDrive\\Desktop\\backend-project\\social-microservices\\media-services\\node_modules\\cloudinary\\lib\\uploader.js:53:10)\n    at Object.upload_stream (C:\\Users\\abhis\\OneDrive\\Desktop\\backend-project\\social-microservices\\media-services\\node_modules\\cloudinary\\lib\\uploader.js:40:18)\n    at file:///C:/Users/abhis/OneDrive/Desktop/backend-project/social-microservices/media-services/src/utils/cloudinary.js:12:46\n    at new Promise (<anonymous>)\n    at uploadMediaToCloudinary (file:///C:/Users/abhis/OneDrive/Desktop/backend-project/social-microservices/media-services/src/utils/cloudinary.js:11:10)\n    at uploadMedia (file:///C:/Users/abhis/OneDrive/Desktop/backend-project/social-microservices/media-services/src/controller/media.controller.js:24:42)","timestamp":"2025-10-22T09:15:37.657Z"}
+{"level":"info","message":"indentity service runnning on port 3003","service":"media-service","timestamp":"2025-10-22T09:16:19.313Z"}
+{"level":"info","message":"db connected ","service":"media-service","timestamp":"2025-10-22T09:16:19.778Z"}
+{"level":"info","message":"indentity service runnning on port 3003","service":"media-service","timestamp":"2025-10-22T09:16:58.433Z"}
+{"level":"info","message":"db connected ","service":"media-service","timestamp":"2025-10-22T09:16:58.800Z"}
+{"level":"info","message":"indentity service runnning on port 3003","service":"media-service","timestamp":"2025-10-22T09:17:03.019Z"}
+{"level":"info","message":"db connected ","service":"media-service","timestamp":"2025-10-22T09:17:03.402Z"}
+{"level":"info","message":"indentity service runnning on port 3003","service":"media-service","timestamp":"2025-10-22T09:17:05.771Z"}
+{"level":"info","message":"db connected ","service":"media-service","timestamp":"2025-10-22T09:17:06.098Z"}
+{"level":"info","message":"received POST request to /api/media/upload","service":"media-service","timestamp":"2025-10-22T09:17:07.133Z"}
+{"level":"info","message":"request body undefined ","service":"media-service","timestamp":"2025-10-22T09:17:07.134Z"}
+{"level":"info","message":"Starting media upload","service":"media-service","timestamp":"2025-10-22T09:17:07.141Z"}
+{"level":"info","message":"File details: name=Screenshot 2025-09-01 211424.png, type=image/png","service":"media-service","timestamp":"2025-10-22T09:17:07.142Z"}
+{"level":"info","message":"Uploading to cloudinary starting...","service":"media-service","timestamp":"2025-10-22T09:17:07.142Z"}
+{"level":"info","message":"indentity service runnning on port 3003","service":"media-service","timestamp":"2025-10-22T09:17:42.151Z"}
+{"level":"info","message":"db connected ","service":"media-service","timestamp":"2025-10-22T09:17:42.562Z"}
+{"level":"info","message":"received POST request to /api/media/upload","service":"media-service","timestamp":"2025-10-22T09:17:45.105Z"}
+{"level":"info","message":"request body undefined ","service":"media-service","timestamp":"2025-10-22T09:17:45.105Z"}
+{"level":"info","message":"Starting media upload","service":"media-service","timestamp":"2025-10-22T09:17:45.112Z"}
+{"level":"info","message":"File details: name=Screenshot 2025-09-01 211424.png, type=image/png","service":"media-service","timestamp":"2025-10-22T09:17:45.113Z"}
+{"level":"info","message":"Uploading to cloudinary starting...","service":"media-service","timestamp":"2025-10-22T09:17:45.113Z"}
+{"level":"info","message":"indentity service runnning on port 3003","service":"media-service","timestamp":"2025-10-22T09:18:25.145Z"}
+{"level":"info","message":"db connected ","service":"media-service","timestamp":"2025-10-22T09:18:25.511Z"}
+{"level":"info","message":"indentity service runnning on port 3003","service":"media-service","timestamp":"2025-10-22T09:18:26.705Z"}
+{"level":"info","message":"db connected ","service":"media-service","timestamp":"2025-10-22T09:18:27.040Z"}
+{"level":"info","message":"indentity service runnning on port 3003","service":"media-service","timestamp":"2025-10-22T09:18:33.585Z"}
+{"level":"info","message":"db connected ","service":"media-service","timestamp":"2025-10-22T09:18:33.965Z"}
+{"level":"info","message":"received POST request to /api/media/upload","service":"media-service","timestamp":"2025-10-22T09:18:38.907Z"}
+{"level":"info","message":"request body undefined ","service":"media-service","timestamp":"2025-10-22T09:18:38.907Z"}
+{"level":"info","message":"Starting media upload","service":"media-service","timestamp":"2025-10-22T09:18:38.915Z"}
+{"level":"info","message":"File details: name=Screenshot 2025-09-01 211424.png, type=image/png","service":"media-service","timestamp":"2025-10-22T09:18:38.916Z"}
+{"level":"info","message":"Uploading to cloudinary starting...","service":"media-service","timestamp":"2025-10-22T09:18:38.916Z"}
+{"level":"info","message":"indentity service runnning on port 3003","service":"media-service","timestamp":"2025-10-22T09:19:14.999Z"}
+{"level":"info","message":"db connected ","service":"media-service","timestamp":"2025-10-22T09:19:15.374Z"}
+{"level":"info","message":"received POST request to /api/media/upload","service":"media-service","timestamp":"2025-10-22T09:19:17.378Z"}
+{"level":"info","message":"request body undefined ","service":"media-service","timestamp":"2025-10-22T09:19:17.378Z"}
+{"level":"info","message":"Starting media upload","service":"media-service","timestamp":"2025-10-22T09:19:17.386Z"}
+{"level":"info","message":"File details: name=Screenshot 2025-09-01 211424.png, type=image/png","service":"media-service","timestamp":"2025-10-22T09:19:17.387Z"}
+{"level":"info","message":"Uploading to cloudinary starting...","service":"media-service","timestamp":"2025-10-22T09:19:17.387Z"}
+{"level":"info","message":"indentity service runnning on port 3003","service":"media-service","timestamp":"2025-10-22T09:24:51.943Z"}
+{"level":"info","message":"db connected ","service":"media-service","timestamp":"2025-10-22T09:24:52.405Z"}
+{"level":"info","message":"received POST request to /api/media/upload","service":"media-service","timestamp":"2025-10-22T09:24:56.491Z"}
+{"level":"info","message":"request body undefined ","service":"media-service","timestamp":"2025-10-22T09:24:56.491Z"}
+{"level":"info","message":"Starting media upload","service":"media-service","timestamp":"2025-10-22T09:24:56.499Z"}
+{"level":"info","message":"File details: name=Screenshot 2025-09-01 211424.png, type=image/png","service":"media-service","timestamp":"2025-10-22T09:24:56.500Z"}
+{"level":"info","message":"Uploading to cloudinary starting...","service":"media-service","timestamp":"2025-10-22T09:24:56.501Z"}
+{"level":"info","message":"indentity service runnning on port 3003","service":"media-service","timestamp":"2025-10-22T09:27:30.322Z"}
+{"level":"info","message":"db connected ","service":"media-service","timestamp":"2025-10-22T09:27:30.785Z"}
+{"level":"info","message":"indentity service runnning on port 3003","service":"media-service","timestamp":"2025-10-22T09:27:37.999Z"}
+{"level":"info","message":"db connected ","service":"media-service","timestamp":"2025-10-22T09:27:38.377Z"}
+{"level":"info","message":"received POST request to /api/media/upload","service":"media-service","timestamp":"2025-10-22T09:27:39.281Z"}
+{"level":"info","message":"request body undefined ","service":"media-service","timestamp":"2025-10-22T09:27:39.281Z"}
+{"level":"info","message":"Starting media upload","service":"media-service","timestamp":"2025-10-22T09:27:39.288Z"}
+{"level":"info","message":"File details: name=Screenshot 2025-09-01 211424.png, type=image/png","service":"media-service","timestamp":"2025-10-22T09:27:39.289Z"}
+{"level":"info","message":"Uploading to cloudinary starting...","service":"media-service","timestamp":"2025-10-22T09:27:39.289Z"}
+{"level":"error","message":"Error creating media Cannot read properties of undefined (reading 'buffer')","service":"media-service","stack":"TypeError: Cannot read properties of undefined (reading 'buffer')\n    at file:///C:/Users/abhis/OneDrive/Desktop/backend-project/social-microservices/media-services/src/utils/cloudinary.js:28:27\n    at new Promise (<anonymous>)\n    at uploadMediaToCloudinary (file:///C:/Users/abhis/OneDrive/Desktop/backend-project/social-microservices/media-services/src/utils/cloudinary.js:13:10)\n    at uploadMedia (file:///C:/Users/abhis/OneDrive/Desktop/backend-project/social-microservices/media-services/src/controller/media.controller.js:24:42)\n    at Layer.handleRequest (C:\\Users\\abhis\\OneDrive\\Desktop\\backend-project\\social-microservices\\media-services\\node_modules\\router\\lib\\layer.js:152:17)\n    at next (C:\\Users\\abhis\\OneDrive\\Desktop\\backend-project\\social-microservices\\media-services\\node_modules\\router\\lib\\route.js:157:13)\n    at file:///C:/Users/abhis/OneDrive/Desktop/backend-project/social-microservices/media-services/src/middleware/multer.js:34:5\n    at done (C:\\Users\\abhis\\OneDrive\\Desktop\\backend-project\\social-microservices\\media-services\\node_modules\\multer\\lib\\make-middleware.js:59:7)\n    at indicateDone (C:\\Users\\abhis\\OneDrive\\Desktop\\backend-project\\social-microservices\\media-services\\node_modules\\multer\\lib\\make-middleware.js:63:68)\n    at Multipart.<anonymous> (C:\\Users\\abhis\\OneDrive\\Desktop\\backend-project\\social-microservices\\media-services\\node_modules\\multer\\lib\\make-middleware.js:187:7)","timestamp":"2025-10-22T09:27:39.296Z"}
+{"0":"r","1":"e","2":"a","3":"s","4":"o","5":"n","6":":","error":{"http_code":499,"message":"Request Timeout","name":"TimeoutError"},"exception":{"error":{"http_code":499,"message":"Request Timeout","name":"TimeoutError"}},"level":"error","message":"Unhandled Rejection at","service":"media-service","timestamp":"2025-10-22T09:28:40.008Z"}
+{"level":"info","message":"indentity service runnning on port 3003","service":"media-service","timestamp":"2025-10-22T09:30:49.678Z"}
+{"level":"info","message":"db connected ","service":"media-service","timestamp":"2025-10-22T09:30:50.165Z"}
+{"level":"info","message":"indentity service runnning on port 3003","service":"media-service","timestamp":"2025-10-22T09:30:51.754Z"}
+{"level":"info","message":"db connected ","service":"media-service","timestamp":"2025-10-22T09:30:52.128Z"}
+{"level":"info","message":"indentity service runnning on port 3003","service":"media-service","timestamp":"2025-10-22T09:34:02.823Z"}
+{"level":"info","message":"db connected ","service":"media-service","timestamp":"2025-10-22T09:34:03.320Z"}
+{"level":"info","message":"received POST request to /api/media/upload","service":"media-service","timestamp":"2025-10-22T09:34:20.039Z"}
+{"level":"info","message":"request body undefined ","service":"media-service","timestamp":"2025-10-22T09:34:20.040Z"}
+{"level":"info","message":"Starting media upload","service":"media-service","timestamp":"2025-10-22T09:34:20.048Z"}
+{"level":"info","message":"File details: name=Screenshot 2025-09-01 211424.png, type=image/png","service":"media-service","timestamp":"2025-10-22T09:34:20.049Z"}
+{"level":"info","message":"Uploading to cloudinary starting...","service":"media-service","timestamp":"2025-10-22T09:34:20.050Z"}
+{"level":"info","message":"indentity service runnning on port 3003","service":"media-service","timestamp":"2025-10-22T09:36:22.331Z"}
+{"level":"info","message":"db connected ","service":"media-service","timestamp":"2025-10-22T09:36:22.759Z"}
+{"level":"info","message":"indentity service runnning on port 3003","service":"media-service","timestamp":"2025-10-22T09:37:19.019Z"}
+{"level":"info","message":"db connected ","service":"media-service","timestamp":"2025-10-22T09:37:19.365Z"}
+{"level":"info","message":"received POST request to /api/media/upload","service":"media-service","timestamp":"2025-10-22T09:37:22.653Z"}
+{"level":"info","message":"request body undefined ","service":"media-service","timestamp":"2025-10-22T09:37:22.653Z"}
+{"level":"info","message":"Starting media upload","service":"media-service","timestamp":"2025-10-22T09:37:22.660Z"}
+{"level":"info","message":"File details: name=Screenshot 2025-09-01 211424.png, type=image/png","service":"media-service","timestamp":"2025-10-22T09:37:22.661Z"}
+{"level":"info","message":"Uploading to cloudinary starting...","service":"media-service","timestamp":"2025-10-22T09:37:22.662Z"}
+{"level":"info","message":"indentity service runnning on port 3003","service":"media-service","timestamp":"2025-10-22T09:40:12.516Z"}
+{"level":"info","message":"db connected ","service":"media-service","timestamp":"2025-10-22T09:40:12.958Z"}
+{"level":"info","message":"indentity service runnning on port 3003","service":"media-service","timestamp":"2025-10-22T09:40:24.957Z"}
+{"level":"info","message":"db connected ","service":"media-service","timestamp":"2025-10-22T09:40:25.282Z"}
+{"level":"info","message":"received POST request to /api/media/upload","service":"media-service","timestamp":"2025-10-22T09:40:27.759Z"}
+{"level":"info","message":"request body undefined ","service":"media-service","timestamp":"2025-10-22T09:40:27.760Z"}
+{"level":"info","message":"Starting media upload","service":"media-service","timestamp":"2025-10-22T09:40:27.769Z"}
+{"level":"info","message":"File details: name=Screenshot 2025-09-01 211424.png, type=image/png","service":"media-service","timestamp":"2025-10-22T09:40:27.770Z"}
+{"level":"info","message":"Uploading to cloudinary starting...","service":"media-service","timestamp":"2025-10-22T09:40:27.771Z"}
+{"level":"info","message":"Starting upload to Cloudinary: Screenshot 2025-09-01 211424.png","service":"media-service","timestamp":"2025-10-22T09:40:27.771Z"}
+{"level":"info","message":"Upload successful. Public ID: uploads/yttvxomxzjvohtqanbu5","service":"media-service","timestamp":"2025-10-22T09:40:29.341Z"}
+{"level":"info","message":"Cloudinary upload successfully. Public Id: - uploads/yttvxomxzjvohtqanbu5","service":"media-service","timestamp":"2025-10-22T09:40:29.342Z"}
+{"_message":"Media validation failed","errors":{"MimeType":{"kind":"required","message":"Path `MimeType` is required.","name":"ValidatorError","path":"MimeType","properties":{"message":"Path `MimeType` is required.","path":"MimeType","type":"required"}}},"level":"error","message":"Error creating media Media validation failed: MimeType: Path `MimeType` is required.","service":"media-service","stack":"ValidationError: Media validation failed: MimeType: Path `MimeType` is required.\n    at Document.invalidate (C:\\Users\\abhis\\OneDrive\\Desktop\\backend-project\\social-microservices\\media-services\\node_modules\\mongoose\\lib\\document.js:3362:32)\n    at C:\\Users\\abhis\\OneDrive\\Desktop\\backend-project\\social-microservices\\media-services\\node_modules\\mongoose\\lib\\document.js:3123:17\n    at C:\\Users\\abhis\\OneDrive\\Desktop\\backend-project\\social-microservices\\media-services\\node_modules\\mongoose\\lib\\schemaType.js:1420:9\n    at process.processTicksAndRejections (node:internal/process/task_queues:85:11)","timestamp":"2025-10-22T09:40:29.351Z"}
+{"level":"info","message":"indentity service runnning on port 3003","service":"media-service","timestamp":"2025-10-22T09:41:19.932Z"}
+{"level":"info","message":"db connected ","service":"media-service","timestamp":"2025-10-22T09:41:20.332Z"}
+{"level":"info","message":"received POST request to /api/media/upload","service":"media-service","timestamp":"2025-10-22T09:41:26.434Z"}
+{"level":"info","message":"request body undefined ","service":"media-service","timestamp":"2025-10-22T09:41:26.435Z"}
+{"level":"info","message":"Starting media upload","service":"media-service","timestamp":"2025-10-22T09:41:26.442Z"}
+{"level":"info","message":"File details: name=Screenshot 2025-09-01 211424.png, type=image/png","service":"media-service","timestamp":"2025-10-22T09:41:26.443Z"}
+{"level":"info","message":"Uploading to cloudinary starting...","service":"media-service","timestamp":"2025-10-22T09:41:26.444Z"}
+{"level":"info","message":"Starting upload to Cloudinary: Screenshot 2025-09-01 211424.png","service":"media-service","timestamp":"2025-10-22T09:41:26.444Z"}
+{"level":"info","message":"Upload successful. Public ID: uploads/ic9kayud4bks8wo7kbx6","service":"media-service","timestamp":"2025-10-22T09:41:28.058Z"}
+{"level":"info","message":"Cloudinary upload successfully. Public Id: - uploads/ic9kayud4bks8wo7kbx6","service":"media-service","timestamp":"2025-10-22T09:41:28.059Z"}
+{"level":"info","message":"indentity service runnning on port 3003","service":"media-service","timestamp":"2025-10-22T11:41:41.858Z"}
+{"level":"info","message":"db connected ","service":"media-service","timestamp":"2025-10-22T11:41:42.224Z"}
+{"level":"info","message":"received POST request to /api/media/upload","service":"media-service","timestamp":"2025-10-22T11:42:19.348Z"}
+{"level":"info","message":"request body undefined ","service":"media-service","timestamp":"2025-10-22T11:42:19.349Z"}
+{"level":"info","message":"Starting media upload","service":"media-service","timestamp":"2025-10-22T11:42:19.357Z"}
+{"level":"info","message":"File details: name=Screenshot 2025-09-01 211424.png, type=image/png","service":"media-service","timestamp":"2025-10-22T11:42:19.358Z"}
+{"level":"info","message":"Uploading to cloudinary starting...","service":"media-service","timestamp":"2025-10-22T11:42:19.358Z"}
+{"level":"info","message":"Starting upload to Cloudinary: Screenshot 2025-09-01 211424.png","service":"media-service","timestamp":"2025-10-22T11:42:19.359Z"}
+{"level":"info","message":"Upload successful. Public ID: uploads/wcwloimxqysbxbmssxcf","service":"media-service","timestamp":"2025-10-22T11:42:21.074Z"}
+{"level":"info","message":"Cloudinary upload successfully. Public Id: - uploads/wcwloimxqysbxbmssxcf","service":"media-service","timestamp":"2025-10-22T11:42:21.075Z"}
+{"level":"info","message":"indentity service runnning on port 3003","service":"media-service","timestamp":"2025-10-22T14:12:08.358Z"}
+{"level":"info","message":"db connected ","service":"media-service","timestamp":"2025-10-22T14:12:08.835Z"}
+{"level":"info","message":"indentity service runnning on port 3003","service":"media-service","timestamp":"2025-10-22T14:12:38.072Z"}
+{"level":"info","message":"db connected ","service":"media-service","timestamp":"2025-10-22T14:12:38.444Z"}
+{"level":"info","message":"indentity service runnning on port 3003","service":"media-service","timestamp":"2025-10-22T14:12:43.949Z"}
+{"level":"info","message":"db connected ","service":"media-service","timestamp":"2025-10-22T14:12:44.300Z"}
+{"level":"info","message":"indentity service runnning on port 3003","service":"media-service","timestamp":"2025-10-22T14:13:45.316Z"}
+{"level":"info","message":"db connected ","service":"media-service","timestamp":"2025-10-22T14:13:45.770Z"}
+{"level":"info","message":"indentity service runnning on port 3003","service":"media-service","timestamp":"2025-10-22T14:13:51.599Z"}
+{"level":"info","message":"db connected ","service":"media-service","timestamp":"2025-10-22T14:13:51.959Z"}
+{"level":"info","message":"indentity service runnning on port 3003","service":"media-service","timestamp":"2025-10-22T14:13:53.894Z"}
+{"level":"info","message":"db connected ","service":"media-service","timestamp":"2025-10-22T14:13:54.269Z"}
+{"level":"info","message":"indentity service runnning on port 3003","service":"media-service","timestamp":"2025-10-22T14:14:01.153Z"}
+{"level":"info","message":"db connected ","service":"media-service","timestamp":"2025-10-22T14:14:01.523Z"}
+{"level":"info","message":"indentity service runnning on port 3003","service":"media-service","timestamp":"2025-10-22T14:14:03.569Z"}
+{"level":"info","message":"db connected ","service":"media-service","timestamp":"2025-10-22T14:14:03.943Z"}
+{"level":"info","message":"indentity service runnning on port 3003","service":"media-service","timestamp":"2025-10-22T14:14:05.616Z"}
+{"level":"info","message":"indentity service runnning on port 3003","service":"media-service","timestamp":"2025-10-22T14:14:06.643Z"}
+{"level":"info","message":"db connected ","service":"media-service","timestamp":"2025-10-22T14:14:06.999Z"}
+{"level":"info","message":"indentity service runnning on port 3003","service":"media-service","timestamp":"2025-10-22T14:14:15.895Z"}
+{"level":"info","message":"db connected ","service":"media-service","timestamp":"2025-10-22T14:14:16.293Z"}
+{"level":"info","message":"indentity service runnning on port 3003","service":"media-service","timestamp":"2025-10-22T14:14:19.778Z"}
+{"level":"info","message":"db connected ","service":"media-service","timestamp":"2025-10-22T14:14:20.145Z"}
+{"level":"info","message":"indentity service runnning on port 3003","service":"media-service","timestamp":"2025-10-22T14:14:28.260Z"}
+{"level":"info","message":"db connected ","service":"media-service","timestamp":"2025-10-22T14:14:28.601Z"}
+{"level":"info","message":"indentity service runnning on port 3003","service":"media-service","timestamp":"2025-10-22T14:14:34.925Z"}
+{"level":"info","message":"db connected ","service":"media-service","timestamp":"2025-10-22T14:14:35.320Z"}
+{"level":"info","message":"indentity service runnning on port 3003","service":"media-service","timestamp":"2025-10-22T14:14:39.685Z"}
+{"level":"info","message":"db connected ","service":"media-service","timestamp":"2025-10-22T14:14:40.054Z"}
+{"level":"info","message":"indentity service runnning on port 3003","service":"media-service","timestamp":"2025-10-22T14:14:42.006Z"}
+{"level":"info","message":"db connected ","service":"media-service","timestamp":"2025-10-22T14:14:42.362Z"}
+{"level":"info","message":"indentity service runnning on port 3003","service":"media-service","timestamp":"2025-10-22T14:14:50.572Z"}
+{"level":"info","message":"db connected ","service":"media-service","timestamp":"2025-10-22T14:14:51.017Z"}
+{"level":"info","message":"indentity service runnning on port 3003","service":"media-service","timestamp":"2025-10-22T14:16:24.356Z"}
+{"level":"info","message":"db connected ","service":"media-service","timestamp":"2025-10-22T14:16:24.850Z"}
+{"level":"info","message":"indentity service runnning on port 3003","service":"media-service","timestamp":"2025-10-22T14:17:05.127Z"}
+{"level":"info","message":"db connected ","service":"media-service","timestamp":"2025-10-22T14:17:05.479Z"}
+{"level":"info","message":"indentity service runnning on port 3003","service":"media-service","timestamp":"2025-10-22T14:17:12.773Z"}
+{"level":"info","message":"db connected ","service":"media-service","timestamp":"2025-10-22T14:17:13.129Z"}
+{"level":"info","message":"indentity service runnning on port 3003","service":"media-service","timestamp":"2025-10-22T14:17:15.404Z"}
+{"level":"info","message":"db connected ","service":"media-service","timestamp":"2025-10-22T14:17:15.777Z"}
+{"level":"info","message":"indentity service runnning on port 3003","service":"media-service","timestamp":"2025-10-22T14:17:29.818Z"}
+{"level":"info","message":"db connected ","service":"media-service","timestamp":"2025-10-22T14:17:30.183Z"}
+{"level":"info","message":"indentity service runnning on port 3003","service":"media-service","timestamp":"2025-10-22T14:17:31.344Z"}
+{"level":"info","message":"indentity service runnning on port 3003","service":"media-service","timestamp":"2025-10-22T14:17:32.594Z"}
+{"level":"info","message":"db connected ","service":"media-service","timestamp":"2025-10-22T14:17:32.970Z"}
+{"level":"info","message":"indentity service runnning on port 3003","service":"media-service","timestamp":"2025-10-22T14:19:32.232Z"}
+{"level":"info","message":"db connected ","service":"media-service","timestamp":"2025-10-22T14:19:32.655Z"}
+{"level":"info","message":"indentity service runnning on port 3003","service":"media-service","timestamp":"2025-10-22T14:21:26.682Z"}
+{"level":"info","message":"db connected ","service":"media-service","timestamp":"2025-10-22T14:21:27.106Z"}
+{"level":"info","message":"indentity service runnning on port 3003","service":"media-service","timestamp":"2025-10-22T14:21:30.609Z"}
+{"level":"info","message":"db connected ","service":"media-service","timestamp":"2025-10-22T14:21:30.970Z"}
+{"level":"info","message":"indentity service runnning on port 3003","service":"media-service","timestamp":"2025-10-22T14:21:40.520Z"}
+{"level":"info","message":"db connected ","service":"media-service","timestamp":"2025-10-22T14:21:40.907Z"}
+{"level":"info","message":"indentity service runnning on port 3003","service":"media-service","timestamp":"2025-10-22T14:24:21.141Z"}
+{"level":"info","message":"db connected ","service":"media-service","timestamp":"2025-10-22T14:24:21.603Z"}
+{"level":"info","message":"indentity service runnning on port 3003","service":"media-service","timestamp":"2025-10-22T14:24:23.943Z"}
+{"level":"info","message":"db connected ","service":"media-service","timestamp":"2025-10-22T14:24:24.311Z"}
+{"level":"info","message":"indentity service runnning on port 3003","service":"media-service","timestamp":"2025-10-22T14:24:26.856Z"}
+{"level":"info","message":"db connected ","service":"media-service","timestamp":"2025-10-22T14:24:27.206Z"}
+{"level":"info","message":"indentity service runnning on port 3003","service":"media-service","timestamp":"2025-10-22T14:24:42.192Z"}
+{"level":"info","message":"db connected ","service":"media-service","timestamp":"2025-10-22T14:24:42.566Z"}
+{"level":"info","message":"indentity service runnning on port 3003","service":"media-service","timestamp":"2025-10-22T14:24:48.750Z"}
+{"level":"info","message":"db connected ","service":"media-service","timestamp":"2025-10-22T14:24:49.128Z"}
+{"level":"info","message":"indentity service runnning on port 3003","service":"media-service","timestamp":"2025-10-22T14:25:00.744Z"}
+{"level":"info","message":"db connected ","service":"media-service","timestamp":"2025-10-22T14:25:01.114Z"}
+{"level":"info","message":"indentity service runnning on port 3003","service":"media-service","timestamp":"2025-10-22T14:25:11.039Z"}
+{"level":"info","message":"db connected ","service":"media-service","timestamp":"2025-10-22T14:25:11.398Z"}
+{"level":"info","message":"received GET request to /api/media/get","service":"media-service","timestamp":"2025-10-22T14:27:58.498Z"}
+{"level":"info","message":"request body undefined ","service":"media-service","timestamp":"2025-10-22T14:27:58.499Z"}
+{"level":"info","message":"indentity service runnning on port 3003","service":"media-service","timestamp":"2025-10-22T14:56:06.824Z"}
+{"level":"info","message":"db connected ","service":"media-service","timestamp":"2025-10-22T14:56:07.265Z"}
+{"level":"info","message":"indentity service runnning on port 3003","service":"media-service","timestamp":"2025-10-22T14:56:20.904Z"}
+{"level":"info","message":"db connected ","service":"media-service","timestamp":"2025-10-22T14:56:21.271Z"}
+{"level":"info","message":"indentity service runnning on port 3003","service":"media-service","timestamp":"2025-10-22T14:57:34.551Z"}
+{"level":"info","message":"db connected ","service":"media-service","timestamp":"2025-10-22T14:57:34.987Z"}
+{"level":"info","message":"indentity service runnning on port 3003","service":"media-service","timestamp":"2025-10-22T14:57:36.294Z"}
+{"level":"info","message":"db connected ","service":"media-service","timestamp":"2025-10-22T14:57:36.679Z"}
+{"level":"info","message":"indentity service runnning on port 3003","service":"media-service","timestamp":"2025-10-22T14:57:39.443Z"}
+{"level":"info","message":"db connected ","service":"media-service","timestamp":"2025-10-22T14:57:39.827Z"}
+{"level":"info","message":"indentity service runnning on port 3003","service":"media-service","timestamp":"2025-10-22T14:57:44.462Z"}
+{"level":"info","message":"db connected ","service":"media-service","timestamp":"2025-10-22T14:57:44.836Z"}
+{"level":"info","message":"indentity service runnning on port 3003","service":"media-service","timestamp":"2025-10-22T14:57:46.673Z"}
+{"level":"info","message":"db connected ","service":"media-service","timestamp":"2025-10-22T14:57:47.050Z"}
+{"level":"info","message":"indentity service runnning on port 3003","service":"media-service","timestamp":"2025-10-22T14:57:49.599Z"}
+{"level":"info","message":"db connected ","service":"media-service","timestamp":"2025-10-22T14:57:49.966Z"}
+{"level":"info","message":"indentity service runnning on port 3003","service":"media-service","timestamp":"2025-10-22T14:57:53.086Z"}
+{"level":"info","message":"indentity service runnning on port 3003","service":"media-service","timestamp":"2025-10-22T14:57:54.358Z"}
+{"level":"info","message":"db connected ","service":"media-service","timestamp":"2025-10-22T14:57:54.716Z"}
+{"level":"info","message":"indentity service runnning on port 3003","service":"media-service","timestamp":"2025-10-22T15:03:01.376Z"}
+{"level":"info","message":"db connected ","service":"media-service","timestamp":"2025-10-22T15:03:01.838Z"}
+{"level":"info","message":"indentity service runnning on port 3003","service":"media-service","timestamp":"2025-10-22T15:03:09.477Z"}
+{"level":"info","message":"db connected ","service":"media-service","timestamp":"2025-10-22T15:03:09.868Z"}
+{"level":"info","message":"indentity service runnning on port 3003","service":"media-service","timestamp":"2025-10-22T15:03:12.586Z"}
+{"level":"info","message":"db connected ","service":"media-service","timestamp":"2025-10-22T15:03:12.966Z"}
+{"level":"info","message":"indentity service runnning on port 3003","service":"media-service","timestamp":"2025-10-22T15:03:14.983Z"}
+{"level":"info","message":"db connected ","service":"media-service","timestamp":"2025-10-22T15:03:15.354Z"}
+{"level":"info","message":"db connected ","service":"media-service","timestamp":"2025-10-22T15:04:20.609Z"}
+{"code":"ECONNREFUSED","level":"error","message":"error connecting to rabbit mq","service":"media-service","stack":"AggregateError [ECONNREFUSED]: \n    at internalConnectMultiple (node:net:1134:18)\n    at afterConnectMultiple (node:net:1715:7)","timestamp":"2025-10-22T17:24:36.415Z"}
+{"code":"ECONNREFUSED","level":"error","message":"error connecting to rabbit mq","service":"media-service","stack":"AggregateError [ECONNREFUSED]: \n    at internalConnectMultiple (node:net:1134:18)\n    at afterConnectMultiple (node:net:1715:7)","timestamp":"2025-10-22T17:24:51.332Z"}
+{"code":"ECONNREFUSED","level":"error","message":"error connecting to rabbit mq","service":"media-service","stack":"AggregateError [ECONNREFUSED]: \n    at internalConnectMultiple (node:net:1134:18)\n    at afterConnectMultiple (node:net:1715:7)","timestamp":"2025-10-22T17:25:51.708Z"}
+{"code":"ECONNREFUSED","level":"error","message":"error connecting to rabbit mq","service":"media-service","stack":"AggregateError [ECONNREFUSED]: \n    at internalConnectMultiple (node:net:1134:18)\n    at afterConnectMultiple (node:net:1715:7)","timestamp":"2025-10-22T17:25:51.713Z"}
+{"code":"ECONNREFUSED","level":"error","message":"error connecting to rabbit mq","service":"media-service","stack":"AggregateError [ECONNREFUSED]: \n    at internalConnectMultiple (node:net:1134:18)\n    at afterConnectMultiple (node:net:1715:7)","timestamp":"2025-10-22T17:26:37.562Z"}
+{"code":"ECONNREFUSED","level":"error","message":"error connecting to rabbit mq","service":"media-service","stack":"AggregateError [ECONNREFUSED]: \n    at internalConnectMultiple (node:net:1134:18)\n    at afterConnectMultiple (node:net:1715:7)","timestamp":"2025-10-22T17:26:37.568Z"}
+{"code":"ECONNREFUSED","level":"error","message":"error connecting to rabbit mq","service":"media-service","stack":"AggregateError [ECONNREFUSED]: \n    at internalConnectMultiple (node:net:1134:18)\n    at afterConnectMultiple (node:net:1715:7)","timestamp":"2025-10-22T17:33:21.669Z"}
+{"code":"ECONNREFUSED","level":"error","message":"error connecting to rabbit mq","service":"media-service","stack":"AggregateError [ECONNREFUSED]: \n    at internalConnectMultiple (node:net:1134:18)\n    at afterConnectMultiple (node:net:1715:7)","timestamp":"2025-10-22T17:33:21.673Z"}
+{"level":"error","message":"Failed to connect to server Cannot read properties of null (reading 'assertQueue')","service":"media-service","stack":"TypeError: Cannot read properties of null (reading 'assertQueue')\n    at consumeEvent (file:///C:/Users/abhis/OneDrive/Desktop/backend-project/social-microservices/media-services/src/utils/rabbitmq.js:38:27)\n    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)\n    at async startServer (file:///C:/Users/abhis/OneDrive/Desktop/backend-project/social-microservices/media-services/src/server.js:43:5)","timestamp":"2025-10-22T17:33:21.674Z"}
+{"level":"info","message":"db connected ","service":"media-service","timestamp":"2025-10-22T17:33:22.102Z"}
+{"code":"ECONNREFUSED","level":"error","message":"error connecting to rabbit mq","service":"media-service","stack":"AggregateError [ECONNREFUSED]: \n    at internalConnectMultiple (node:net:1134:18)\n    at afterConnectMultiple (node:net:1715:7)","timestamp":"2025-10-22T17:33:34.428Z"}
+{"code":"ECONNREFUSED","level":"error","message":"error connecting to rabbit mq","service":"media-service","stack":"AggregateError [ECONNREFUSED]: \n    at internalConnectMultiple (node:net:1134:18)\n    at afterConnectMultiple (node:net:1715:7)","timestamp":"2025-10-22T17:33:34.433Z"}
+{"level":"error","message":"Failed to connect to server Cannot read properties of null (reading 'assertQueue')","service":"media-service","stack":"TypeError: Cannot read properties of null (reading 'assertQueue')\n    at consumeEvent (file:///C:/Users/abhis/OneDrive/Desktop/backend-project/social-microservices/media-services/src/utils/rabbitmq.js:38:27)\n    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)\n    at async startServer (file:///C:/Users/abhis/OneDrive/Desktop/backend-project/social-microservices/media-services/src/server.js:43:5)","timestamp":"2025-10-22T17:33:34.433Z"}
+{"level":"info","message":"db connected ","service":"media-service","timestamp":"2025-10-22T17:33:34.775Z"}
+{"level":"info","message":"Conected to  rabbit mq","service":"media-service","timestamp":"2025-10-22T17:40:10.050Z"}
+{"level":"info","message":"Subscribed to event: post.deleted","service":"media-service","timestamp":"2025-10-22T17:40:10.059Z"}
+{"level":"info","message":"Media service running on port 3003","service":"media-service","timestamp":"2025-10-22T17:40:10.063Z"}
+{"level":"info","message":"db connected ","service":"media-service","timestamp":"2025-10-22T17:40:10.374Z"}
+{"level":"info","message":"received POST request to /api/media/upload","service":"media-service","timestamp":"2025-10-22T17:50:03.078Z"}
+{"level":"info","message":"request body undefined ","service":"media-service","timestamp":"2025-10-22T17:50:03.081Z"}
+{"level":"info","message":"Starting media upload","service":"media-service","timestamp":"2025-10-22T17:50:03.093Z"}
+{"level":"info","message":"File details: name=exterior-view-google-office-mountain-ca-usa-nov-googles-googleplex-corporate-headquarters-multinational-company-46325003.webp, type=image/webp","service":"media-service","timestamp":"2025-10-22T17:50:03.095Z"}
+{"level":"info","message":"Uploading to cloudinary starting...","service":"media-service","timestamp":"2025-10-22T17:50:03.095Z"}
+{"level":"info","message":"Starting upload to Cloudinary: exterior-view-google-office-mountain-ca-usa-nov-googles-googleplex-corporate-headquarters-multinational-company-46325003.webp","service":"media-service","timestamp":"2025-10-22T17:50:03.095Z"}
+{"level":"info","message":"Upload successful. Public ID: uploads/e5ypc3adw5s4whier5mp","service":"media-service","timestamp":"2025-10-22T17:50:05.603Z"}
+{"level":"info","message":"Cloudinary upload successfully. Public Id: - uploads/e5ypc3adw5s4whier5mp","service":"media-service","timestamp":"2025-10-22T17:50:05.604Z"}
+{"level":"info","message":"received POST request to /api/media/upload","service":"media-service","timestamp":"2025-10-22T17:56:00.600Z"}
+{"level":"info","message":"request body undefined ","service":"media-service","timestamp":"2025-10-22T17:56:00.604Z"}
+{"level":"info","message":"Starting media upload","service":"media-service","timestamp":"2025-10-22T17:56:00.613Z"}
+{"level":"info","message":"File details: name=Screenshot 2025-08-16 201148.png, type=image/png","service":"media-service","timestamp":"2025-10-22T17:56:00.616Z"}
+{"level":"info","message":"Uploading to cloudinary starting...","service":"media-service","timestamp":"2025-10-22T17:56:00.616Z"}
+{"level":"info","message":"Starting upload to Cloudinary: Screenshot 2025-08-16 201148.png","service":"media-service","timestamp":"2025-10-22T17:56:00.617Z"}
+{"level":"info","message":"Upload successful. Public ID: uploads/gx64u8lywhgwo12i59g0","service":"media-service","timestamp":"2025-10-22T17:56:02.260Z"}
+{"level":"info","message":"Cloudinary upload successfully. Public Id: - uploads/gx64u8lywhgwo12i59g0","service":"media-service","timestamp":"2025-10-22T17:56:02.261Z"}
+{"level":"info","message":"received GET request to /api/media/get","service":"media-service","timestamp":"2025-10-22T18:48:24.226Z"}
+{"level":"info","message":"request body undefined ","service":"media-service","timestamp":"2025-10-22T18:48:24.232Z"}
+{"level":"info","message":"received POST request to /api/media/upload","service":"media-service","timestamp":"2025-10-22T18:53:46.202Z"}
+{"level":"info","message":"request body undefined ","service":"media-service","timestamp":"2025-10-22T18:53:46.203Z"}
+{"level":"info","message":"Starting media upload","service":"media-service","timestamp":"2025-10-22T18:53:46.209Z"}
+{"level":"info","message":"File details: name=Screenshot 2025-08-12 182358.png, type=image/png","service":"media-service","timestamp":"2025-10-22T18:53:46.213Z"}
+{"level":"info","message":"Uploading to cloudinary starting...","service":"media-service","timestamp":"2025-10-22T18:53:46.214Z"}
+{"level":"info","message":"Starting upload to Cloudinary: Screenshot 2025-08-12 182358.png","service":"media-service","timestamp":"2025-10-22T18:53:46.214Z"}
+{"level":"info","message":"Upload successful. Public ID: uploads/vutdy7vmvajhqytdkcjq","service":"media-service","timestamp":"2025-10-22T18:53:47.782Z"}
+{"level":"info","message":"Cloudinary upload successfully. Public Id: - uploads/vutdy7vmvajhqytdkcjq","service":"media-service","timestamp":"2025-10-22T18:53:47.782Z"}
+{"level":"info","message":"received GET request to /api/media/get","service":"media-service","timestamp":"2025-10-22T19:06:50.893Z"}
+{"level":"info","message":"request body undefined ","service":"media-service","timestamp":"2025-10-22T19:06:50.894Z"}
+{"level":"info","message":"received POST request to /api/media/upload","service":"media-service","timestamp":"2025-10-22T19:08:40.500Z"}
+{"level":"info","message":"request body undefined ","service":"media-service","timestamp":"2025-10-22T19:08:40.500Z"}
+{"level":"info","message":"Starting media upload","service":"media-service","timestamp":"2025-10-22T19:08:40.502Z"}
+{"level":"info","message":"File details: name=Screenshot 2025-08-16 201148.png, type=image/png","service":"media-service","timestamp":"2025-10-22T19:08:40.504Z"}
+{"level":"info","message":"Uploading to cloudinary starting...","service":"media-service","timestamp":"2025-10-22T19:08:40.504Z"}
+{"level":"info","message":"Starting upload to Cloudinary: Screenshot 2025-08-16 201148.png","service":"media-service","timestamp":"2025-10-22T19:08:40.504Z"}
+{"level":"info","message":"Upload successful. Public ID: uploads/pwivuhucffmgqspwsu0t","service":"media-service","timestamp":"2025-10-22T19:08:42.278Z"}
+{"level":"info","message":"Cloudinary upload successfully. Public Id: - uploads/pwivuhucffmgqspwsu0t","service":"media-service","timestamp":"2025-10-22T19:08:42.279Z"}
+{"level":"info","message":"Conected to  rabbit mq","service":"media-service","timestamp":"2025-10-22T19:16:49.814Z"}
+{"level":"info","message":"Subscribed to event: post.deleted","service":"media-service","timestamp":"2025-10-22T19:16:49.847Z"}
+{"level":"info","message":"Media service running on port 3003","service":"media-service","timestamp":"2025-10-22T19:16:49.849Z"}
+{"level":"info","message":"db connected ","service":"media-service","timestamp":"2025-10-22T19:16:50.099Z"}
+{"code":"ECONNREFUSED","level":"error","message":"error connecting to rabbit mq","service":"media-service","stack":"AggregateError [ECONNREFUSED]: \n    at internalConnectMultiple (node:net:1134:18)\n    at afterConnectMultiple (node:net:1715:7)","timestamp":"2025-10-23T06:11:09.190Z"}
+{"code":"ECONNREFUSED","level":"error","message":"error connecting to rabbit mq","service":"media-service","stack":"AggregateError [ECONNREFUSED]: \n    at internalConnectMultiple (node:net:1134:18)\n    at afterConnectMultiple (node:net:1715:7)","timestamp":"2025-10-23T06:11:09.195Z"}
+{"level":"error","message":"Failed to connect to server Cannot read properties of null (reading 'assertQueue')","service":"media-service","stack":"TypeError: Cannot read properties of null (reading 'assertQueue')\n    at consumeEvent (file:///C:/Users/abhis/OneDrive/Desktop/backend-project/social-microservices/media-services/src/utils/rabbitmq.js:38:27)\n    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)\n    at async startServer (file:///C:/Users/abhis/OneDrive/Desktop/backend-project/social-microservices/media-services/src/server.js:43:5)","timestamp":"2025-10-23T06:11:09.195Z"}
+{"level":"info","message":"db connected ","service":"media-service","timestamp":"2025-10-23T06:11:09.566Z"}
+{"code":"ECONNREFUSED","level":"error","message":"error connecting to rabbit mq","service":"media-service","stack":"AggregateError [ECONNREFUSED]: \n    at internalConnectMultiple (node:net:1134:18)\n    at afterConnectMultiple (node:net:1715:7)","timestamp":"2025-10-23T06:11:57.567Z"}
+{"code":"ECONNREFUSED","level":"error","message":"error connecting to rabbit mq","service":"media-service","stack":"AggregateError [ECONNREFUSED]: \n    at internalConnectMultiple (node:net:1134:18)\n    at afterConnectMultiple (node:net:1715:7)","timestamp":"2025-10-23T06:11:57.574Z"}
+{"level":"error","message":"Failed to connect to server Cannot read properties of null (reading 'assertQueue')","service":"media-service","stack":"TypeError: Cannot read properties of null (reading 'assertQueue')\n    at consumeEvent (file:///C:/Users/abhis/OneDrive/Desktop/backend-project/social-microservices/media-services/src/utils/rabbitmq.js:38:27)\n    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)\n    at async startServer (file:///C:/Users/abhis/OneDrive/Desktop/backend-project/social-microservices/media-services/src/server.js:43:5)","timestamp":"2025-10-23T06:11:57.574Z"}
+{"level":"info","message":"db connected ","service":"media-service","timestamp":"2025-10-23T06:11:57.943Z"}
+{"level":"info","message":"Conected to  rabbit mq","service":"media-service","timestamp":"2025-10-23T06:16:09.973Z"}
+{"level":"info","message":"Subscribed to event: post.deleted","service":"media-service","timestamp":"2025-10-23T06:16:09.996Z"}
+{"level":"info","message":"Media service running on port 3003","service":"media-service","timestamp":"2025-10-23T06:16:09.998Z"}
+{"level":"info","message":"db connected ","service":"media-service","timestamp":"2025-10-23T06:16:10.356Z"}
+{"level":"info","message":"received POST request to /api/media/upload","service":"media-service","timestamp":"2025-10-23T06:18:19.901Z"}
+{"level":"info","message":"request body undefined ","service":"media-service","timestamp":"2025-10-23T06:18:19.901Z"}
+{"level":"info","message":"Starting media upload","service":"media-service","timestamp":"2025-10-23T06:18:19.909Z"}
+{"level":"info","message":"File details: name=Screenshot 2024-01-07 201025.png, type=image/png","service":"media-service","timestamp":"2025-10-23T06:18:19.910Z"}
+{"level":"info","message":"Uploading to cloudinary starting...","service":"media-service","timestamp":"2025-10-23T06:18:19.910Z"}
+{"level":"info","message":"Starting upload to Cloudinary: Screenshot 2024-01-07 201025.png","service":"media-service","timestamp":"2025-10-23T06:18:19.910Z"}
+{"level":"info","message":"Upload successful. Public ID: uploads/fkradm3avmgkmmupw82t","service":"media-service","timestamp":"2025-10-23T06:18:21.413Z"}
+{"level":"info","message":"Cloudinary upload successfully. Public Id: - uploads/fkradm3avmgkmmupw82t","service":"media-service","timestamp":"2025-10-23T06:18:21.414Z"}
+{"level":"info","message":"received GET request to /api/media/get","service":"media-service","timestamp":"2025-10-23T06:24:55.652Z"}
+{"level":"info","message":"request body undefined ","service":"media-service","timestamp":"2025-10-23T06:24:55.652Z"}
+{"level":"info","message":"Conected to  rabbit mq","service":"media-service","timestamp":"2025-10-23T06:35:25.157Z"}
+{"level":"info","message":"Subscribed to event: post.deleted","service":"media-service","timestamp":"2025-10-23T06:35:25.178Z"}
+{"level":"info","message":"Media service running on port 3003","service":"media-service","timestamp":"2025-10-23T06:35:25.181Z"}
+{"level":"info","message":"db connected ","service":"media-service","timestamp":"2025-10-23T06:35:25.439Z"}
+{"level":"info","message":"Conected to  rabbit mq","service":"media-service","timestamp":"2025-10-23T06:35:26.970Z"}
+{"level":"info","message":"Subscribed to event: post.deleted","service":"media-service","timestamp":"2025-10-23T06:35:26.979Z"}
+{"level":"info","message":"Media service running on port 3003","service":"media-service","timestamp":"2025-10-23T06:35:26.981Z"}
+{"level":"info","message":"db connected ","service":"media-service","timestamp":"2025-10-23T06:35:27.240Z"}
+{"level":"info","message":"Conected to  rabbit mq","service":"media-service","timestamp":"2025-10-23T07:43:00.211Z"}
+{"level":"info","message":"Subscribed to event: post.deleted","service":"media-service","timestamp":"2025-10-23T07:43:00.256Z"}
+{"level":"info","message":"Media service running on port 3003","service":"media-service","timestamp":"2025-10-23T07:43:00.259Z"}
+{"level":"info","message":"db connected ","service":"media-service","timestamp":"2025-10-23T07:43:00.514Z"}
+{"level":"info","message":"received POST request to /api/media/upload","service":"media-service","timestamp":"2025-10-23T07:44:23.476Z"}
+{"level":"info","message":"request body undefined ","service":"media-service","timestamp":"2025-10-23T07:44:23.477Z"}
+{"level":"info","message":"Starting media upload","service":"media-service","timestamp":"2025-10-23T07:44:23.485Z"}
+{"level":"info","message":"File details: name=Screenshot 2025-08-15 194741.png, type=image/png","service":"media-service","timestamp":"2025-10-23T07:44:23.486Z"}
+{"level":"info","message":"Uploading to cloudinary starting...","service":"media-service","timestamp":"2025-10-23T07:44:23.486Z"}
+{"level":"info","message":"Starting upload to Cloudinary: Screenshot 2025-08-15 194741.png","service":"media-service","timestamp":"2025-10-23T07:44:23.486Z"}
+{"level":"info","message":"Upload successful. Public ID: uploads/pecz6srn1atgtrp21cxw","service":"media-service","timestamp":"2025-10-23T07:44:25.291Z"}
+{"level":"info","message":"Cloudinary upload successfully. Public Id: - uploads/pecz6srn1atgtrp21cxw","service":"media-service","timestamp":"2025-10-23T07:44:25.291Z"}
+{"level":"info","message":"received POST request to /api/media/upload","service":"media-service","timestamp":"2025-10-23T07:45:45.785Z"}
+{"level":"info","message":"request body undefined ","service":"media-service","timestamp":"2025-10-23T07:45:45.786Z"}
+{"level":"info","message":"Starting media upload","service":"media-service","timestamp":"2025-10-23T07:45:45.790Z"}
+{"level":"info","message":"File details: name=Screenshot 2025-08-15 194741.png, type=image/png","service":"media-service","timestamp":"2025-10-23T07:45:45.790Z"}
+{"level":"info","message":"Uploading to cloudinary starting...","service":"media-service","timestamp":"2025-10-23T07:45:45.790Z"}
+{"level":"info","message":"Starting upload to Cloudinary: Screenshot 2025-08-15 194741.png","service":"media-service","timestamp":"2025-10-23T07:45:45.791Z"}
+{"level":"info","message":"Upload successful. Public ID: uploads/pta9bmrgodesvmdgioah","service":"media-service","timestamp":"2025-10-23T07:45:48.011Z"}
+{"level":"info","message":"Cloudinary upload successfully. Public Id: - uploads/pta9bmrgodesvmdgioah","service":"media-service","timestamp":"2025-10-23T07:45:48.012Z"}
+{"0":"u","1":"p","10":"a","11":"9","12":"b","13":"m","14":"r","15":"g","16":"o","17":"d","18":"e","19":"s","2":"l","20":"v","21":"m","22":"d","23":"g","24":"i","25":"o","26":"a","27":"h","3":"o","4":"a","5":"d","6":"s","7":"/","8":"p","9":"t","level":"info","message":"Media deleted successfuly from cloud stroage","service":"media-service","timestamp":"2025-10-23T08:06:31.103Z"}
+{"level":"info","message":"Deleted media 68f9dd2cff022accd9cb6767 associated with this deleted post 68f9e0146f9ed2acd56db4e1","service":"media-service","timestamp":"2025-10-23T08:06:31.141Z"}
+{"level":"info","message":"Processed deletion of media for post id 68f9e0146f9ed2acd56db4e1","service":"media-service","timestamp":"2025-10-23T08:06:31.141Z"}
+{"level":"info","message":"Conected to  rabbit mq","service":"media-service","timestamp":"2025-10-23T11:56:58.511Z"}
+{"level":"info","message":"Subscribed to event: post.deleted","service":"media-service","timestamp":"2025-10-23T11:56:58.539Z"}
+{"level":"info","message":"Media service running on port 3003","service":"media-service","timestamp":"2025-10-23T11:56:58.541Z"}
+{"level":"info","message":"db connected ","service":"media-service","timestamp":"2025-10-23T11:56:58.824Z"}
+{"level":"info","message":"received POST request to /api/media/upload","service":"media-service","timestamp":"2025-10-23T11:58:47.876Z"}
+{"level":"info","message":"request body undefined ","service":"media-service","timestamp":"2025-10-23T11:58:47.877Z"}
+{"level":"info","message":"Starting media upload","service":"media-service","timestamp":"2025-10-23T11:58:47.884Z"}
+{"level":"info","message":"File details: name=Screenshot 2025-10-19 225742.png, type=image/png","service":"media-service","timestamp":"2025-10-23T11:58:47.885Z"}
+{"level":"info","message":"Uploading to cloudinary starting...","service":"media-service","timestamp":"2025-10-23T11:58:47.885Z"}
+{"level":"info","message":"Starting upload to Cloudinary: Screenshot 2025-10-19 225742.png","service":"media-service","timestamp":"2025-10-23T11:58:47.885Z"}
+{"level":"info","message":"Upload successful. Public ID: uploads/xvoxqgcgjwznvp33rul5","service":"media-service","timestamp":"2025-10-23T11:58:49.721Z"}
+{"level":"info","message":"Cloudinary upload successfully. Public Id: - uploads/xvoxqgcgjwznvp33rul5","service":"media-service","timestamp":"2025-10-23T11:58:49.722Z"}
+{"level":"info","message":"received GET request to /api/media/get","service":"media-service","timestamp":"2025-10-23T12:00:20.633Z"}
+{"level":"info","message":"request body undefined ","service":"media-service","timestamp":"2025-10-23T12:00:20.633Z"}
+{"0":"u","1":"p","10":"o","11":"x","12":"q","13":"g","14":"c","15":"g","16":"j","17":"w","18":"z","19":"n","2":"l","20":"v","21":"p","22":"3","23":"3","24":"r","25":"u","26":"l","27":"5","3":"o","4":"a","5":"d","6":"s","7":"/","8":"x","9":"v","level":"info","message":"Media deleted successfuly from cloud stroage","service":"media-service","timestamp":"2025-10-23T12:01:53.014Z"}
+{"level":"info","message":"Deleted media 68fa18797608f691a9d0eb96 associated with this deleted post 68fa189df9f9bcec9c8cd78f","service":"media-service","timestamp":"2025-10-23T12:01:53.047Z"}
+{"level":"info","message":"Processed deletion of media for post id 68fa189df9f9bcec9c8cd78f","service":"media-service","timestamp":"2025-10-23T12:01:53.047Z"}
+{"level":"info","message":"received GET request to /api/media/get","service":"media-service","timestamp":"2025-10-23T12:04:16.636Z"}
+{"level":"info","message":"request body undefined ","service":"media-service","timestamp":"2025-10-23T12:04:16.636Z"}
+{"level":"info","message":"Conected to  rabbit mq","service":"media-service","timestamp":"2025-10-23T12:19:58.855Z"}
+{"level":"info","message":"Subscribed to event: post.deleted","service":"media-service","timestamp":"2025-10-23T12:19:58.878Z"}
+{"level":"info","message":"Media service running on port 3003","service":"media-service","timestamp":"2025-10-23T12:19:58.880Z"}
+{"level":"info","message":"db connected ","service":"media-service","timestamp":"2025-10-23T12:19:59.131Z"}
+{"level":"info","message":"received POST request to /api/media/upload","service":"media-service","timestamp":"2025-10-23T12:21:17.884Z"}
+{"level":"info","message":"request body undefined ","service":"media-service","timestamp":"2025-10-23T12:21:17.884Z"}
+{"level":"info","message":"Starting media upload","service":"media-service","timestamp":"2025-10-23T12:21:17.892Z"}
+{"level":"info","message":"File details: name=Screenshot 2025-08-28 213645.png, type=image/png","service":"media-service","timestamp":"2025-10-23T12:21:17.893Z"}
+{"level":"info","message":"Uploading to cloudinary starting...","service":"media-service","timestamp":"2025-10-23T12:21:17.893Z"}
+{"level":"info","message":"Starting upload to Cloudinary: Screenshot 2025-08-28 213645.png","service":"media-service","timestamp":"2025-10-23T12:21:17.893Z"}
+{"level":"info","message":"Upload successful. Public ID: uploads/dds1amerwmrw6u2cwzel","service":"media-service","timestamp":"2025-10-23T12:21:19.735Z"}
+{"level":"info","message":"Cloudinary upload successfully. Public Id: - uploads/dds1amerwmrw6u2cwzel","service":"media-service","timestamp":"2025-10-23T12:21:19.735Z"}
+{"0":"u","1":"p","10":"s","11":"1","12":"a","13":"m","14":"e","15":"r","16":"w","17":"m","18":"r","19":"w","2":"l","20":"6","21":"u","22":"2","23":"c","24":"w","25":"z","26":"e","27":"l","3":"o","4":"a","5":"d","6":"s","7":"/","8":"d","9":"d","level":"info","message":"Media deleted successfuly from cloud stroage","service":"media-service","timestamp":"2025-10-23T12:22:42.154Z"}
+{"level":"info","message":"Deleted media 68fa1dbf98172df7fa57e0dc associated with this deleted post 68fa1dd6e0c137bcacb8be52","service":"media-service","timestamp":"2025-10-23T12:22:42.185Z"}
+{"level":"info","message":"Processed deletion of media for post id 68fa1dd6e0c137bcacb8be52","service":"media-service","timestamp":"2025-10-23T12:22:42.186Z"}
+{"level":"info","message":"Conected to  rabbit mq","service":"media-service","timestamp":"2025-10-23T18:11:28.630Z"}
+{"level":"info","message":"Subscribed to event: post.deleted","service":"media-service","timestamp":"2025-10-23T18:11:28.645Z"}
+{"level":"info","message":"Media service running on port 3003","service":"media-service","timestamp":"2025-10-23T18:11:28.648Z"}
+{"level":"info","message":"db connected ","service":"media-service","timestamp":"2025-10-23T18:11:28.900Z"}
