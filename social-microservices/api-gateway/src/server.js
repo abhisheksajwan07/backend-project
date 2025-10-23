@@ -8,6 +8,7 @@ import { RedisStore } from "rate-limit-redis";
 import { logger } from "./utils/logger.js";
 import proxy from "express-http-proxy";
 import { errorHandler } from "./middleware/errorHandler.js";
+import { validateToken } from "./middleware/authMiddleware.js";
 
 const app = express();
 const PORT = process.env.PORT || 3000;
@@ -48,6 +49,7 @@ const proxyOptions = {
   },
   proxyErrorHandler: (err, res, next) => {
     logger.error(`Proxy error:${err.message}`);
+    console.log(err);
     res
       .status(500)
       .json({ message: `internal server error`, error: err.message });
@@ -55,7 +57,7 @@ const proxyOptions = {
 };
 
 // proxy for identity service
-
+// only three services are there?
 // api-gateway -> /v1/auth/register ->3000
 //identity->/api/auth/register -> 3001
 
@@ -78,12 +80,90 @@ app.use(
   })
 );
 
+//setting up proxy for our post service
+app.use(
+  "/v1/posts",
+  validateToken,
+  proxy(process.env.POST_SERVICE_URL, {
+    ...proxyOptions,
+    proxyReqOptDecorator: (proxyReqOpts, srcReq) => {
+      console.log(
+        "Proxying request to:",
+        process.env.POST_SERVICE_URL + srcReq.originalUrl
+      );
+      proxyReqOpts.headers["Content-Type"] = "application/json";
+      proxyReqOpts.headers["x-user-id"] = srcReq.user.userId;
+      return proxyReqOpts;
+    },
+    userResDecorator: (proxyRes, proxyResData, userReq, userRes) => {
+      logger.info(`Response received from Post service:${proxyRes.statusCode}`);
+      return proxyResData;
+    },
+  })
+);
+
+app.use(
+  "/v1/media",
+  validateToken,
+  proxy(process.env.MEDIA_SERVICE_URL, {
+    ...proxyOptions,
+    parseReqBody: false,
+    proxyReqOptDecorator: (proxyReqOpts, srcReq) => {
+      proxyReqOpts.headers["x-user-id"] = srcReq.user.userId;
+      if (!srcReq.headers["content-type"].startsWith("multipart/form-data")) {
+        proxyReqOpts.headers["Content-Type"] = "application/json";
+      }
+
+      return proxyReqOpts;
+    },
+    userResDecorator: (proxyRes, proxyResData, userReq, userRes) => {
+      logger.info(
+        `Response received from media service: ${proxyRes.statusCode}`
+      );
+      console.log("req received proxy ");
+
+      return proxyResData;
+    },
+  })
+);
+
+//setting up proxy for our search service
+app.use(
+  "/v1/search",
+  validateToken,
+  proxy(process.env.SEARCH_SERVICE_URL, {
+    ...proxyOptions,
+    proxyReqOptDecorator: (proxyReqOpts, srcReq) => {
+      proxyReqOpts.headers["Content-Type"] = "application/json";
+      proxyReqOpts.headers["x-user-id"] = srcReq.user.userId;
+
+      return proxyReqOpts;
+    },
+    userResDecorator: (proxyRes, proxyResData, userReq, userRes) => {
+      logger.info(
+        `Response received from Search service: ${proxyRes.statusCode}`
+      );
+
+      return proxyResData;
+    },
+  })
+);
+
 app.use(errorHandler);
 
 app.listen(PORT, () => {
   logger.info(`API gsteway running on port:${PORT}`);
   logger.info(
     `Identity service si running on port ${process.env.IDENTITY_SERVICE_URL}`
+  );
+  logger.info(
+    `Post service is running on port ${process.env.POST_SERVICE_URL}`
+  );
+  logger.info(
+    `media service is running on port ${process.env.MEDIA_SERVICE_URL}`
+  );
+  logger.info(
+    `Search service is running on port ${process.env.SEARCH_SERVICE_URL}`
   );
   logger.info(`Redis Url ${process.env.REDIS_URL}`);
 });

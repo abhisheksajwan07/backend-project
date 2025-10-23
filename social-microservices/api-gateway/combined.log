@@ -115,3 +115,1128 @@
 {"level":"info","message":"received POST request to /v1/auth/login","service":"identity-services","timestamp":"2025-10-19T17:26:55.076Z"}
 {"level":"info","message":"Request body, [object Object]","service":"identity-services","timestamp":"2025-10-19T17:26:55.077Z"}
 {"level":"info","message":"Response received from identity service:200","service":"identity-services","timestamp":"2025-10-19T17:26:55.225Z"}
+{"level":"info","message":"API gsteway running on port:3000","service":"identity-services","timestamp":"2025-10-20T19:43:17.079Z"}
+{"level":"info","message":"Identity service si running on port http://localhost:3001","service":"identity-services","timestamp":"2025-10-20T19:43:17.082Z"}
+{"level":"info","message":"Post service is running on port http://localhost:3002","service":"identity-services","timestamp":"2025-10-20T19:43:17.082Z"}
+{"level":"info","message":"Redis Url redis://localhost:6379","service":"identity-services","timestamp":"2025-10-20T19:43:17.083Z"}
+{"level":"info","message":"API gsteway running on port:3000","service":"identity-services","timestamp":"2025-10-20T19:43:43.414Z"}
+{"level":"info","message":"Identity service si running on port http://localhost:3001","service":"identity-services","timestamp":"2025-10-20T19:43:43.416Z"}
+{"level":"info","message":"Post service is running on port http://localhost:3002","service":"identity-services","timestamp":"2025-10-20T19:43:43.417Z"}
+{"level":"info","message":"Redis Url redis://localhost:6379","service":"identity-services","timestamp":"2025-10-20T19:43:43.417Z"}
+{"level":"info","message":"API gsteway running on port:3000","service":"identity-services","timestamp":"2025-10-20T20:42:07.154Z"}
+{"level":"info","message":"Identity service si running on port http://localhost:3001","service":"identity-services","timestamp":"2025-10-20T20:42:07.157Z"}
+{"level":"info","message":"Post service is running on port http://localhost:3002","service":"identity-services","timestamp":"2025-10-20T20:42:07.157Z"}
+{"level":"info","message":"Redis Url redis://localhost:6379","service":"identity-services","timestamp":"2025-10-20T20:42:07.158Z"}
+{"level":"info","message":"API gsteway running on port:3000","service":"identity-services","timestamp":"2025-10-21T05:09:38.516Z"}
+{"level":"info","message":"Identity service si running on port http://localhost:3001","service":"identity-services","timestamp":"2025-10-21T05:09:38.519Z"}
+{"level":"info","message":"Post service is running on port http://localhost:3002","service":"identity-services","timestamp":"2025-10-21T05:09:38.519Z"}
+{"level":"info","message":"Redis Url redis://localhost:6379","service":"identity-services","timestamp":"2025-10-21T05:09:38.519Z"}
+{"level":"info","message":"received POST request to /v1/auth/login","service":"identity-services","timestamp":"2025-10-21T05:11:19.848Z"}
+{"level":"info","message":"Request body, [object Object]","service":"identity-services","timestamp":"2025-10-21T05:11:19.849Z"}
+{"level":"error","message":"Proxy error:","service":"identity-services","timestamp":"2025-10-21T05:11:19.857Z"}
+{"level":"info","message":"received POST request to /v1/auth/login","service":"identity-services","timestamp":"2025-10-21T05:13:05.760Z"}
+{"level":"info","message":"Request body, [object Object]","service":"identity-services","timestamp":"2025-10-21T05:13:05.760Z"}
+{"level":"info","message":"Response received from identity service:200","service":"identity-services","timestamp":"2025-10-21T05:13:05.951Z"}
+{"level":"error","message":"SyntaxError: Expected ':' after property name in JSON at position 18 (line 3 column 1)\n    at JSON.parse (<anonymous>)\n    at parse (C:\\Users\\abhis\\OneDrive\\Desktop\\backend-project\\social-microservices\\api-gateway\\node_modules\\body-parser\\lib\\types\\json.js:77:19)\n    at C:\\Users\\abhis\\OneDrive\\Desktop\\backend-project\\social-microservices\\api-gateway\\node_modules\\body-parser\\lib\\read.js:123:18\n    at AsyncResource.runInAsyncScope (node:async_hooks:214:14)\n    at invokeCallback (C:\\Users\\abhis\\OneDrive\\Desktop\\backend-project\\social-microservices\\api-gateway\\node_modules\\body-parser\\node_modules\\raw-body\\index.js:238:16)\n    at done (C:\\Users\\abhis\\OneDrive\\Desktop\\backend-project\\social-microservices\\api-gateway\\node_modules\\body-parser\\node_modules\\raw-body\\index.js:227:7)\n    at IncomingMessage.onEnd (C:\\Users\\abhis\\OneDrive\\Desktop\\backend-project\\social-microservices\\api-gateway\\node_modules\\body-parser\\node_modules\\raw-body\\index.js:287:7)\n    at IncomingMessage.emit (node:events:508:28)\n    at endReadableNT (node:internal/streams/readable:1701:12)\n    at process.processTicksAndRejections (node:internal/process/task_queues:90:21)","service":"identity-services","timestamp":"2025-10-21T05:18:31.804Z"}
+{"level":"info","message":"received POST request to /v1/posts/create-post","service":"identity-services","timestamp":"2025-10-21T05:18:41.802Z"}
+{"level":"info","message":"Request body, [object Object]","service":"identity-services","timestamp":"2025-10-21T05:18:41.802Z"}
+{"level":"warn","message":"Invalid token!","service":"identity-services","timestamp":"2025-10-21T05:18:41.804Z"}
+{"level":"info","message":"received POST request to /v1/auth/login","service":"identity-services","timestamp":"2025-10-21T05:18:46.880Z"}
+{"level":"info","message":"Request body, [object Object]","service":"identity-services","timestamp":"2025-10-21T05:18:46.880Z"}
+{"level":"info","message":"Response received from identity service:200","service":"identity-services","timestamp":"2025-10-21T05:18:47.032Z"}
+{"level":"info","message":"received POST request to /v1/posts/create-post","service":"identity-services","timestamp":"2025-10-21T05:19:12.769Z"}
+{"level":"info","message":"Request body, [object Object]","service":"identity-services","timestamp":"2025-10-21T05:19:12.770Z"}
+{"level":"warn","message":"Invalid token!","service":"identity-services","timestamp":"2025-10-21T05:19:12.770Z"}
+{"level":"info","message":"received POST request to /v1/auth/login","service":"identity-services","timestamp":"2025-10-21T05:23:21.911Z"}
+{"level":"info","message":"Request body, [object Object]","service":"identity-services","timestamp":"2025-10-21T05:23:21.911Z"}
+{"level":"info","message":"Response received from identity service:200","service":"identity-services","timestamp":"2025-10-21T05:23:22.072Z"}
+{"level":"info","message":"received POST request to /v1/posts/create-post","service":"identity-services","timestamp":"2025-10-21T05:23:35.907Z"}
+{"level":"info","message":"Request body, [object Object]","service":"identity-services","timestamp":"2025-10-21T05:23:35.907Z"}
+{"level":"warn","message":"Invalid token!","service":"identity-services","timestamp":"2025-10-21T05:23:35.907Z"}
+{"level":"info","message":"received POST request to /v1/auth/login","service":"identity-services","timestamp":"2025-10-21T05:25:04.264Z"}
+{"level":"info","message":"Request body, [object Object]","service":"identity-services","timestamp":"2025-10-21T05:25:04.264Z"}
+{"level":"info","message":"Response received from identity service:200","service":"identity-services","timestamp":"2025-10-21T05:25:04.392Z"}
+{"level":"info","message":"received POST request to /v1/posts/create-post","service":"identity-services","timestamp":"2025-10-21T05:25:18.035Z"}
+{"level":"info","message":"Request body, [object Object]","service":"identity-services","timestamp":"2025-10-21T05:25:18.035Z"}
+{"level":"warn","message":"Invalid token!","service":"identity-services","timestamp":"2025-10-21T05:25:18.036Z"}
+{"level":"info","message":"received POST request to /v1/posts/create-post","service":"identity-services","timestamp":"2025-10-21T05:28:32.139Z"}
+{"level":"info","message":"Request body, [object Object]","service":"identity-services","timestamp":"2025-10-21T05:28:32.139Z"}
+{"level":"warn","message":"Invalid token!","service":"identity-services","timestamp":"2025-10-21T05:28:32.139Z"}
+{"level":"info","message":"received POST request to /v1/auth/login","service":"identity-services","timestamp":"2025-10-21T05:28:36.603Z"}
+{"level":"info","message":"Request body, [object Object]","service":"identity-services","timestamp":"2025-10-21T05:28:36.604Z"}
+{"level":"info","message":"Response received from identity service:200","service":"identity-services","timestamp":"2025-10-21T05:28:36.769Z"}
+{"level":"info","message":"received POST request to /v1/posts/create-post","service":"identity-services","timestamp":"2025-10-21T05:28:58.902Z"}
+{"level":"info","message":"Request body, [object Object]","service":"identity-services","timestamp":"2025-10-21T05:28:58.902Z"}
+{"level":"warn","message":"Invalid token!","service":"identity-services","timestamp":"2025-10-21T05:28:58.902Z"}
+{"level":"info","message":"received POST request to /v1/posts/create-post","service":"identity-services","timestamp":"2025-10-21T05:31:04.179Z"}
+{"level":"info","message":"Request body, [object Object]","service":"identity-services","timestamp":"2025-10-21T05:31:04.179Z"}
+{"level":"warn","message":"Invalid token!","service":"identity-services","timestamp":"2025-10-21T05:31:04.179Z"}
+{"level":"info","message":"received POST request to /v1/posts/create-post","service":"identity-services","timestamp":"2025-10-21T05:32:29.320Z"}
+{"level":"info","message":"Request body, [object Object]","service":"identity-services","timestamp":"2025-10-21T05:32:29.320Z"}
+{"level":"warn","message":"Invalid token!","service":"identity-services","timestamp":"2025-10-21T05:32:29.321Z"}
+{"level":"info","message":"received POST request to /v1/auth/login","service":"identity-services","timestamp":"2025-10-21T05:34:37.897Z"}
+{"level":"info","message":"Request body, [object Object]","service":"identity-services","timestamp":"2025-10-21T05:34:37.900Z"}
+{"level":"info","message":"Response received from identity service:200","service":"identity-services","timestamp":"2025-10-21T05:34:38.064Z"}
+{"level":"info","message":"received POST request to /v1/auth/login","service":"identity-services","timestamp":"2025-10-21T05:35:29.173Z"}
+{"level":"info","message":"Request body, [object Object]","service":"identity-services","timestamp":"2025-10-21T05:35:29.174Z"}
+{"level":"info","message":"Response received from identity service:200","service":"identity-services","timestamp":"2025-10-21T05:35:29.309Z"}
+{"level":"info","message":"received POST request to /v1/auth/login","service":"identity-services","timestamp":"2025-10-21T05:35:35.763Z"}
+{"level":"info","message":"Request body, [object Object]","service":"identity-services","timestamp":"2025-10-21T05:35:35.763Z"}
+{"level":"info","message":"Response received from identity service:200","service":"identity-services","timestamp":"2025-10-21T05:35:35.907Z"}
+{"level":"info","message":"received POST request to /v1/posts/create-post","service":"identity-services","timestamp":"2025-10-21T05:35:53.227Z"}
+{"level":"info","message":"Request body, [object Object]","service":"identity-services","timestamp":"2025-10-21T05:35:53.228Z"}
+{"level":"warn","message":"Invalid token!","service":"identity-services","timestamp":"2025-10-21T05:35:53.228Z"}
+{"level":"info","message":"received POST request to /v1/auth/login","service":"identity-services","timestamp":"2025-10-21T05:42:02.040Z"}
+{"level":"info","message":"Request body, [object Object]","service":"identity-services","timestamp":"2025-10-21T05:42:02.046Z"}
+{"level":"info","message":"Response received from identity service:200","service":"identity-services","timestamp":"2025-10-21T05:42:02.274Z"}
+{"level":"info","message":"received POST request to /v1/posts/create-post","service":"identity-services","timestamp":"2025-10-21T05:42:58.649Z"}
+{"level":"info","message":"Request body, [object Object]","service":"identity-services","timestamp":"2025-10-21T05:42:58.650Z"}
+{"level":"warn","message":"Invalid token!","service":"identity-services","timestamp":"2025-10-21T05:42:58.651Z"}
+{"level":"info","message":"received POST request to /v1/auth/register","service":"identity-services","timestamp":"2025-10-21T05:45:42.277Z"}
+{"level":"info","message":"Request body, [object Object]","service":"identity-services","timestamp":"2025-10-21T05:45:42.277Z"}
+{"level":"info","message":"Response received from identity service:201","service":"identity-services","timestamp":"2025-10-21T05:45:42.544Z"}
+{"level":"info","message":"received POST request to /v1/auth/login","service":"identity-services","timestamp":"2025-10-21T05:45:51.464Z"}
+{"level":"info","message":"Request body, [object Object]","service":"identity-services","timestamp":"2025-10-21T05:45:51.464Z"}
+{"level":"info","message":"Response received from identity service:200","service":"identity-services","timestamp":"2025-10-21T05:45:51.613Z"}
+{"level":"info","message":"received POST request to /v1/posts/create-post","service":"identity-services","timestamp":"2025-10-21T05:46:06.142Z"}
+{"level":"info","message":"Request body, [object Object]","service":"identity-services","timestamp":"2025-10-21T05:46:06.142Z"}
+{"level":"warn","message":"Invalid token!","service":"identity-services","timestamp":"2025-10-21T05:46:06.143Z"}
+{"level":"info","message":"API gsteway running on port:3000","service":"identity-services","timestamp":"2025-10-21T05:53:58.188Z"}
+{"level":"info","message":"Identity service si running on port http://localhost:3001","service":"identity-services","timestamp":"2025-10-21T05:53:58.191Z"}
+{"level":"info","message":"Post service is running on port http://localhost:3002","service":"identity-services","timestamp":"2025-10-21T05:53:58.192Z"}
+{"level":"info","message":"Redis Url redis://localhost:6379","service":"identity-services","timestamp":"2025-10-21T05:53:58.192Z"}
+{"level":"info","message":"API gsteway running on port:3000","service":"identity-services","timestamp":"2025-10-21T05:54:03.250Z"}
+{"level":"info","message":"Identity service si running on port http://localhost:3001","service":"identity-services","timestamp":"2025-10-21T05:54:03.252Z"}
+{"level":"info","message":"Post service is running on port http://localhost:3002","service":"identity-services","timestamp":"2025-10-21T05:54:03.253Z"}
+{"level":"info","message":"Redis Url redis://localhost:6379","service":"identity-services","timestamp":"2025-10-21T05:54:03.253Z"}
+{"level":"info","message":"API gsteway running on port:3000","service":"identity-services","timestamp":"2025-10-21T05:54:08.678Z"}
+{"level":"info","message":"Identity service si running on port http://localhost:3001","service":"identity-services","timestamp":"2025-10-21T05:54:08.681Z"}
+{"level":"info","message":"Post service is running on port http://localhost:3002","service":"identity-services","timestamp":"2025-10-21T05:54:08.681Z"}
+{"level":"info","message":"Redis Url redis://localhost:6379","service":"identity-services","timestamp":"2025-10-21T05:54:08.681Z"}
+{"level":"info","message":"received POST request to /v1/auth/login","service":"identity-services","timestamp":"2025-10-21T05:54:12.818Z"}
+{"level":"info","message":"Request body, [object Object]","service":"identity-services","timestamp":"2025-10-21T05:54:12.818Z"}
+{"level":"info","message":"Response received from identity service:200","service":"identity-services","timestamp":"2025-10-21T05:54:12.966Z"}
+{"level":"info","message":"received POST request to /v1/posts/create-post","service":"identity-services","timestamp":"2025-10-21T05:54:26.753Z"}
+{"level":"info","message":"Request body, [object Object]","service":"identity-services","timestamp":"2025-10-21T05:54:26.754Z"}
+{"level":"info","message":"Response received from Post service:500","service":"identity-services","timestamp":"2025-10-21T05:54:26.873Z"}
+{"level":"info","message":"received POST request to /v1/posts/create-post","service":"identity-services","timestamp":"2025-10-21T05:56:05.534Z"}
+{"level":"info","message":"Request body, [object Object]","service":"identity-services","timestamp":"2025-10-21T05:56:05.534Z"}
+{"level":"info","message":"Response received from Post service:201","service":"identity-services","timestamp":"2025-10-21T05:56:05.607Z"}
+{"level":"info","message":"API gsteway running on port:3000","service":"identity-services","timestamp":"2025-10-21T07:40:51.368Z"}
+{"level":"info","message":"Identity service si running on port http://localhost:3001","service":"identity-services","timestamp":"2025-10-21T07:40:51.370Z"}
+{"level":"info","message":"Post service is running on port http://localhost:3002","service":"identity-services","timestamp":"2025-10-21T07:40:51.371Z"}
+{"level":"info","message":"Redis Url redis://localhost:6379","service":"identity-services","timestamp":"2025-10-21T07:40:51.371Z"}
+{"level":"info","message":"received GET request to /v1/posts/getAllPost","service":"identity-services","timestamp":"2025-10-21T07:42:20.178Z"}
+{"level":"info","message":"Request body, undefined","service":"identity-services","timestamp":"2025-10-21T07:42:20.179Z"}
+{"level":"warn","message":"Access attempt without valid token!","service":"identity-services","timestamp":"2025-10-21T07:42:20.180Z"}
+{"level":"info","message":"received POST request to /v1/auth/login","service":"identity-services","timestamp":"2025-10-21T07:42:28.373Z"}
+{"level":"info","message":"Request body, [object Object]","service":"identity-services","timestamp":"2025-10-21T07:42:28.374Z"}
+{"level":"info","message":"Response received from identity service:200","service":"identity-services","timestamp":"2025-10-21T07:42:28.570Z"}
+{"level":"info","message":"received POST request to /v1/posts/create-post","service":"identity-services","timestamp":"2025-10-21T07:42:43.235Z"}
+{"level":"info","message":"Request body, undefined","service":"identity-services","timestamp":"2025-10-21T07:42:43.235Z"}
+{"level":"info","message":"Response received from Post service:400","service":"identity-services","timestamp":"2025-10-21T07:42:43.276Z"}
+{"level":"info","message":"received POST request to /v1/posts/create-post","service":"identity-services","timestamp":"2025-10-21T07:42:52.370Z"}
+{"level":"info","message":"Request body, [object Object]","service":"identity-services","timestamp":"2025-10-21T07:42:52.370Z"}
+{"level":"info","message":"Response received from Post service:201","service":"identity-services","timestamp":"2025-10-21T07:42:52.423Z"}
+{"level":"info","message":"received GET request to /v1/posts/getAllPost","service":"identity-services","timestamp":"2025-10-21T07:42:55.752Z"}
+{"level":"info","message":"Request body, undefined","service":"identity-services","timestamp":"2025-10-21T07:42:55.752Z"}
+{"level":"warn","message":"Access attempt without valid token!","service":"identity-services","timestamp":"2025-10-21T07:42:55.752Z"}
+{"level":"info","message":"received GET request to /v1/posts/getAllPost","service":"identity-services","timestamp":"2025-10-21T07:43:03.503Z"}
+{"level":"info","message":"Request body, undefined","service":"identity-services","timestamp":"2025-10-21T07:43:03.503Z"}
+{"level":"info","message":"Response received from Post service:500","service":"identity-services","timestamp":"2025-10-21T07:43:03.573Z"}
+{"level":"info","message":"received GET request to /v1/posts/getAllPost","service":"identity-services","timestamp":"2025-10-21T07:44:04.720Z"}
+{"level":"info","message":"Request body, undefined","service":"identity-services","timestamp":"2025-10-21T07:44:04.720Z"}
+{"level":"info","message":"Response received from Post service:200","service":"identity-services","timestamp":"2025-10-21T07:44:04.807Z"}
+{"level":"info","message":"received GET request to /v1/posts/getAllPost","service":"identity-services","timestamp":"2025-10-21T07:46:48.520Z"}
+{"level":"info","message":"Request body, undefined","service":"identity-services","timestamp":"2025-10-21T07:46:48.520Z"}
+{"level":"info","message":"Response received from Post service:200","service":"identity-services","timestamp":"2025-10-21T07:46:48.526Z"}
+{"level":"info","message":"received GET request to /v1/posts/getAllPost","service":"identity-services","timestamp":"2025-10-21T07:46:50.702Z"}
+{"level":"info","message":"Request body, undefined","service":"identity-services","timestamp":"2025-10-21T07:46:50.702Z"}
+{"level":"info","message":"Response received from Post service:200","service":"identity-services","timestamp":"2025-10-21T07:46:50.708Z"}
+{"level":"info","message":"received GET request to /v1/posts/getAllPost","service":"identity-services","timestamp":"2025-10-21T07:46:51.813Z"}
+{"level":"info","message":"Request body, undefined","service":"identity-services","timestamp":"2025-10-21T07:46:51.814Z"}
+{"level":"info","message":"Response received from Post service:200","service":"identity-services","timestamp":"2025-10-21T07:46:51.820Z"}
+{"level":"info","message":"received GET request to /v1/posts/getAllPost","service":"identity-services","timestamp":"2025-10-21T07:47:08.049Z"}
+{"level":"info","message":"Request body, undefined","service":"identity-services","timestamp":"2025-10-21T07:47:08.049Z"}
+{"level":"info","message":"Response received from Post service:200","service":"identity-services","timestamp":"2025-10-21T07:47:08.054Z"}
+{"level":"info","message":"received GET request to /v1/posts/getAllPost","service":"identity-services","timestamp":"2025-10-21T07:47:09.042Z"}
+{"level":"info","message":"Request body, undefined","service":"identity-services","timestamp":"2025-10-21T07:47:09.042Z"}
+{"level":"info","message":"Response received from Post service:200","service":"identity-services","timestamp":"2025-10-21T07:47:09.047Z"}
+{"level":"info","message":"received GET request to /v1/posts/getAllPost","service":"identity-services","timestamp":"2025-10-21T07:47:09.903Z"}
+{"level":"info","message":"Request body, undefined","service":"identity-services","timestamp":"2025-10-21T07:47:09.904Z"}
+{"level":"info","message":"Response received from Post service:200","service":"identity-services","timestamp":"2025-10-21T07:47:09.908Z"}
+{"level":"info","message":"received GET request to /v1/posts/getAllPost","service":"identity-services","timestamp":"2025-10-21T08:07:23.590Z"}
+{"level":"info","message":"Request body, undefined","service":"identity-services","timestamp":"2025-10-21T08:07:23.591Z"}
+{"level":"warn","message":"Invalid token!","service":"identity-services","timestamp":"2025-10-21T08:07:23.598Z"}
+{"level":"info","message":"received POST request to /v1/auth/login","service":"identity-services","timestamp":"2025-10-21T08:07:31.461Z"}
+{"level":"info","message":"Request body, [object Object]","service":"identity-services","timestamp":"2025-10-21T08:07:31.461Z"}
+{"level":"info","message":"Response received from identity service:200","service":"identity-services","timestamp":"2025-10-21T08:07:31.677Z"}
+{"level":"info","message":"received POST request to /v1/posts/create-post","service":"identity-services","timestamp":"2025-10-21T08:08:01.456Z"}
+{"level":"info","message":"Request body, [object Object]","service":"identity-services","timestamp":"2025-10-21T08:08:01.456Z"}
+{"level":"info","message":"Response received from Post service:201","service":"identity-services","timestamp":"2025-10-21T08:08:01.534Z"}
+{"level":"info","message":"received GET request to /v1/posts/getAllPost","service":"identity-services","timestamp":"2025-10-21T08:08:04.805Z"}
+{"level":"info","message":"Request body, undefined","service":"identity-services","timestamp":"2025-10-21T08:08:04.805Z"}
+{"level":"warn","message":"Invalid token!","service":"identity-services","timestamp":"2025-10-21T08:08:04.805Z"}
+{"level":"info","message":"received GET request to /v1/posts/getAllPost","service":"identity-services","timestamp":"2025-10-21T08:08:12.860Z"}
+{"level":"info","message":"Request body, undefined","service":"identity-services","timestamp":"2025-10-21T08:08:12.860Z"}
+{"level":"info","message":"Response received from Post service:200","service":"identity-services","timestamp":"2025-10-21T08:08:12.925Z"}
+{"level":"info","message":"received GET request to /v1/posts/getAllPost","service":"identity-services","timestamp":"2025-10-21T08:08:17.340Z"}
+{"level":"info","message":"Request body, undefined","service":"identity-services","timestamp":"2025-10-21T08:08:17.340Z"}
+{"level":"info","message":"Response received from Post service:200","service":"identity-services","timestamp":"2025-10-21T08:08:17.346Z"}
+{"level":"info","message":"API gsteway running on port:3000","service":"identity-services","timestamp":"2025-10-21T08:12:26.234Z"}
+{"level":"info","message":"Identity service si running on port http://localhost:3001","service":"identity-services","timestamp":"2025-10-21T08:12:26.237Z"}
+{"level":"info","message":"Post service is running on port http://localhost:3002","service":"identity-services","timestamp":"2025-10-21T08:12:26.237Z"}
+{"level":"info","message":"Redis Url redis://localhost:6379","service":"identity-services","timestamp":"2025-10-21T08:12:26.237Z"}
+{"level":"info","message":"API gsteway running on port:3000","service":"identity-services","timestamp":"2025-10-22T06:58:23.087Z"}
+{"level":"info","message":"Identity service si running on port http://localhost:3001","service":"identity-services","timestamp":"2025-10-22T06:58:23.090Z"}
+{"level":"info","message":"Post service is running on port http://localhost:3002","service":"identity-services","timestamp":"2025-10-22T06:58:23.090Z"}
+{"level":"info","message":"Redis Url redis://localhost:6379","service":"identity-services","timestamp":"2025-10-22T06:58:23.090Z"}
+{"level":"info","message":"API gsteway running on port:3000","service":"identity-services","timestamp":"2025-10-22T06:58:54.939Z"}
+{"level":"info","message":"Identity service si running on port http://localhost:3001","service":"identity-services","timestamp":"2025-10-22T06:58:54.942Z"}
+{"level":"info","message":"Post service is running on port http://localhost:3002","service":"identity-services","timestamp":"2025-10-22T06:58:54.943Z"}
+{"level":"info","message":"Post service is running on port http://localhost:3002","service":"identity-services","timestamp":"2025-10-22T06:58:54.943Z"}
+{"level":"info","message":"Redis Url redis://localhost:6379","service":"identity-services","timestamp":"2025-10-22T06:58:54.943Z"}
+{"level":"info","message":"API gsteway running on port:3000","service":"identity-services","timestamp":"2025-10-22T06:59:00.812Z"}
+{"level":"info","message":"Identity service si running on port http://localhost:3001","service":"identity-services","timestamp":"2025-10-22T06:59:00.815Z"}
+{"level":"info","message":"Post service is running on port http://localhost:3002","service":"identity-services","timestamp":"2025-10-22T06:59:00.816Z"}
+{"level":"info","message":"Post service is running on port http://localhost:/3003","service":"identity-services","timestamp":"2025-10-22T06:59:00.816Z"}
+{"level":"info","message":"Redis Url redis://localhost:6379","service":"identity-services","timestamp":"2025-10-22T06:59:00.816Z"}
+{"level":"info","message":"received POST request to /v1/auth/login","service":"identity-services","timestamp":"2025-10-22T07:35:05.026Z"}
+{"level":"info","message":"Request body, [object Object]","service":"identity-services","timestamp":"2025-10-22T07:35:05.026Z"}
+{"level":"error","message":"Proxy error:","service":"identity-services","timestamp":"2025-10-22T07:35:05.034Z"}
+{"level":"info","message":"received POST request to /v1/auth/login","service":"identity-services","timestamp":"2025-10-22T07:35:09.890Z"}
+{"level":"info","message":"Request body, [object Object]","service":"identity-services","timestamp":"2025-10-22T07:35:09.890Z"}
+{"level":"error","message":"Proxy error:","service":"identity-services","timestamp":"2025-10-22T07:35:09.893Z"}
+{"level":"info","message":"received POST request to /v1/auth/login","service":"identity-services","timestamp":"2025-10-22T07:35:42.452Z"}
+{"level":"info","message":"Request body, [object Object]","service":"identity-services","timestamp":"2025-10-22T07:35:42.452Z"}
+{"level":"info","message":"Response received from identity service:200","service":"identity-services","timestamp":"2025-10-22T07:35:42.637Z"}
+{"level":"info","message":"received GET request to /v1/media/upload","service":"identity-services","timestamp":"2025-10-22T07:37:12.078Z"}
+{"level":"info","message":"Request body, undefined","service":"identity-services","timestamp":"2025-10-22T07:37:12.078Z"}
+{"level":"error","message":"Proxy error:","service":"identity-services","timestamp":"2025-10-22T07:37:12.085Z"}
+{"level":"info","message":"received POST request to /v1/auth/login","service":"identity-services","timestamp":"2025-10-22T07:39:35.625Z"}
+{"level":"info","message":"Request body, [object Object]","service":"identity-services","timestamp":"2025-10-22T07:39:35.625Z"}
+{"level":"info","message":"Response received from identity service:200","service":"identity-services","timestamp":"2025-10-22T07:39:35.778Z"}
+{"level":"info","message":"received POST request to /v1/media/upload","service":"identity-services","timestamp":"2025-10-22T07:39:48.888Z"}
+{"level":"info","message":"Request body, undefined","service":"identity-services","timestamp":"2025-10-22T07:39:48.888Z"}
+{"level":"error","message":"Proxy error:","service":"identity-services","timestamp":"2025-10-22T07:39:48.890Z"}
+{"level":"info","message":"received POST request to /v1/media/upload","service":"identity-services","timestamp":"2025-10-22T07:42:16.352Z"}
+{"level":"info","message":"Request body, undefined","service":"identity-services","timestamp":"2025-10-22T07:42:16.352Z"}
+{"level":"error","message":"Proxy error:","service":"identity-services","timestamp":"2025-10-22T07:42:16.354Z"}
+{"level":"info","message":"API gsteway running on port:3000","service":"identity-services","timestamp":"2025-10-22T07:45:45.879Z"}
+{"level":"info","message":"Identity service si running on port http://localhost:3001","service":"identity-services","timestamp":"2025-10-22T07:45:45.882Z"}
+{"level":"info","message":"Post service is running on port http://localhost:3002","service":"identity-services","timestamp":"2025-10-22T07:45:45.882Z"}
+{"level":"info","message":"Post service is running on port http://localhost:/3003","service":"identity-services","timestamp":"2025-10-22T07:45:45.882Z"}
+{"level":"info","message":"Redis Url redis://localhost:6379","service":"identity-services","timestamp":"2025-10-22T07:45:45.883Z"}
+{"level":"info","message":"API gsteway running on port:3000","service":"identity-services","timestamp":"2025-10-22T07:45:48.134Z"}
+{"level":"info","message":"Identity service si running on port http://localhost:3001","service":"identity-services","timestamp":"2025-10-22T07:45:48.137Z"}
+{"level":"info","message":"Post service is running on port http://localhost:3002","service":"identity-services","timestamp":"2025-10-22T07:45:48.137Z"}
+{"level":"info","message":"Post service is running on port http://localhost:/3003","service":"identity-services","timestamp":"2025-10-22T07:45:48.137Z"}
+{"level":"info","message":"Redis Url redis://localhost:6379","service":"identity-services","timestamp":"2025-10-22T07:45:48.138Z"}
+{"level":"info","message":"API gsteway running on port:3000","service":"identity-services","timestamp":"2025-10-22T07:45:49.034Z"}
+{"level":"info","message":"Identity service si running on port http://localhost:3001","service":"identity-services","timestamp":"2025-10-22T07:45:49.038Z"}
+{"level":"info","message":"Post service is running on port http://localhost:3002","service":"identity-services","timestamp":"2025-10-22T07:45:49.038Z"}
+{"level":"info","message":"Post service is running on port http://localhost:/3003","service":"identity-services","timestamp":"2025-10-22T07:45:49.038Z"}
+{"level":"info","message":"Redis Url redis://localhost:6379","service":"identity-services","timestamp":"2025-10-22T07:45:49.038Z"}
+{"level":"info","message":"API gsteway running on port:3000","service":"identity-services","timestamp":"2025-10-22T07:46:03.294Z"}
+{"level":"info","message":"Identity service si running on port http://localhost:3001","service":"identity-services","timestamp":"2025-10-22T07:46:03.297Z"}
+{"level":"info","message":"Post service is running on port http://localhost:3002","service":"identity-services","timestamp":"2025-10-22T07:46:03.297Z"}
+{"level":"info","message":"Post service is running on port http://localhost:/3003","service":"identity-services","timestamp":"2025-10-22T07:46:03.298Z"}
+{"level":"info","message":"Redis Url redis://localhost:6379","service":"identity-services","timestamp":"2025-10-22T07:46:03.298Z"}
+{"level":"info","message":"API gsteway running on port:3000","service":"identity-services","timestamp":"2025-10-22T07:46:08.357Z"}
+{"level":"info","message":"Identity service si running on port http://localhost:3001","service":"identity-services","timestamp":"2025-10-22T07:46:08.360Z"}
+{"level":"info","message":"Post service is running on port http://localhost:3002","service":"identity-services","timestamp":"2025-10-22T07:46:08.361Z"}
+{"level":"info","message":"Post service is running on port http://localhost:/3003","service":"identity-services","timestamp":"2025-10-22T07:46:08.362Z"}
+{"level":"info","message":"Redis Url redis://localhost:6379","service":"identity-services","timestamp":"2025-10-22T07:46:08.362Z"}
+{"level":"info","message":"API gsteway running on port:3000","service":"identity-services","timestamp":"2025-10-22T07:46:09.113Z"}
+{"level":"info","message":"Identity service si running on port http://localhost:3001","service":"identity-services","timestamp":"2025-10-22T07:46:09.118Z"}
+{"level":"info","message":"Post service is running on port http://localhost:3002","service":"identity-services","timestamp":"2025-10-22T07:46:09.118Z"}
+{"level":"info","message":"Post service is running on port http://localhost:/3003","service":"identity-services","timestamp":"2025-10-22T07:46:09.118Z"}
+{"level":"info","message":"Redis Url redis://localhost:6379","service":"identity-services","timestamp":"2025-10-22T07:46:09.119Z"}
+{"level":"info","message":"received POST request to /v1/media/upload","service":"identity-services","timestamp":"2025-10-22T07:46:15.659Z"}
+{"level":"info","message":"Request body, undefined","service":"identity-services","timestamp":"2025-10-22T07:46:15.660Z"}
+{"level":"error","message":"Proxy error:","service":"identity-services","timestamp":"2025-10-22T07:46:15.667Z"}
+{"level":"info","message":"received POST request to /v1/media/upload","service":"identity-services","timestamp":"2025-10-22T07:46:29.158Z"}
+{"level":"info","message":"Request body, undefined","service":"identity-services","timestamp":"2025-10-22T07:46:29.159Z"}
+{"level":"error","message":"Proxy error:","service":"identity-services","timestamp":"2025-10-22T07:46:29.161Z"}
+{"level":"info","message":"received POST request to /v1/media/upload","service":"identity-services","timestamp":"2025-10-22T07:47:19.309Z"}
+{"level":"info","message":"Request body, undefined","service":"identity-services","timestamp":"2025-10-22T07:47:19.309Z"}
+{"level":"error","message":"Proxy error:","service":"identity-services","timestamp":"2025-10-22T07:47:19.312Z"}
+{"level":"info","message":"received POST request to /v1/media/upload","service":"identity-services","timestamp":"2025-10-22T07:47:26.081Z"}
+{"level":"info","message":"Request body, undefined","service":"identity-services","timestamp":"2025-10-22T07:47:26.081Z"}
+{"level":"error","message":"Proxy error:","service":"identity-services","timestamp":"2025-10-22T07:47:26.083Z"}
+{"level":"info","message":"received POST request to /v1/media/upload","service":"identity-services","timestamp":"2025-10-22T07:49:05.386Z"}
+{"level":"info","message":"Request body, undefined","service":"identity-services","timestamp":"2025-10-22T07:49:05.386Z"}
+{"level":"error","message":"Proxy error:","service":"identity-services","timestamp":"2025-10-22T07:49:05.389Z"}
+{"level":"info","message":"received POST request to /v1/media/upload","service":"identity-services","timestamp":"2025-10-22T07:49:25.351Z"}
+{"level":"info","message":"Request body, undefined","service":"identity-services","timestamp":"2025-10-22T07:49:25.352Z"}
+{"level":"error","message":"Proxy error:","service":"identity-services","timestamp":"2025-10-22T07:49:25.354Z"}
+{"level":"info","message":"API gsteway running on port:3000","service":"identity-services","timestamp":"2025-10-22T07:49:28.960Z"}
+{"level":"info","message":"Identity service si running on port http://localhost:3001","service":"identity-services","timestamp":"2025-10-22T07:49:28.964Z"}
+{"level":"info","message":"Post service is running on port http://localhost:3002","service":"identity-services","timestamp":"2025-10-22T07:49:28.965Z"}
+{"level":"info","message":"Post service is running on port http://localhost:/3003","service":"identity-services","timestamp":"2025-10-22T07:49:28.965Z"}
+{"level":"info","message":"Redis Url redis://localhost:6379","service":"identity-services","timestamp":"2025-10-22T07:49:28.965Z"}
+{"level":"info","message":"API gsteway running on port:3000","service":"identity-services","timestamp":"2025-10-22T07:49:58.157Z"}
+{"level":"info","message":"Identity service si running on port http://localhost:3001","service":"identity-services","timestamp":"2025-10-22T07:49:58.159Z"}
+{"level":"info","message":"Post service is running on port http://localhost:3002","service":"identity-services","timestamp":"2025-10-22T07:49:58.160Z"}
+{"level":"info","message":"Post service is running on port http://localhost:/3003","service":"identity-services","timestamp":"2025-10-22T07:49:58.160Z"}
+{"level":"info","message":"Redis Url redis://localhost:6379","service":"identity-services","timestamp":"2025-10-22T07:49:58.160Z"}
+{"level":"info","message":"received POST request to /v1/auth/login","service":"identity-services","timestamp":"2025-10-22T07:50:08.491Z"}
+{"level":"info","message":"Request body, undefined","service":"identity-services","timestamp":"2025-10-22T07:50:08.492Z"}
+{"level":"info","message":"Response received from identity service:200","service":"identity-services","timestamp":"2025-10-22T07:50:08.726Z"}
+{"level":"info","message":"received POST request to /v1/media/upload","service":"identity-services","timestamp":"2025-10-22T07:50:23.218Z"}
+{"level":"info","message":"Request body, undefined","service":"identity-services","timestamp":"2025-10-22T07:50:23.219Z"}
+{"level":"error","message":"Proxy error:","service":"identity-services","timestamp":"2025-10-22T07:50:23.225Z"}
+{"level":"info","message":"received POST request to /v1/media/upload","service":"identity-services","timestamp":"2025-10-22T07:50:26.429Z"}
+{"level":"info","message":"Request body, undefined","service":"identity-services","timestamp":"2025-10-22T07:50:26.430Z"}
+{"level":"error","message":"Proxy error:","service":"identity-services","timestamp":"2025-10-22T07:50:26.432Z"}
+{"level":"info","message":"API gsteway running on port:3000","service":"identity-services","timestamp":"2025-10-22T07:52:00.195Z"}
+{"level":"info","message":"Identity service si running on port http://localhost:3001","service":"identity-services","timestamp":"2025-10-22T07:52:00.198Z"}
+{"level":"info","message":"Post service is running on port http://localhost:3002","service":"identity-services","timestamp":"2025-10-22T07:52:00.198Z"}
+{"level":"info","message":"Post service is running on port http://localhost:/3003","service":"identity-services","timestamp":"2025-10-22T07:52:00.198Z"}
+{"level":"info","message":"Redis Url redis://localhost:6379","service":"identity-services","timestamp":"2025-10-22T07:52:00.199Z"}
+{"level":"info","message":"API gsteway running on port:3000","service":"identity-services","timestamp":"2025-10-22T07:52:06.795Z"}
+{"level":"info","message":"Identity service si running on port http://localhost:3001","service":"identity-services","timestamp":"2025-10-22T07:52:06.798Z"}
+{"level":"info","message":"Post service is running on port http://localhost:3002","service":"identity-services","timestamp":"2025-10-22T07:52:06.799Z"}
+{"level":"info","message":"Post service is running on port http://localhost:/3003","service":"identity-services","timestamp":"2025-10-22T07:52:06.799Z"}
+{"level":"info","message":"Redis Url redis://localhost:6379","service":"identity-services","timestamp":"2025-10-22T07:52:06.799Z"}
+{"level":"info","message":"API gsteway running on port:3000","service":"identity-services","timestamp":"2025-10-22T07:52:13.052Z"}
+{"level":"info","message":"Identity service si running on port http://localhost:3001","service":"identity-services","timestamp":"2025-10-22T07:52:13.055Z"}
+{"level":"info","message":"Post service is running on port http://localhost:3002","service":"identity-services","timestamp":"2025-10-22T07:52:13.055Z"}
+{"level":"info","message":"Post service is running on port http://localhost:/3003","service":"identity-services","timestamp":"2025-10-22T07:52:13.055Z"}
+{"level":"info","message":"Redis Url redis://localhost:6379","service":"identity-services","timestamp":"2025-10-22T07:52:13.055Z"}
+{"level":"info","message":"API gsteway running on port:3000","service":"identity-services","timestamp":"2025-10-22T07:52:15.322Z"}
+{"level":"info","message":"Identity service si running on port http://localhost:3001","service":"identity-services","timestamp":"2025-10-22T07:52:15.325Z"}
+{"level":"info","message":"Post service is running on port http://localhost:3002","service":"identity-services","timestamp":"2025-10-22T07:52:15.326Z"}
+{"level":"info","message":"Post service is running on port http://localhost:/3003","service":"identity-services","timestamp":"2025-10-22T07:52:15.326Z"}
+{"level":"info","message":"Redis Url redis://localhost:6379","service":"identity-services","timestamp":"2025-10-22T07:52:15.326Z"}
+{"level":"info","message":"API gsteway running on port:3000","service":"identity-services","timestamp":"2025-10-22T07:52:17.034Z"}
+{"level":"info","message":"Identity service si running on port http://localhost:3001","service":"identity-services","timestamp":"2025-10-22T07:52:17.036Z"}
+{"level":"info","message":"Post service is running on port http://localhost:3002","service":"identity-services","timestamp":"2025-10-22T07:52:17.036Z"}
+{"level":"info","message":"Post service is running on port http://localhost:/3003","service":"identity-services","timestamp":"2025-10-22T07:52:17.037Z"}
+{"level":"info","message":"Redis Url redis://localhost:6379","service":"identity-services","timestamp":"2025-10-22T07:52:17.037Z"}
+{"level":"info","message":"received POST request to /v1/media/upload","service":"identity-services","timestamp":"2025-10-22T07:52:20.263Z"}
+{"level":"info","message":"Request body, undefined","service":"identity-services","timestamp":"2025-10-22T07:52:20.263Z"}
+{"level":"error","message":"Proxy error:","service":"identity-services","timestamp":"2025-10-22T07:52:20.272Z"}
+{"level":"info","message":"received POST request to /v1/media/upload","service":"identity-services","timestamp":"2025-10-22T07:53:33.984Z"}
+{"level":"info","message":"Request body, undefined","service":"identity-services","timestamp":"2025-10-22T07:53:33.984Z"}
+{"level":"error","message":"Proxy error:","service":"identity-services","timestamp":"2025-10-22T07:53:33.987Z"}
+{"level":"info","message":"received POST request to /v1/auth/login","service":"identity-services","timestamp":"2025-10-22T07:53:37.273Z"}
+{"level":"info","message":"Request body, [object Object]","service":"identity-services","timestamp":"2025-10-22T07:53:37.274Z"}
+{"level":"info","message":"Response received from identity service:200","service":"identity-services","timestamp":"2025-10-22T07:53:37.411Z"}
+{"level":"info","message":"received POST request to /v1/media/upload","service":"identity-services","timestamp":"2025-10-22T07:53:49.180Z"}
+{"level":"info","message":"Request body, undefined","service":"identity-services","timestamp":"2025-10-22T07:53:49.180Z"}
+{"level":"error","message":"Proxy error:","service":"identity-services","timestamp":"2025-10-22T07:53:49.182Z"}
+{"level":"info","message":"received POST request to /v1/media/upload","service":"identity-services","timestamp":"2025-10-22T07:53:52.153Z"}
+{"level":"info","message":"Request body, undefined","service":"identity-services","timestamp":"2025-10-22T07:53:52.153Z"}
+{"level":"error","message":"Proxy error:","service":"identity-services","timestamp":"2025-10-22T07:53:52.155Z"}
+{"level":"info","message":"API gsteway running on port:3000","service":"identity-services","timestamp":"2025-10-22T07:59:16.404Z"}
+{"level":"info","message":"Identity service si running on port http://localhost:3001","service":"identity-services","timestamp":"2025-10-22T07:59:16.407Z"}
+{"level":"info","message":"Post service is running on port http://localhost:3002","service":"identity-services","timestamp":"2025-10-22T07:59:16.407Z"}
+{"level":"info","message":"Post service is running on port http://localhost:/3003","service":"identity-services","timestamp":"2025-10-22T07:59:16.407Z"}
+{"level":"info","message":"Redis Url redis://localhost:6379","service":"identity-services","timestamp":"2025-10-22T07:59:16.407Z"}
+{"level":"info","message":"API gsteway running on port:3000","service":"identity-services","timestamp":"2025-10-22T07:59:23.838Z"}
+{"level":"info","message":"Identity service si running on port http://localhost:3001","service":"identity-services","timestamp":"2025-10-22T07:59:23.840Z"}
+{"level":"info","message":"Post service is running on port http://localhost:3002","service":"identity-services","timestamp":"2025-10-22T07:59:23.840Z"}
+{"level":"info","message":"Post service is running on port http://localhost:/3003","service":"identity-services","timestamp":"2025-10-22T07:59:23.841Z"}
+{"level":"info","message":"Redis Url redis://localhost:6379","service":"identity-services","timestamp":"2025-10-22T07:59:23.841Z"}
+{"level":"info","message":"received POST request to /v1/media/upload","service":"identity-services","timestamp":"2025-10-22T07:59:29.600Z"}
+{"level":"info","message":"Request body, undefined","service":"identity-services","timestamp":"2025-10-22T07:59:29.601Z"}
+{"level":"error","message":"Proxy error:","service":"identity-services","timestamp":"2025-10-22T07:59:29.609Z"}
+{"level":"info","message":"received POST request to /v1/media/upload","service":"identity-services","timestamp":"2025-10-22T07:59:48.560Z"}
+{"level":"info","message":"Request body, undefined","service":"identity-services","timestamp":"2025-10-22T07:59:48.560Z"}
+{"level":"error","message":"Proxy error:","service":"identity-services","timestamp":"2025-10-22T07:59:48.564Z"}
+{"level":"info","message":"received POST request to /v1/auth/login","service":"identity-services","timestamp":"2025-10-22T07:59:59.107Z"}
+{"level":"info","message":"Request body, [object Object]","service":"identity-services","timestamp":"2025-10-22T07:59:59.108Z"}
+{"level":"info","message":"Response received from identity service:200","service":"identity-services","timestamp":"2025-10-22T07:59:59.264Z"}
+{"level":"info","message":"received POST request to /v1/media/upload","service":"identity-services","timestamp":"2025-10-22T08:00:12.051Z"}
+{"level":"info","message":"Request body, undefined","service":"identity-services","timestamp":"2025-10-22T08:00:12.052Z"}
+{"level":"error","message":"Proxy error:","service":"identity-services","timestamp":"2025-10-22T08:00:12.055Z"}
+{"level":"info","message":"API gsteway running on port:3000","service":"identity-services","timestamp":"2025-10-22T08:00:50.880Z"}
+{"level":"info","message":"Identity service si running on port http://localhost:3001","service":"identity-services","timestamp":"2025-10-22T08:00:50.883Z"}
+{"level":"info","message":"Post service is running on port http://localhost:3002","service":"identity-services","timestamp":"2025-10-22T08:00:50.883Z"}
+{"level":"info","message":"Post service is running on port http://localhost:/3003","service":"identity-services","timestamp":"2025-10-22T08:00:50.883Z"}
+{"level":"info","message":"Redis Url redis://localhost:6379","service":"identity-services","timestamp":"2025-10-22T08:00:50.884Z"}
+{"level":"info","message":"API gsteway running on port:3000","service":"identity-services","timestamp":"2025-10-22T08:00:53.486Z"}
+{"level":"info","message":"Identity service si running on port http://localhost:3001","service":"identity-services","timestamp":"2025-10-22T08:00:53.489Z"}
+{"level":"info","message":"Post service is running on port http://localhost:3002","service":"identity-services","timestamp":"2025-10-22T08:00:53.489Z"}
+{"level":"info","message":"Post service is running on port http://localhost:/3003","service":"identity-services","timestamp":"2025-10-22T08:00:53.489Z"}
+{"level":"info","message":"Redis Url redis://localhost:6379","service":"identity-services","timestamp":"2025-10-22T08:00:53.489Z"}
+{"level":"info","message":"API gsteway running on port:3000","service":"identity-services","timestamp":"2025-10-22T08:00:55.209Z"}
+{"level":"info","message":"Identity service si running on port http://localhost:3001","service":"identity-services","timestamp":"2025-10-22T08:00:55.211Z"}
+{"level":"info","message":"Post service is running on port http://localhost:3002","service":"identity-services","timestamp":"2025-10-22T08:00:55.212Z"}
+{"level":"info","message":"Post service is running on port http://localhost:/3003","service":"identity-services","timestamp":"2025-10-22T08:00:55.212Z"}
+{"level":"info","message":"Redis Url redis://localhost:6379","service":"identity-services","timestamp":"2025-10-22T08:00:55.212Z"}
+{"level":"info","message":"API gsteway running on port:3000","service":"identity-services","timestamp":"2025-10-22T08:01:04.723Z"}
+{"level":"info","message":"Identity service si running on port http://localhost:3001","service":"identity-services","timestamp":"2025-10-22T08:01:04.726Z"}
+{"level":"info","message":"Post service is running on port http://localhost:3002","service":"identity-services","timestamp":"2025-10-22T08:01:04.726Z"}
+{"level":"info","message":"Post service is running on port http://localhost:/3003","service":"identity-services","timestamp":"2025-10-22T08:01:04.726Z"}
+{"level":"info","message":"Redis Url redis://localhost:6379","service":"identity-services","timestamp":"2025-10-22T08:01:04.726Z"}
+{"level":"info","message":"API gsteway running on port:3000","service":"identity-services","timestamp":"2025-10-22T08:01:11.181Z"}
+{"level":"info","message":"Identity service si running on port http://localhost:3001","service":"identity-services","timestamp":"2025-10-22T08:01:11.184Z"}
+{"level":"info","message":"Post service is running on port http://localhost:3002","service":"identity-services","timestamp":"2025-10-22T08:01:11.185Z"}
+{"level":"info","message":"Post service is running on port http://localhost:/3003","service":"identity-services","timestamp":"2025-10-22T08:01:11.185Z"}
+{"level":"info","message":"Redis Url redis://localhost:6379","service":"identity-services","timestamp":"2025-10-22T08:01:11.185Z"}
+{"level":"info","message":"API gsteway running on port:3000","service":"identity-services","timestamp":"2025-10-22T08:01:12.441Z"}
+{"level":"info","message":"Identity service si running on port http://localhost:3001","service":"identity-services","timestamp":"2025-10-22T08:01:12.444Z"}
+{"level":"info","message":"Post service is running on port http://localhost:3002","service":"identity-services","timestamp":"2025-10-22T08:01:12.444Z"}
+{"level":"info","message":"Post service is running on port http://localhost:/3003","service":"identity-services","timestamp":"2025-10-22T08:01:12.445Z"}
+{"level":"info","message":"Redis Url redis://localhost:6379","service":"identity-services","timestamp":"2025-10-22T08:01:12.445Z"}
+{"level":"info","message":"received POST request to /v1/media/upload","service":"identity-services","timestamp":"2025-10-22T08:01:46.693Z"}
+{"level":"info","message":"Request body, undefined","service":"identity-services","timestamp":"2025-10-22T08:01:46.695Z"}
+{"level":"error","message":"Proxy error:","service":"identity-services","timestamp":"2025-10-22T08:01:46.709Z"}
+{"level":"info","message":"received POST request to /v1/media/upload","service":"identity-services","timestamp":"2025-10-22T08:02:06.710Z"}
+{"level":"info","message":"Request body, undefined","service":"identity-services","timestamp":"2025-10-22T08:02:06.711Z"}
+{"level":"error","message":"Proxy error:","service":"identity-services","timestamp":"2025-10-22T08:02:06.713Z"}
+{"level":"info","message":"received POST request to /v1/media/upload","service":"identity-services","timestamp":"2025-10-22T08:10:04.120Z"}
+{"level":"info","message":"Request body, undefined","service":"identity-services","timestamp":"2025-10-22T08:10:04.121Z"}
+{"level":"warn","message":"Invalid token!","service":"identity-services","timestamp":"2025-10-22T08:10:04.122Z"}
+{"level":"info","message":"received POST request to /v1/auth/login","service":"identity-services","timestamp":"2025-10-22T08:10:08.376Z"}
+{"level":"info","message":"Request body, undefined","service":"identity-services","timestamp":"2025-10-22T08:10:08.377Z"}
+{"level":"info","message":"Response received from identity service:200","service":"identity-services","timestamp":"2025-10-22T08:10:08.554Z"}
+{"level":"info","message":"received POST request to /v1/media/upload","service":"identity-services","timestamp":"2025-10-22T08:10:23.225Z"}
+{"level":"info","message":"Request body, undefined","service":"identity-services","timestamp":"2025-10-22T08:10:23.225Z"}
+{"level":"error","message":"Proxy error:","service":"identity-services","timestamp":"2025-10-22T08:10:23.227Z"}
+{"level":"info","message":"received POST request to /v1/media/upload","service":"identity-services","timestamp":"2025-10-22T08:25:10.717Z"}
+{"level":"info","message":"Request body, undefined","service":"identity-services","timestamp":"2025-10-22T08:25:10.717Z"}
+{"level":"warn","message":"Invalid token!","service":"identity-services","timestamp":"2025-10-22T08:25:10.717Z"}
+{"level":"info","message":"received POST request to /v1/auth/login","service":"identity-services","timestamp":"2025-10-22T08:30:27.607Z"}
+{"level":"info","message":"Request body, undefined","service":"identity-services","timestamp":"2025-10-22T08:30:27.607Z"}
+{"level":"info","message":"Response received from identity service:200","service":"identity-services","timestamp":"2025-10-22T08:30:27.798Z"}
+{"level":"info","message":"received POST request to /v1/media/upload","service":"identity-services","timestamp":"2025-10-22T08:30:55.207Z"}
+{"level":"info","message":"Request body, undefined","service":"identity-services","timestamp":"2025-10-22T08:30:55.207Z"}
+{"level":"error","message":"Proxy error:","service":"identity-services","timestamp":"2025-10-22T08:30:55.211Z"}
+{"level":"info","message":"received POST request to /v1/media/upload","service":"identity-services","timestamp":"2025-10-22T08:31:05.313Z"}
+{"level":"info","message":"Request body, undefined","service":"identity-services","timestamp":"2025-10-22T08:31:05.314Z"}
+{"level":"error","message":"Proxy error:","service":"identity-services","timestamp":"2025-10-22T08:31:05.317Z"}
+{"level":"info","message":"API gsteway running on port:3000","service":"identity-services","timestamp":"2025-10-22T08:32:44.978Z"}
+{"level":"info","message":"Identity service si running on port http://localhost:3001","service":"identity-services","timestamp":"2025-10-22T08:32:44.989Z"}
+{"level":"info","message":"Post service is running on port http://localhost:3002","service":"identity-services","timestamp":"2025-10-22T08:32:44.989Z"}
+{"level":"info","message":"Post service is running on port http://localhost:/3003","service":"identity-services","timestamp":"2025-10-22T08:32:44.989Z"}
+{"level":"info","message":"Redis Url redis://localhost:6379","service":"identity-services","timestamp":"2025-10-22T08:32:44.989Z"}
+{"level":"info","message":"API gsteway running on port:3000","service":"identity-services","timestamp":"2025-10-22T08:32:48.326Z"}
+{"level":"info","message":"Identity service si running on port http://localhost:3001","service":"identity-services","timestamp":"2025-10-22T08:32:48.329Z"}
+{"level":"info","message":"Post service is running on port http://localhost:3002","service":"identity-services","timestamp":"2025-10-22T08:32:48.329Z"}
+{"level":"info","message":"Post service is running on port http://localhost:/3003","service":"identity-services","timestamp":"2025-10-22T08:32:48.329Z"}
+{"level":"info","message":"Redis Url redis://localhost:6379","service":"identity-services","timestamp":"2025-10-22T08:32:48.330Z"}
+{"level":"info","message":"API gsteway running on port:3000","service":"identity-services","timestamp":"2025-10-22T08:32:51.110Z"}
+{"level":"info","message":"Identity service si running on port http://localhost:3001","service":"identity-services","timestamp":"2025-10-22T08:32:51.113Z"}
+{"level":"info","message":"Post service is running on port http://localhost:3002","service":"identity-services","timestamp":"2025-10-22T08:32:51.113Z"}
+{"level":"info","message":"Post service is running on port http://localhost:/3003","service":"identity-services","timestamp":"2025-10-22T08:32:51.113Z"}
+{"level":"info","message":"Redis Url redis://localhost:6379","service":"identity-services","timestamp":"2025-10-22T08:32:51.114Z"}
+{"level":"info","message":"API gsteway running on port:3000","service":"identity-services","timestamp":"2025-10-22T08:32:53.826Z"}
+{"level":"info","message":"Identity service si running on port http://localhost:3001","service":"identity-services","timestamp":"2025-10-22T08:32:53.830Z"}
+{"level":"info","message":"Post service is running on port http://localhost:3002","service":"identity-services","timestamp":"2025-10-22T08:32:53.830Z"}
+{"level":"info","message":"Post service is running on port http://localhost:/3003","service":"identity-services","timestamp":"2025-10-22T08:32:53.830Z"}
+{"level":"info","message":"Redis Url redis://localhost:6379","service":"identity-services","timestamp":"2025-10-22T08:32:53.830Z"}
+{"level":"info","message":"API gsteway running on port:3000","service":"identity-services","timestamp":"2025-10-22T08:32:56.121Z"}
+{"level":"info","message":"Identity service si running on port http://localhost:3001","service":"identity-services","timestamp":"2025-10-22T08:32:56.125Z"}
+{"level":"info","message":"Post service is running on port http://localhost:3002","service":"identity-services","timestamp":"2025-10-22T08:32:56.125Z"}
+{"level":"info","message":"Post service is running on port http://localhost:/3003","service":"identity-services","timestamp":"2025-10-22T08:32:56.125Z"}
+{"level":"info","message":"Redis Url redis://localhost:6379","service":"identity-services","timestamp":"2025-10-22T08:32:56.126Z"}
+{"level":"info","message":"API gsteway running on port:3000","service":"identity-services","timestamp":"2025-10-22T08:33:00.198Z"}
+{"level":"info","message":"Identity service si running on port http://localhost:3001","service":"identity-services","timestamp":"2025-10-22T08:33:00.201Z"}
+{"level":"info","message":"Post service is running on port http://localhost:3002","service":"identity-services","timestamp":"2025-10-22T08:33:00.201Z"}
+{"level":"info","message":"Post service is running on port http://localhost:/3003","service":"identity-services","timestamp":"2025-10-22T08:33:00.201Z"}
+{"level":"info","message":"Redis Url redis://localhost:6379","service":"identity-services","timestamp":"2025-10-22T08:33:00.202Z"}
+{"level":"info","message":"received POST request to /v1/media/upload","service":"identity-services","timestamp":"2025-10-22T08:33:06.370Z"}
+{"level":"info","message":"Request body, undefined","service":"identity-services","timestamp":"2025-10-22T08:33:06.371Z"}
+{"level":"error","message":"Proxy error:","service":"identity-services","timestamp":"2025-10-22T08:33:06.389Z"}
+{"level":"info","message":"API gsteway running on port:3000","service":"identity-services","timestamp":"2025-10-22T08:33:29.750Z"}
+{"level":"info","message":"Identity service si running on port http://localhost:3001","service":"identity-services","timestamp":"2025-10-22T08:33:29.753Z"}
+{"level":"info","message":"Post service is running on port http://localhost:3002","service":"identity-services","timestamp":"2025-10-22T08:33:29.754Z"}
+{"level":"info","message":"Post service is running on port http://localhost:/3003","service":"identity-services","timestamp":"2025-10-22T08:33:29.754Z"}
+{"level":"info","message":"Redis Url redis://localhost:6379","service":"identity-services","timestamp":"2025-10-22T08:33:29.754Z"}
+{"level":"info","message":"received POST request to /v1/media/upload","service":"identity-services","timestamp":"2025-10-22T08:33:33.967Z"}
+{"level":"info","message":"Request body, undefined","service":"identity-services","timestamp":"2025-10-22T08:33:33.967Z"}
+{"level":"error","message":"Proxy error:","service":"identity-services","timestamp":"2025-10-22T08:33:33.977Z"}
+{"level":"info","message":"API gsteway running on port:3000","service":"identity-services","timestamp":"2025-10-22T08:43:55.368Z"}
+{"level":"info","message":"Identity service si running on port http://localhost:3001","service":"identity-services","timestamp":"2025-10-22T08:43:55.371Z"}
+{"level":"info","message":"Post service is running on port http://localhost:3002","service":"identity-services","timestamp":"2025-10-22T08:43:55.372Z"}
+{"level":"info","message":"Post service is running on port http://localhost:/3003","service":"identity-services","timestamp":"2025-10-22T08:43:55.373Z"}
+{"level":"info","message":"Redis Url redis://localhost:6379","service":"identity-services","timestamp":"2025-10-22T08:43:55.373Z"}
+{"level":"info","message":"received POST request to /v1/auth/login","service":"identity-services","timestamp":"2025-10-22T08:49:30.736Z"}
+{"level":"info","message":"Request body, undefined","service":"identity-services","timestamp":"2025-10-22T08:49:30.738Z"}
+{"level":"info","message":"Response received from identity service:200","service":"identity-services","timestamp":"2025-10-22T08:49:30.972Z"}
+{"level":"info","message":"received POST request to /v1/media/upload","service":"identity-services","timestamp":"2025-10-22T08:49:44.088Z"}
+{"level":"info","message":"Request body, undefined","service":"identity-services","timestamp":"2025-10-22T08:49:44.088Z"}
+{"level":"error","message":"Proxy error:","service":"identity-services","timestamp":"2025-10-22T08:49:44.092Z"}
+{"level":"info","message":"API gsteway running on port:3000","service":"identity-services","timestamp":"2025-10-22T08:50:18.635Z"}
+{"level":"info","message":"API gsteway running on port:3000","service":"identity-services","timestamp":"2025-10-22T08:50:18.634Z"}
+{"level":"info","message":"Identity service si running on port http://localhost:3001","service":"identity-services","timestamp":"2025-10-22T08:50:18.637Z"}
+{"level":"info","message":"Post service is running on port http://localhost:3002","service":"identity-services","timestamp":"2025-10-22T08:50:18.639Z"}
+{"level":"info","message":"media service is running on port http://localhost:/3003","service":"identity-services","timestamp":"2025-10-22T08:50:18.640Z"}
+{"level":"info","message":"Redis Url redis://localhost:6379","service":"identity-services","timestamp":"2025-10-22T08:50:18.640Z"}
+{"level":"info","message":"Identity service si running on port http://localhost:3001","service":"identity-services","timestamp":"2025-10-22T08:50:18.637Z"}
+{"level":"info","message":"Post service is running on port http://localhost:3002","service":"identity-services","timestamp":"2025-10-22T08:50:18.637Z"}
+{"level":"info","message":"media service is running on port http://localhost:/3003","service":"identity-services","timestamp":"2025-10-22T08:50:18.637Z"}
+{"level":"info","message":"Redis Url redis://localhost:6379","service":"identity-services","timestamp":"2025-10-22T08:50:18.638Z"}
+{"level":"info","message":"API gsteway running on port:3000","service":"identity-services","timestamp":"2025-10-22T08:50:55.684Z"}
+{"level":"info","message":"Identity service si running on port http://localhost:3001","service":"identity-services","timestamp":"2025-10-22T08:50:55.688Z"}
+{"level":"info","message":"Post service is running on port http://localhost:3002","service":"identity-services","timestamp":"2025-10-22T08:50:55.688Z"}
+{"level":"info","message":"media service is running on port http://localhost:/3003","service":"identity-services","timestamp":"2025-10-22T08:50:55.689Z"}
+{"level":"info","message":"Redis Url redis://localhost:6379","service":"identity-services","timestamp":"2025-10-22T08:50:55.689Z"}
+{"level":"info","message":"API gsteway running on port:3000","service":"identity-services","timestamp":"2025-10-22T08:58:24.652Z"}
+{"level":"info","message":"Identity service si running on port http://localhost:3001","service":"identity-services","timestamp":"2025-10-22T08:58:24.655Z"}
+{"level":"info","message":"Post service is running on port http://localhost:3002","service":"identity-services","timestamp":"2025-10-22T08:58:24.655Z"}
+{"level":"info","message":"media service is running on port http://localhost:/3003","service":"identity-services","timestamp":"2025-10-22T08:58:24.656Z"}
+{"level":"info","message":"Redis Url redis://localhost:6379","service":"identity-services","timestamp":"2025-10-22T08:58:24.656Z"}
+{"level":"info","message":"received POST request to /","service":"identity-services","timestamp":"2025-10-22T08:59:01.309Z"}
+{"level":"info","message":"Request body, undefined","service":"identity-services","timestamp":"2025-10-22T08:59:01.310Z"}
+{"level":"info","message":"received POST request to /v1/media/upload","service":"identity-services","timestamp":"2025-10-22T09:00:43.101Z"}
+{"level":"info","message":"Request body, undefined","service":"identity-services","timestamp":"2025-10-22T09:00:43.102Z"}
+{"level":"warn","message":"Invalid token!","service":"identity-services","timestamp":"2025-10-22T09:00:43.106Z"}
+{"level":"info","message":"received POST request to /v1/auth/login","service":"identity-services","timestamp":"2025-10-22T09:01:08.724Z"}
+{"level":"info","message":"Request body, undefined","service":"identity-services","timestamp":"2025-10-22T09:01:08.724Z"}
+{"level":"error","message":"Proxy error:","service":"identity-services","timestamp":"2025-10-22T09:01:08.754Z"}
+{"level":"info","message":"received POST request to /v1/auth/login","service":"identity-services","timestamp":"2025-10-22T09:01:36.086Z"}
+{"level":"info","message":"Request body, undefined","service":"identity-services","timestamp":"2025-10-22T09:01:36.086Z"}
+{"level":"info","message":"Response received from identity service:200","service":"identity-services","timestamp":"2025-10-22T09:01:36.300Z"}
+{"level":"info","message":"received POST request to /v1/media/upload","service":"identity-services","timestamp":"2025-10-22T09:02:36.227Z"}
+{"level":"info","message":"Request body, undefined","service":"identity-services","timestamp":"2025-10-22T09:02:36.227Z"}
+{"level":"error","message":"Proxy error:","service":"identity-services","timestamp":"2025-10-22T09:02:36.230Z"}
+{"level":"info","message":"received POST request to /v1/media/upload","service":"identity-services","timestamp":"2025-10-22T09:03:31.988Z"}
+{"level":"info","message":"Request body, undefined","service":"identity-services","timestamp":"2025-10-22T09:03:31.988Z"}
+{"level":"error","message":"Proxy error:","service":"identity-services","timestamp":"2025-10-22T09:03:31.991Z"}
+{"level":"info","message":"received POST request to /v1/media/upload","service":"identity-services","timestamp":"2025-10-22T09:04:13.471Z"}
+{"level":"info","message":"Request body, undefined","service":"identity-services","timestamp":"2025-10-22T09:04:13.471Z"}
+{"level":"error","message":"Proxy error:","service":"identity-services","timestamp":"2025-10-22T09:04:13.474Z"}
+{"level":"info","message":"received POST request to /v1/media/upload","service":"identity-services","timestamp":"2025-10-22T09:04:16.676Z"}
+{"level":"info","message":"Request body, undefined","service":"identity-services","timestamp":"2025-10-22T09:04:16.676Z"}
+{"level":"error","message":"Proxy error:","service":"identity-services","timestamp":"2025-10-22T09:04:16.678Z"}
+{"level":"info","message":"received POST request to /v1/media/upload","service":"identity-services","timestamp":"2025-10-22T09:04:18.075Z"}
+{"level":"info","message":"Request body, undefined","service":"identity-services","timestamp":"2025-10-22T09:04:18.075Z"}
+{"level":"error","message":"Proxy error:","service":"identity-services","timestamp":"2025-10-22T09:04:18.078Z"}
+{"level":"info","message":"received POST request to /v1/media/upload","service":"identity-services","timestamp":"2025-10-22T09:04:19.423Z"}
+{"level":"info","message":"Request body, undefined","service":"identity-services","timestamp":"2025-10-22T09:04:19.424Z"}
+{"level":"error","message":"Proxy error:","service":"identity-services","timestamp":"2025-10-22T09:04:19.427Z"}
+{"level":"info","message":"received POST request to /v1/media/upload","service":"identity-services","timestamp":"2025-10-22T09:04:20.830Z"}
+{"level":"info","message":"Request body, undefined","service":"identity-services","timestamp":"2025-10-22T09:04:20.831Z"}
+{"level":"error","message":"Proxy error:","service":"identity-services","timestamp":"2025-10-22T09:04:20.833Z"}
+{"level":"info","message":"API gsteway running on port:3000","service":"identity-services","timestamp":"2025-10-22T09:05:40.128Z"}
+{"level":"info","message":"Identity service si running on port http://localhost:3001","service":"identity-services","timestamp":"2025-10-22T09:05:40.131Z"}
+{"level":"info","message":"Post service is running on port http://localhost:3002","service":"identity-services","timestamp":"2025-10-22T09:05:40.133Z"}
+{"level":"info","message":"media service is running on port http://localhost:/3003","service":"identity-services","timestamp":"2025-10-22T09:05:40.134Z"}
+{"level":"info","message":"Redis Url redis://localhost:6379","service":"identity-services","timestamp":"2025-10-22T09:05:40.134Z"}
+{"level":"info","message":"API gsteway running on port:3000","service":"identity-services","timestamp":"2025-10-22T09:05:44.337Z"}
+{"level":"info","message":"Identity service si running on port http://localhost:3001","service":"identity-services","timestamp":"2025-10-22T09:05:44.341Z"}
+{"level":"info","message":"Post service is running on port http://localhost:3002","service":"identity-services","timestamp":"2025-10-22T09:05:44.341Z"}
+{"level":"info","message":"media service is running on port http://localhost:/3003","service":"identity-services","timestamp":"2025-10-22T09:05:44.342Z"}
+{"level":"info","message":"Redis Url redis://localhost:6379","service":"identity-services","timestamp":"2025-10-22T09:05:44.342Z"}
+{"level":"info","message":"API gsteway running on port:3000","service":"identity-services","timestamp":"2025-10-22T09:05:46.572Z"}
+{"level":"info","message":"Identity service si running on port http://localhost:3001","service":"identity-services","timestamp":"2025-10-22T09:05:46.574Z"}
+{"level":"info","message":"Post service is running on port http://localhost:3002","service":"identity-services","timestamp":"2025-10-22T09:05:46.575Z"}
+{"level":"info","message":"media service is running on port http://localhost:/3003","service":"identity-services","timestamp":"2025-10-22T09:05:46.575Z"}
+{"level":"info","message":"Redis Url redis://localhost:6379","service":"identity-services","timestamp":"2025-10-22T09:05:46.576Z"}
+{"level":"info","message":"API gsteway running on port:3000","service":"identity-services","timestamp":"2025-10-22T09:05:48.960Z"}
+{"level":"info","message":"Identity service si running on port http://localhost:3001","service":"identity-services","timestamp":"2025-10-22T09:05:48.963Z"}
+{"level":"info","message":"Post service is running on port http://localhost:3002","service":"identity-services","timestamp":"2025-10-22T09:05:48.963Z"}
+{"level":"info","message":"media service is running on port http://localhost:/3003","service":"identity-services","timestamp":"2025-10-22T09:05:48.964Z"}
+{"level":"info","message":"Redis Url redis://localhost:6379","service":"identity-services","timestamp":"2025-10-22T09:05:48.964Z"}
+{"level":"info","message":"received POST request to /v1/media/upload","service":"identity-services","timestamp":"2025-10-22T09:06:02.146Z"}
+{"level":"info","message":"Request body, undefined","service":"identity-services","timestamp":"2025-10-22T09:06:02.146Z"}
+{"level":"error","message":"Proxy error:","service":"identity-services","timestamp":"2025-10-22T09:06:02.155Z"}
+{"level":"info","message":"received POST request to /v1/media/upload","service":"identity-services","timestamp":"2025-10-22T09:06:10.823Z"}
+{"level":"info","message":"Request body, undefined","service":"identity-services","timestamp":"2025-10-22T09:06:10.823Z"}
+{"level":"error","message":"Proxy error:","service":"identity-services","timestamp":"2025-10-22T09:06:10.826Z"}
+{"level":"info","message":"received POST request to /v1/media/upload","service":"identity-services","timestamp":"2025-10-22T09:06:26.293Z"}
+{"level":"info","message":"Request body, undefined","service":"identity-services","timestamp":"2025-10-22T09:06:26.293Z"}
+{"level":"error","message":"Proxy error:","service":"identity-services","timestamp":"2025-10-22T09:06:26.295Z"}
+{"level":"info","message":"API gsteway running on port:3000","service":"identity-services","timestamp":"2025-10-22T09:07:12.133Z"}
+{"level":"info","message":"Identity service si running on port http://localhost:3001","service":"identity-services","timestamp":"2025-10-22T09:07:12.136Z"}
+{"level":"info","message":"Post service is running on port http://localhost:3002","service":"identity-services","timestamp":"2025-10-22T09:07:12.137Z"}
+{"level":"info","message":"media service is running on port http://localhost:/3003","service":"identity-services","timestamp":"2025-10-22T09:07:12.137Z"}
+{"level":"info","message":"Redis Url redis://localhost:6379","service":"identity-services","timestamp":"2025-10-22T09:07:12.137Z"}
+{"level":"info","message":"API gsteway running on port:3000","service":"identity-services","timestamp":"2025-10-22T09:07:26.167Z"}
+{"level":"info","message":"Identity service si running on port http://localhost:3001","service":"identity-services","timestamp":"2025-10-22T09:07:26.171Z"}
+{"level":"info","message":"Post service is running on port http://localhost:3002","service":"identity-services","timestamp":"2025-10-22T09:07:26.171Z"}
+{"level":"info","message":"media service is running on port http://localhost:/3003","service":"identity-services","timestamp":"2025-10-22T09:07:26.172Z"}
+{"level":"info","message":"Redis Url redis://localhost:6379","service":"identity-services","timestamp":"2025-10-22T09:07:26.172Z"}
+{"level":"info","message":"API gsteway running on port:3000","service":"identity-services","timestamp":"2025-10-22T09:07:28.980Z"}
+{"level":"info","message":"Identity service si running on port http://localhost:3001","service":"identity-services","timestamp":"2025-10-22T09:07:28.982Z"}
+{"level":"info","message":"Post service is running on port http://localhost:3002","service":"identity-services","timestamp":"2025-10-22T09:07:28.984Z"}
+{"level":"info","message":"media service is running on port http://localhost:/3003","service":"identity-services","timestamp":"2025-10-22T09:07:28.984Z"}
+{"level":"info","message":"Redis Url redis://localhost:6379","service":"identity-services","timestamp":"2025-10-22T09:07:28.984Z"}
+{"level":"info","message":"API gsteway running on port:3000","service":"identity-services","timestamp":"2025-10-22T09:07:30.981Z"}
+{"level":"info","message":"Identity service si running on port http://localhost:3001","service":"identity-services","timestamp":"2025-10-22T09:07:30.983Z"}
+{"level":"info","message":"Post service is running on port http://localhost:3002","service":"identity-services","timestamp":"2025-10-22T09:07:30.983Z"}
+{"level":"info","message":"media service is running on port http://localhost:/3003","service":"identity-services","timestamp":"2025-10-22T09:07:30.984Z"}
+{"level":"info","message":"Redis Url redis://localhost:6379","service":"identity-services","timestamp":"2025-10-22T09:07:30.984Z"}
+{"level":"info","message":"received POST request to /v1/media/upload","service":"identity-services","timestamp":"2025-10-22T09:07:34.783Z"}
+{"level":"info","message":"Request body, undefined","service":"identity-services","timestamp":"2025-10-22T09:07:34.783Z"}
+{"level":"error","message":"Proxy error:","service":"identity-services","timestamp":"2025-10-22T09:07:34.791Z"}
+{"level":"info","message":"received POST request to /v1/media/upload","service":"identity-services","timestamp":"2025-10-22T09:09:20.850Z"}
+{"level":"info","message":"Request body, undefined","service":"identity-services","timestamp":"2025-10-22T09:09:20.850Z"}
+{"level":"error","message":"Proxy error:","service":"identity-services","timestamp":"2025-10-22T09:09:20.853Z"}
+{"level":"info","message":"received POST request to /v1/media/upload","service":"identity-services","timestamp":"2025-10-22T09:10:13.094Z"}
+{"level":"info","message":"Request body, undefined","service":"identity-services","timestamp":"2025-10-22T09:10:13.095Z"}
+{"level":"error","message":"Proxy error:","service":"identity-services","timestamp":"2025-10-22T09:10:13.097Z"}
+{"level":"info","message":"received POST request to /v1/media/upload","service":"identity-services","timestamp":"2025-10-22T09:10:33.245Z"}
+{"level":"info","message":"Request body, undefined","service":"identity-services","timestamp":"2025-10-22T09:10:33.245Z"}
+{"level":"error","message":"Proxy error:","service":"identity-services","timestamp":"2025-10-22T09:10:33.247Z"}
+{"level":"info","message":"API gsteway running on port:3000","service":"identity-services","timestamp":"2025-10-22T09:11:00.477Z"}
+{"level":"info","message":"Identity service si running on port http://localhost:3001","service":"identity-services","timestamp":"2025-10-22T09:11:00.480Z"}
+{"level":"info","message":"Post service is running on port http://localhost:3002","service":"identity-services","timestamp":"2025-10-22T09:11:00.480Z"}
+{"level":"info","message":"media service is running on port http://localhost:3003","service":"identity-services","timestamp":"2025-10-22T09:11:00.480Z"}
+{"level":"info","message":"Redis Url redis://localhost:6379","service":"identity-services","timestamp":"2025-10-22T09:11:00.481Z"}
+{"level":"info","message":"received POST request to /v1/auth/login","service":"identity-services","timestamp":"2025-10-22T09:11:40.457Z"}
+{"level":"info","message":"Request body, undefined","service":"identity-services","timestamp":"2025-10-22T09:11:40.458Z"}
+{"level":"info","message":"Response received from identity service:200","service":"identity-services","timestamp":"2025-10-22T09:11:40.687Z"}
+{"level":"info","message":"received POST request to /v1/media/upload","service":"identity-services","timestamp":"2025-10-22T09:12:00.197Z"}
+{"level":"info","message":"Request body, undefined","service":"identity-services","timestamp":"2025-10-22T09:12:00.197Z"}
+{"level":"info","message":"Response received from media service: 500","service":"identity-services","timestamp":"2025-10-22T09:12:00.231Z"}
+{"level":"info","message":"received POST request to /v1/media/upload","service":"identity-services","timestamp":"2025-10-22T09:13:57.520Z"}
+{"level":"info","message":"Request body, undefined","service":"identity-services","timestamp":"2025-10-22T09:13:57.520Z"}
+{"level":"info","message":"Response received from media service: 500","service":"identity-services","timestamp":"2025-10-22T09:13:57.554Z"}
+{"level":"info","message":"received POST request to /v1/media/upload","service":"identity-services","timestamp":"2025-10-22T09:15:16.609Z"}
+{"level":"info","message":"Request body, undefined","service":"identity-services","timestamp":"2025-10-22T09:15:16.610Z"}
+{"level":"info","message":"Response received from media service: 500","service":"identity-services","timestamp":"2025-10-22T09:15:16.629Z"}
+{"level":"info","message":"received POST request to /v1/media/upload","service":"identity-services","timestamp":"2025-10-22T09:15:37.638Z"}
+{"level":"info","message":"Request body, undefined","service":"identity-services","timestamp":"2025-10-22T09:15:37.638Z"}
+{"level":"info","message":"Response received from media service: 500","service":"identity-services","timestamp":"2025-10-22T09:15:37.661Z"}
+{"level":"info","message":"received POST request to /v1/media/upload","service":"identity-services","timestamp":"2025-10-22T09:17:07.127Z"}
+{"level":"info","message":"Request body, undefined","service":"identity-services","timestamp":"2025-10-22T09:17:07.127Z"}
+{"level":"error","message":"Proxy error:socket hang up","service":"identity-services","timestamp":"2025-10-22T09:17:27.574Z"}
+{"level":"info","message":"received POST request to /v1/media/upload","service":"identity-services","timestamp":"2025-10-22T09:17:45.098Z"}
+{"level":"info","message":"Request body, undefined","service":"identity-services","timestamp":"2025-10-22T09:17:45.099Z"}
+{"level":"error","message":"Proxy error:read ECONNRESET","service":"identity-services","timestamp":"2025-10-22T09:18:23.978Z"}
+{"level":"info","message":"received POST request to /v1/media/upload","service":"identity-services","timestamp":"2025-10-22T09:18:38.901Z"}
+{"level":"info","message":"Request body, undefined","service":"identity-services","timestamp":"2025-10-22T09:18:38.901Z"}
+{"level":"error","message":"Proxy error:socket hang up","service":"identity-services","timestamp":"2025-10-22T09:18:44.606Z"}
+{"level":"info","message":"received POST request to /v1/auth/login","service":"identity-services","timestamp":"2025-10-22T09:18:58.406Z"}
+{"level":"info","message":"Request body, undefined","service":"identity-services","timestamp":"2025-10-22T09:18:58.406Z"}
+{"level":"info","message":"Response received from identity service:200","service":"identity-services","timestamp":"2025-10-22T09:18:58.555Z"}
+{"level":"info","message":"received POST request to /v1/media/upload","service":"identity-services","timestamp":"2025-10-22T09:19:08.876Z"}
+{"level":"info","message":"Request body, undefined","service":"identity-services","timestamp":"2025-10-22T09:19:08.877Z"}
+{"level":"error","message":"Proxy error:","service":"identity-services","timestamp":"2025-10-22T09:19:08.880Z"}
+{"level":"info","message":"received POST request to /v1/media/upload","service":"identity-services","timestamp":"2025-10-22T09:19:17.371Z"}
+{"level":"info","message":"Request body, undefined","service":"identity-services","timestamp":"2025-10-22T09:19:17.371Z"}
+{"level":"error","message":"Proxy error:read ECONNRESET","service":"identity-services","timestamp":"2025-10-22T09:24:48.589Z"}
+{"level":"info","message":"received POST request to /v1/media/upload","service":"identity-services","timestamp":"2025-10-22T09:24:56.482Z"}
+{"level":"info","message":"Request body, undefined","service":"identity-services","timestamp":"2025-10-22T09:24:56.482Z"}
+{"level":"error","message":"Proxy error:read ECONNRESET","service":"identity-services","timestamp":"2025-10-22T09:27:29.178Z"}
+{"level":"info","message":"received POST request to /v1/media/upload","service":"identity-services","timestamp":"2025-10-22T09:27:39.273Z"}
+{"level":"info","message":"Request body, undefined","service":"identity-services","timestamp":"2025-10-22T09:27:39.273Z"}
+{"level":"info","message":"Response received from media service: 500","service":"identity-services","timestamp":"2025-10-22T09:27:39.301Z"}
+{"level":"info","message":"received POST request to /v1/media/upload","service":"identity-services","timestamp":"2025-10-22T09:34:08.482Z"}
+{"level":"info","message":"Request body, undefined","service":"identity-services","timestamp":"2025-10-22T09:34:08.483Z"}
+{"level":"warn","message":"Invalid token!","service":"identity-services","timestamp":"2025-10-22T09:34:08.485Z"}
+{"level":"info","message":"received POST request to /v1/auth/login","service":"identity-services","timestamp":"2025-10-22T09:34:12.268Z"}
+{"level":"info","message":"Request body, undefined","service":"identity-services","timestamp":"2025-10-22T09:34:12.268Z"}
+{"level":"info","message":"Response received from identity service:200","service":"identity-services","timestamp":"2025-10-22T09:34:12.450Z"}
+{"level":"info","message":"received POST request to /v1/media/upload","service":"identity-services","timestamp":"2025-10-22T09:34:20.032Z"}
+{"level":"info","message":"Request body, undefined","service":"identity-services","timestamp":"2025-10-22T09:34:20.032Z"}
+{"level":"error","message":"Proxy error:read ECONNRESET","service":"identity-services","timestamp":"2025-10-22T09:36:20.989Z"}
+{"level":"info","message":"API gsteway running on port:3000","service":"identity-services","timestamp":"2025-10-22T09:37:07.009Z"}
+{"level":"info","message":"Identity service si running on port http://localhost:3001","service":"identity-services","timestamp":"2025-10-22T09:37:07.013Z"}
+{"level":"info","message":"Post service is running on port http://localhost:3002","service":"identity-services","timestamp":"2025-10-22T09:37:07.013Z"}
+{"level":"info","message":"media service is running on port http://localhost:3003","service":"identity-services","timestamp":"2025-10-22T09:37:07.013Z"}
+{"level":"info","message":"Redis Url redis://localhost:6379","service":"identity-services","timestamp":"2025-10-22T09:37:07.014Z"}
+{"level":"info","message":"received POST request to /v1/media/upload","service":"identity-services","timestamp":"2025-10-22T09:37:22.640Z"}
+{"level":"info","message":"Request body, undefined","service":"identity-services","timestamp":"2025-10-22T09:37:22.641Z"}
+{"level":"error","message":"Proxy error:read ECONNRESET","service":"identity-services","timestamp":"2025-10-22T09:40:09.613Z"}
+{"level":"info","message":"received POST request to /v1/media/upload","service":"identity-services","timestamp":"2025-10-22T09:40:27.753Z"}
+{"level":"info","message":"Request body, undefined","service":"identity-services","timestamp":"2025-10-22T09:40:27.753Z"}
+{"level":"info","message":"Response received from media service: 500","service":"identity-services","timestamp":"2025-10-22T09:40:29.354Z"}
+{"level":"info","message":"received POST request to /v1/media/upload","service":"identity-services","timestamp":"2025-10-22T09:41:26.426Z"}
+{"level":"info","message":"Request body, undefined","service":"identity-services","timestamp":"2025-10-22T09:41:26.426Z"}
+{"level":"info","message":"Response received from media service: 201","service":"identity-services","timestamp":"2025-10-22T09:41:28.106Z"}
+{"level":"info","message":"API gsteway running on port:3000","service":"identity-services","timestamp":"2025-10-22T11:41:34.807Z"}
+{"level":"info","message":"Identity service si running on port http://localhost:3001","service":"identity-services","timestamp":"2025-10-22T11:41:34.811Z"}
+{"level":"info","message":"Post service is running on port http://localhost:3002","service":"identity-services","timestamp":"2025-10-22T11:41:34.811Z"}
+{"level":"info","message":"media service is running on port http://localhost:3003","service":"identity-services","timestamp":"2025-10-22T11:41:34.811Z"}
+{"level":"info","message":"Redis Url redis://localhost:6379","service":"identity-services","timestamp":"2025-10-22T11:41:34.811Z"}
+{"level":"info","message":"received POST request to /v1/auth/login","service":"identity-services","timestamp":"2025-10-22T11:41:55.902Z"}
+{"level":"info","message":"Request body, undefined","service":"identity-services","timestamp":"2025-10-22T11:41:55.902Z"}
+{"level":"info","message":"Response received from identity service:200","service":"identity-services","timestamp":"2025-10-22T11:41:56.108Z"}
+{"level":"info","message":"received POST request to /v1/media/upload","service":"identity-services","timestamp":"2025-10-22T11:42:19.339Z"}
+{"level":"info","message":"Request body, undefined","service":"identity-services","timestamp":"2025-10-22T11:42:19.339Z"}
+{"level":"info","message":"Response received from media service: 201","service":"identity-services","timestamp":"2025-10-22T11:42:21.117Z"}
+{"level":"info","message":"received POST request to /v1/posts/create-post","service":"identity-services","timestamp":"2025-10-22T11:42:49.610Z"}
+{"level":"info","message":"Request body, undefined","service":"identity-services","timestamp":"2025-10-22T11:42:49.610Z"}
+{"level":"warn","message":"Invalid token!","service":"identity-services","timestamp":"2025-10-22T11:42:49.611Z"}
+{"level":"info","message":"received POST request to /v1/posts/create-post","service":"identity-services","timestamp":"2025-10-22T11:43:06.810Z"}
+{"level":"info","message":"Request body, undefined","service":"identity-services","timestamp":"2025-10-22T11:43:06.811Z"}
+{"level":"info","message":"Response received from Post service:400","service":"identity-services","timestamp":"2025-10-22T11:43:06.850Z"}
+{"level":"info","message":"received POST request to /v1/posts/create-post","service":"identity-services","timestamp":"2025-10-22T11:43:18.899Z"}
+{"level":"info","message":"Request body, undefined","service":"identity-services","timestamp":"2025-10-22T11:43:18.899Z"}
+{"level":"info","message":"Response received from Post service:201","service":"identity-services","timestamp":"2025-10-22T11:43:18.951Z"}
+{"level":"info","message":"received GET request to /v1/posts/getAllPost","service":"identity-services","timestamp":"2025-10-22T11:48:59.991Z"}
+{"level":"info","message":"Request body, undefined","service":"identity-services","timestamp":"2025-10-22T11:48:59.992Z"}
+{"level":"info","message":"Response received from Post service:500","service":"identity-services","timestamp":"2025-10-22T11:49:00.004Z"}
+{"level":"info","message":"received GET request to /v1/posts/all-posts","service":"identity-services","timestamp":"2025-10-22T11:50:49.463Z"}
+{"level":"info","message":"Request body, undefined","service":"identity-services","timestamp":"2025-10-22T11:50:49.463Z"}
+{"level":"info","message":"Response received from Post service:200","service":"identity-services","timestamp":"2025-10-22T11:50:49.536Z"}
+{"level":"info","message":"received POST request to /v1/auth/login","service":"identity-services","timestamp":"2025-10-22T14:26:06.255Z"}
+{"level":"info","message":"Request body, undefined","service":"identity-services","timestamp":"2025-10-22T14:26:06.259Z"}
+{"level":"info","message":"Response received from identity service:200","service":"identity-services","timestamp":"2025-10-22T14:26:06.677Z"}
+{"level":"info","message":"received GET request to /v1/media/get","service":"identity-services","timestamp":"2025-10-22T14:26:32.075Z"}
+{"level":"info","message":"Request body, undefined","service":"identity-services","timestamp":"2025-10-22T14:26:32.076Z"}
+{"level":"error","message":"Proxy error:Cannot read properties of undefined (reading 'startsWith')","service":"identity-services","timestamp":"2025-10-22T14:26:32.080Z"}
+{"level":"info","message":"received GET request to /v1/media/get","service":"identity-services","timestamp":"2025-10-22T14:27:58.485Z"}
+{"level":"info","message":"Request body, undefined","service":"identity-services","timestamp":"2025-10-22T14:27:58.485Z"}
+{"level":"info","message":"Response received from media service: 200","service":"identity-services","timestamp":"2025-10-22T14:27:58.549Z"}
+{"level":"info","message":"API gsteway running on port:3000","service":"identity-services","timestamp":"2025-10-22T17:23:59.374Z"}
+{"level":"info","message":"Identity service si running on port http://localhost:3001","service":"identity-services","timestamp":"2025-10-22T17:23:59.376Z"}
+{"level":"info","message":"Post service is running on port http://localhost:3002","service":"identity-services","timestamp":"2025-10-22T17:23:59.377Z"}
+{"level":"info","message":"media service is running on port http://localhost:3003","service":"identity-services","timestamp":"2025-10-22T17:23:59.377Z"}
+{"level":"info","message":"Redis Url redis://localhost:6379","service":"identity-services","timestamp":"2025-10-22T17:23:59.377Z"}
+{"level":"info","message":"received POST request to /v1/auth/login","service":"identity-services","timestamp":"2025-10-22T17:47:36.135Z"}
+{"level":"info","message":"Request body, undefined","service":"identity-services","timestamp":"2025-10-22T17:47:36.139Z"}
+{"level":"info","message":"Response received from identity service:200","service":"identity-services","timestamp":"2025-10-22T17:47:36.621Z"}
+{"level":"info","message":"received POST request to /v1/media/upload","service":"identity-services","timestamp":"2025-10-22T17:50:03.051Z"}
+{"level":"info","message":"Request body, undefined","service":"identity-services","timestamp":"2025-10-22T17:50:03.051Z"}
+{"level":"info","message":"Response received from media service: 201","service":"identity-services","timestamp":"2025-10-22T17:50:05.681Z"}
+{"level":"info","message":"received POST request to /v1/posts/create-post","service":"identity-services","timestamp":"2025-10-22T17:51:08.516Z"}
+{"level":"info","message":"Request body, undefined","service":"identity-services","timestamp":"2025-10-22T17:51:08.516Z"}
+{"level":"error","message":"Proxy error:","service":"identity-services","timestamp":"2025-10-22T17:51:08.524Z"}
+{"level":"info","message":"received POST request to /v1/posts/create-post","service":"identity-services","timestamp":"2025-10-22T17:51:33.492Z"}
+{"level":"info","message":"Request body, undefined","service":"identity-services","timestamp":"2025-10-22T17:51:33.493Z"}
+{"level":"error","message":"Proxy error:","service":"identity-services","timestamp":"2025-10-22T17:51:33.495Z"}
+{"level":"info","message":"received POST request to /v1/posts/create-post","service":"identity-services","timestamp":"2025-10-22T17:52:24.476Z"}
+{"level":"info","message":"Request body, undefined","service":"identity-services","timestamp":"2025-10-22T17:52:24.476Z"}
+{"level":"error","message":"Proxy error:","service":"identity-services","timestamp":"2025-10-22T17:52:24.478Z"}
+{"level":"info","message":"API gsteway running on port:3000","service":"identity-services","timestamp":"2025-10-22T17:55:05.716Z"}
+{"level":"info","message":"Identity service si running on port http://localhost:3001","service":"identity-services","timestamp":"2025-10-22T17:55:05.719Z"}
+{"level":"info","message":"Post service is running on port http://localhost:3002","service":"identity-services","timestamp":"2025-10-22T17:55:05.719Z"}
+{"level":"info","message":"media service is running on port http://localhost:3003","service":"identity-services","timestamp":"2025-10-22T17:55:05.720Z"}
+{"level":"info","message":"Redis Url redis://localhost:6379","service":"identity-services","timestamp":"2025-10-22T17:55:05.720Z"}
+{"level":"info","message":"received POST request to /v1/auth/register","service":"identity-services","timestamp":"2025-10-22T17:55:20.205Z"}
+{"level":"info","message":"Request body, undefined","service":"identity-services","timestamp":"2025-10-22T17:55:20.206Z"}
+{"level":"info","message":"Response received from identity service:201","service":"identity-services","timestamp":"2025-10-22T17:55:20.505Z"}
+{"level":"info","message":"received POST request to /v1/auth/login","service":"identity-services","timestamp":"2025-10-22T17:55:29.923Z"}
+{"level":"info","message":"Request body, undefined","service":"identity-services","timestamp":"2025-10-22T17:55:29.924Z"}
+{"level":"info","message":"Response received from identity service:200","service":"identity-services","timestamp":"2025-10-22T17:55:30.091Z"}
+{"level":"info","message":"received POST request to /v1/media/upload","service":"identity-services","timestamp":"2025-10-22T17:56:00.569Z"}
+{"level":"info","message":"Request body, undefined","service":"identity-services","timestamp":"2025-10-22T17:56:00.570Z"}
+{"level":"info","message":"Response received from media service: 201","service":"identity-services","timestamp":"2025-10-22T17:56:02.308Z"}
+{"level":"info","message":"received POST request to /v1/posts/create-post","service":"identity-services","timestamp":"2025-10-22T17:56:21.004Z"}
+{"level":"info","message":"Request body, undefined","service":"identity-services","timestamp":"2025-10-22T17:56:21.005Z"}
+{"level":"error","message":"Proxy error:","service":"identity-services","timestamp":"2025-10-22T17:56:21.008Z"}
+{"level":"info","message":"received POST request to /v1/auth/login","service":"identity-services","timestamp":"2025-10-22T18:29:42.722Z"}
+{"level":"info","message":"Request body, undefined","service":"identity-services","timestamp":"2025-10-22T18:29:42.729Z"}
+{"level":"info","message":"Response received from identity service:200","service":"identity-services","timestamp":"2025-10-22T18:29:43.250Z"}
+{"level":"info","message":"received POST request to /v1/posts/create-post","service":"identity-services","timestamp":"2025-10-22T18:30:19.985Z"}
+{"level":"info","message":"Request body, undefined","service":"identity-services","timestamp":"2025-10-22T18:30:19.985Z"}
+{"level":"error","message":"Proxy error:","service":"identity-services","timestamp":"2025-10-22T18:30:19.996Z"}
+{"level":"info","message":"received POST request to /v1/posts/create-post","service":"identity-services","timestamp":"2025-10-22T18:30:33.057Z"}
+{"level":"info","message":"Request body, undefined","service":"identity-services","timestamp":"2025-10-22T18:30:33.058Z"}
+{"level":"error","message":"Proxy error:","service":"identity-services","timestamp":"2025-10-22T18:30:33.062Z"}
+{"level":"info","message":"received POST request to /v1/posts/create-post","service":"identity-services","timestamp":"2025-10-22T18:31:18.235Z"}
+{"level":"info","message":"Request body, undefined","service":"identity-services","timestamp":"2025-10-22T18:31:18.235Z"}
+{"level":"error","message":"Proxy error:","service":"identity-services","timestamp":"2025-10-22T18:31:18.238Z"}
+{"level":"info","message":"received GET request to /v1/posts/all-posts","service":"identity-services","timestamp":"2025-10-22T18:31:22.120Z"}
+{"level":"info","message":"Request body, undefined","service":"identity-services","timestamp":"2025-10-22T18:31:22.121Z"}
+{"level":"warn","message":"Invalid token!","service":"identity-services","timestamp":"2025-10-22T18:31:22.122Z"}
+{"level":"info","message":"received GET request to /v1/posts/all-posts","service":"identity-services","timestamp":"2025-10-22T18:31:26.381Z"}
+{"level":"info","message":"Request body, undefined","service":"identity-services","timestamp":"2025-10-22T18:31:26.381Z"}
+{"level":"error","message":"Proxy error:","service":"identity-services","timestamp":"2025-10-22T18:31:26.387Z"}
+{"level":"info","message":"received GET request to /v1/posts/all-posts","service":"identity-services","timestamp":"2025-10-22T18:48:00.859Z"}
+{"level":"info","message":"Request body, undefined","service":"identity-services","timestamp":"2025-10-22T18:48:00.860Z"}
+{"level":"warn","message":"Invalid token!","service":"identity-services","timestamp":"2025-10-22T18:48:00.862Z"}
+{"level":"info","message":"received GET request to /v1/media/get","service":"identity-services","timestamp":"2025-10-22T18:48:05.275Z"}
+{"level":"info","message":"Request body, undefined","service":"identity-services","timestamp":"2025-10-22T18:48:05.275Z"}
+{"level":"warn","message":"Invalid token!","service":"identity-services","timestamp":"2025-10-22T18:48:05.276Z"}
+{"level":"info","message":"received POST request to /v1/auth/login","service":"identity-services","timestamp":"2025-10-22T18:48:10.774Z"}
+{"level":"info","message":"Request body, undefined","service":"identity-services","timestamp":"2025-10-22T18:48:10.775Z"}
+{"level":"info","message":"Response received from identity service:200","service":"identity-services","timestamp":"2025-10-22T18:48:10.966Z"}
+{"level":"info","message":"received GET request to /v1/media/get","service":"identity-services","timestamp":"2025-10-22T18:48:24.189Z"}
+{"level":"info","message":"Request body, undefined","service":"identity-services","timestamp":"2025-10-22T18:48:24.190Z"}
+{"level":"info","message":"Response received from media service: 200","service":"identity-services","timestamp":"2025-10-22T18:48:24.552Z"}
+{"level":"info","message":"received GET request to /v1/posts/all-posts","service":"identity-services","timestamp":"2025-10-22T18:48:39.796Z"}
+{"level":"info","message":"Request body, undefined","service":"identity-services","timestamp":"2025-10-22T18:48:39.796Z"}
+{"level":"warn","message":"Invalid token!","service":"identity-services","timestamp":"2025-10-22T18:48:39.797Z"}
+{"level":"info","message":"received GET request to /v1/posts/all-posts","service":"identity-services","timestamp":"2025-10-22T18:48:44.405Z"}
+{"level":"info","message":"Request body, undefined","service":"identity-services","timestamp":"2025-10-22T18:48:44.405Z"}
+{"level":"error","message":"Proxy error:","service":"identity-services","timestamp":"2025-10-22T18:48:44.407Z"}
+{"level":"info","message":"received POST request to /v1/posts/create-post","service":"identity-services","timestamp":"2025-10-22T18:48:55.858Z"}
+{"level":"info","message":"Request body, undefined","service":"identity-services","timestamp":"2025-10-22T18:48:55.859Z"}
+{"level":"warn","message":"Invalid token!","service":"identity-services","timestamp":"2025-10-22T18:48:55.860Z"}
+{"level":"info","message":"received POST request to /v1/posts/create-post","service":"identity-services","timestamp":"2025-10-22T18:49:02.395Z"}
+{"level":"info","message":"Request body, undefined","service":"identity-services","timestamp":"2025-10-22T18:49:02.395Z"}
+{"level":"error","message":"Proxy error:","service":"identity-services","timestamp":"2025-10-22T18:49:02.398Z"}
+{"level":"info","message":"API gsteway running on port:3000","service":"identity-services","timestamp":"2025-10-22T18:52:49.773Z"}
+{"level":"info","message":"Identity service si running on port http://localhost:3001","service":"identity-services","timestamp":"2025-10-22T18:52:49.775Z"}
+{"level":"info","message":"Post service is running on port http://localhost:3002","service":"identity-services","timestamp":"2025-10-22T18:52:49.776Z"}
+{"level":"info","message":"media service is running on port http://localhost:3003","service":"identity-services","timestamp":"2025-10-22T18:52:49.776Z"}
+{"level":"info","message":"Redis Url redis://localhost:6379","service":"identity-services","timestamp":"2025-10-22T18:52:49.776Z"}
+{"level":"info","message":"API gsteway running on port:3000","service":"identity-services","timestamp":"2025-10-22T18:52:56.751Z"}
+{"level":"info","message":"Identity service si running on port http://localhost:3001","service":"identity-services","timestamp":"2025-10-22T18:52:56.753Z"}
+{"level":"info","message":"Post service is running on port http://localhost:3002","service":"identity-services","timestamp":"2025-10-22T18:52:56.754Z"}
+{"level":"info","message":"media service is running on port http://localhost:3003","service":"identity-services","timestamp":"2025-10-22T18:52:56.754Z"}
+{"level":"info","message":"Redis Url redis://localhost:6379","service":"identity-services","timestamp":"2025-10-22T18:52:56.754Z"}
+{"level":"info","message":"received POST request to /v1/posts/create-post","service":"identity-services","timestamp":"2025-10-22T18:53:03.164Z"}
+{"level":"info","message":"Request body, [object Object]","service":"identity-services","timestamp":"2025-10-22T18:53:03.164Z"}
+{"level":"error","message":"Proxy error:","service":"identity-services","timestamp":"2025-10-22T18:53:03.174Z"}
+{"level":"info","message":"API gsteway running on port:3000","service":"identity-services","timestamp":"2025-10-22T18:53:15.536Z"}
+{"level":"info","message":"Identity service si running on port http://localhost:3001","service":"identity-services","timestamp":"2025-10-22T18:53:15.540Z"}
+{"level":"info","message":"Post service is running on port http://localhost:3002","service":"identity-services","timestamp":"2025-10-22T18:53:15.540Z"}
+{"level":"info","message":"media service is running on port http://localhost:3003","service":"identity-services","timestamp":"2025-10-22T18:53:15.540Z"}
+{"level":"info","message":"Redis Url redis://localhost:6379","service":"identity-services","timestamp":"2025-10-22T18:53:15.540Z"}
+{"level":"info","message":"received POST request to /v1/auth/login","service":"identity-services","timestamp":"2025-10-22T18:53:19.001Z"}
+{"level":"info","message":"Request body, [object Object]","service":"identity-services","timestamp":"2025-10-22T18:53:19.001Z"}
+{"level":"info","message":"Response received from identity service:200","service":"identity-services","timestamp":"2025-10-22T18:53:19.165Z"}
+{"level":"info","message":"received POST request to /v1/media/upload","service":"identity-services","timestamp":"2025-10-22T18:53:46.195Z"}
+{"level":"info","message":"Request body, undefined","service":"identity-services","timestamp":"2025-10-22T18:53:46.195Z"}
+{"level":"info","message":"Response received from media service: 201","service":"identity-services","timestamp":"2025-10-22T18:53:47.815Z"}
+{"level":"info","message":"received POST request to /v1/posts/create-post","service":"identity-services","timestamp":"2025-10-22T18:54:17.901Z"}
+{"level":"info","message":"Request body, [object Object]","service":"identity-services","timestamp":"2025-10-22T18:54:17.902Z"}
+{"level":"error","message":"Proxy error:","service":"identity-services","timestamp":"2025-10-22T18:54:17.905Z"}
+{"level":"info","message":"received POST request to /v1/posts/create-post","service":"identity-services","timestamp":"2025-10-22T18:56:35.544Z"}
+{"level":"info","message":"Request body, [object Object]","service":"identity-services","timestamp":"2025-10-22T18:56:35.545Z"}
+{"level":"error","message":"Proxy error:","service":"identity-services","timestamp":"2025-10-22T18:56:35.547Z"}
+{"level":"info","message":"API gsteway running on port:3000","service":"identity-services","timestamp":"2025-10-22T18:59:24.682Z"}
+{"level":"info","message":"Identity service si running on port http://localhost:3001","service":"identity-services","timestamp":"2025-10-22T18:59:24.686Z"}
+{"level":"info","message":"Post service is running on port http://localhost:3002","service":"identity-services","timestamp":"2025-10-22T18:59:24.686Z"}
+{"level":"info","message":"media service is running on port http://localhost:3003","service":"identity-services","timestamp":"2025-10-22T18:59:24.686Z"}
+{"level":"info","message":"Redis Url redis://localhost:6379","service":"identity-services","timestamp":"2025-10-22T18:59:24.687Z"}
+{"level":"info","message":"received POST request to /v1/posts/create-post","service":"identity-services","timestamp":"2025-10-22T18:59:27.212Z"}
+{"level":"info","message":"Request body, [object Object]","service":"identity-services","timestamp":"2025-10-22T18:59:27.212Z"}
+{"level":"info","message":"Response received from Post service:201","service":"identity-services","timestamp":"2025-10-22T18:59:27.328Z"}
+{"level":"info","message":"received GET request to /v1/posts/all-posts","service":"identity-services","timestamp":"2025-10-22T19:00:36.056Z"}
+{"level":"info","message":"Request body, undefined","service":"identity-services","timestamp":"2025-10-22T19:00:36.057Z"}
+{"level":"warn","message":"Invalid token!","service":"identity-services","timestamp":"2025-10-22T19:00:36.058Z"}
+{"level":"info","message":"received GET request to /v1/posts/all-posts","service":"identity-services","timestamp":"2025-10-22T19:01:12.200Z"}
+{"level":"info","message":"Request body, undefined","service":"identity-services","timestamp":"2025-10-22T19:01:12.201Z"}
+{"level":"info","message":"Response received from Post service:200","service":"identity-services","timestamp":"2025-10-22T19:01:12.270Z"}
+{"level":"info","message":"received POST request to /v1/posts/68f9298f434df364d33dc28e","service":"identity-services","timestamp":"2025-10-22T19:05:49.733Z"}
+{"level":"info","message":"Request body, undefined","service":"identity-services","timestamp":"2025-10-22T19:05:49.734Z"}
+{"level":"warn","message":"Invalid token!","service":"identity-services","timestamp":"2025-10-22T19:05:49.734Z"}
+{"level":"info","message":"received POST request to /v1/posts/68f9298f434df364d33dc28e","service":"identity-services","timestamp":"2025-10-22T19:05:58.038Z"}
+{"level":"info","message":"Request body, undefined","service":"identity-services","timestamp":"2025-10-22T19:05:58.038Z"}
+{"level":"warn","message":"Invalid token!","service":"identity-services","timestamp":"2025-10-22T19:05:58.039Z"}
+{"level":"info","message":"received POST request to /v1/auth/login","service":"identity-services","timestamp":"2025-10-22T19:06:01.112Z"}
+{"level":"info","message":"Request body, [object Object]","service":"identity-services","timestamp":"2025-10-22T19:06:01.112Z"}
+{"level":"info","message":"Response received from identity service:200","service":"identity-services","timestamp":"2025-10-22T19:06:01.308Z"}
+{"level":"info","message":"received POST request to /v1/posts/68f9298f434df364d33dc28e","service":"identity-services","timestamp":"2025-10-22T19:06:11.070Z"}
+{"level":"info","message":"Request body, undefined","service":"identity-services","timestamp":"2025-10-22T19:06:11.070Z"}
+{"level":"info","message":"Response received from Post service:404","service":"identity-services","timestamp":"2025-10-22T19:06:11.103Z"}
+{"level":"info","message":"received GET request to /v1/posts/all-posts","service":"identity-services","timestamp":"2025-10-22T19:06:19.814Z"}
+{"level":"info","message":"Request body, undefined","service":"identity-services","timestamp":"2025-10-22T19:06:19.815Z"}
+{"level":"warn","message":"Invalid token!","service":"identity-services","timestamp":"2025-10-22T19:06:19.815Z"}
+{"level":"info","message":"received GET request to /v1/posts/all-posts","service":"identity-services","timestamp":"2025-10-22T19:06:25.861Z"}
+{"level":"info","message":"Request body, undefined","service":"identity-services","timestamp":"2025-10-22T19:06:25.861Z"}
+{"level":"info","message":"Response received from Post service:200","service":"identity-services","timestamp":"2025-10-22T19:06:25.919Z"}
+{"level":"info","message":"received GET request to /v1/media/get","service":"identity-services","timestamp":"2025-10-22T19:06:44.653Z"}
+{"level":"info","message":"Request body, undefined","service":"identity-services","timestamp":"2025-10-22T19:06:44.654Z"}
+{"level":"warn","message":"Invalid token!","service":"identity-services","timestamp":"2025-10-22T19:06:44.655Z"}
+{"level":"info","message":"received GET request to /v1/media/get","service":"identity-services","timestamp":"2025-10-22T19:06:50.883Z"}
+{"level":"info","message":"Request body, undefined","service":"identity-services","timestamp":"2025-10-22T19:06:50.883Z"}
+{"level":"info","message":"Response received from media service: 200","service":"identity-services","timestamp":"2025-10-22T19:06:50.932Z"}
+{"level":"info","message":"received POST request to /v1/posts/68f91ab29fecd779a91782f1","service":"identity-services","timestamp":"2025-10-22T19:07:05.118Z"}
+{"level":"info","message":"Request body, undefined","service":"identity-services","timestamp":"2025-10-22T19:07:05.118Z"}
+{"level":"info","message":"Response received from Post service:404","service":"identity-services","timestamp":"2025-10-22T19:07:05.149Z"}
+{"level":"info","message":"received GET request to /v1/posts/all-posts","service":"identity-services","timestamp":"2025-10-22T19:07:24.515Z"}
+{"level":"info","message":"Request body, undefined","service":"identity-services","timestamp":"2025-10-22T19:07:24.515Z"}
+{"level":"info","message":"Response received from Post service:200","service":"identity-services","timestamp":"2025-10-22T19:07:24.518Z"}
+{"level":"info","message":"received POST request to /v1/posts/68f9298f434df364d33dc28e","service":"identity-services","timestamp":"2025-10-22T19:07:57.841Z"}
+{"level":"info","message":"Request body, undefined","service":"identity-services","timestamp":"2025-10-22T19:07:57.842Z"}
+{"level":"info","message":"Response received from Post service:404","service":"identity-services","timestamp":"2025-10-22T19:07:57.875Z"}
+{"level":"info","message":"received POST request to /v1/media/upload","service":"identity-services","timestamp":"2025-10-22T19:08:20.023Z"}
+{"level":"info","message":"Request body, undefined","service":"identity-services","timestamp":"2025-10-22T19:08:20.023Z"}
+{"level":"warn","message":"Invalid token!","service":"identity-services","timestamp":"2025-10-22T19:08:20.023Z"}
+{"level":"info","message":"received POST request to /v1/auth/login","service":"identity-services","timestamp":"2025-10-22T19:08:23.857Z"}
+{"level":"info","message":"Request body, [object Object]","service":"identity-services","timestamp":"2025-10-22T19:08:23.857Z"}
+{"level":"info","message":"Response received from identity service:200","service":"identity-services","timestamp":"2025-10-22T19:08:23.996Z"}
+{"level":"info","message":"received POST request to /v1/media/upload","service":"identity-services","timestamp":"2025-10-22T19:08:40.495Z"}
+{"level":"info","message":"Request body, undefined","service":"identity-services","timestamp":"2025-10-22T19:08:40.495Z"}
+{"level":"info","message":"Response received from media service: 201","service":"identity-services","timestamp":"2025-10-22T19:08:42.310Z"}
+{"level":"info","message":"received POST request to /v1/posts/create-post","service":"identity-services","timestamp":"2025-10-22T19:09:09.021Z"}
+{"level":"info","message":"Request body, [object Object]","service":"identity-services","timestamp":"2025-10-22T19:09:09.021Z"}
+{"level":"info","message":"Response received from Post service:201","service":"identity-services","timestamp":"2025-10-22T19:09:09.056Z"}
+{"level":"info","message":"received GET request to /v1/posts/all-posts","service":"identity-services","timestamp":"2025-10-22T19:09:16.628Z"}
+{"level":"info","message":"Request body, undefined","service":"identity-services","timestamp":"2025-10-22T19:09:16.629Z"}
+{"level":"info","message":"Response received from Post service:200","service":"identity-services","timestamp":"2025-10-22T19:09:16.684Z"}
+{"level":"info","message":"received POST request to /v1/posts/68f92bd5434df364d33dc297","service":"identity-services","timestamp":"2025-10-22T19:09:47.745Z"}
+{"level":"info","message":"Request body, undefined","service":"identity-services","timestamp":"2025-10-22T19:09:47.746Z"}
+{"level":"info","message":"Response received from Post service:404","service":"identity-services","timestamp":"2025-10-22T19:09:47.779Z"}
+{"level":"info","message":"received POST request to /v1/posts/68f92bd5434df364d33dc297","service":"identity-services","timestamp":"2025-10-22T19:10:08.524Z"}
+{"level":"info","message":"Request body, undefined","service":"identity-services","timestamp":"2025-10-22T19:10:08.524Z"}
+{"level":"info","message":"Response received from Post service:404","service":"identity-services","timestamp":"2025-10-22T19:10:08.553Z"}
+{"level":"info","message":"received POST request to /v1/posts/68f92bd5434df364d33dc297","service":"identity-services","timestamp":"2025-10-22T19:12:11.113Z"}
+{"level":"info","message":"Request body, undefined","service":"identity-services","timestamp":"2025-10-22T19:12:11.114Z"}
+{"level":"info","message":"Response received from Post service:404","service":"identity-services","timestamp":"2025-10-22T19:12:11.168Z"}
+{"level":"info","message":"received DELETE request to /v1/posts/68f92bd5434df364d33dc297","service":"identity-services","timestamp":"2025-10-22T19:13:43.510Z"}
+{"level":"info","message":"Request body, undefined","service":"identity-services","timestamp":"2025-10-22T19:13:43.511Z"}
+{"level":"info","message":"Response received from Post service:404","service":"identity-services","timestamp":"2025-10-22T19:13:43.517Z"}
+{"level":"info","message":"received DELETE request to /v1/posts/68f92bd5434df364d33dc297","service":"identity-services","timestamp":"2025-10-22T19:13:57.358Z"}
+{"level":"info","message":"Request body, undefined","service":"identity-services","timestamp":"2025-10-22T19:13:57.358Z"}
+{"level":"info","message":"Response received from Post service:404","service":"identity-services","timestamp":"2025-10-22T19:13:57.362Z"}
+{"level":"info","message":"received DELETE request to /v1/posts/68f92bd5434df364d33dc297","service":"identity-services","timestamp":"2025-10-22T19:15:08.998Z"}
+{"level":"info","message":"Request body, undefined","service":"identity-services","timestamp":"2025-10-22T19:15:08.998Z"}
+{"level":"info","message":"Response received from Post service:404","service":"identity-services","timestamp":"2025-10-22T19:15:09.068Z"}
+{"level":"info","message":"received DELETE request to /v1/posts/68f92bd5434df364d33dc297","service":"identity-services","timestamp":"2025-10-22T19:15:11.386Z"}
+{"level":"info","message":"Request body, undefined","service":"identity-services","timestamp":"2025-10-22T19:15:11.387Z"}
+{"level":"info","message":"Response received from Post service:404","service":"identity-services","timestamp":"2025-10-22T19:15:11.420Z"}
+{"level":"info","message":"API gsteway running on port:3000","service":"identity-services","timestamp":"2025-10-22T19:16:48.588Z"}
+{"level":"info","message":"Identity service si running on port http://localhost:3001","service":"identity-services","timestamp":"2025-10-22T19:16:48.591Z"}
+{"level":"info","message":"Post service is running on port http://localhost:3002","service":"identity-services","timestamp":"2025-10-22T19:16:48.591Z"}
+{"level":"info","message":"media service is running on port http://localhost:3003","service":"identity-services","timestamp":"2025-10-22T19:16:48.591Z"}
+{"level":"info","message":"Redis Url redis://localhost:6379","service":"identity-services","timestamp":"2025-10-22T19:16:48.591Z"}
+{"level":"info","message":"API gsteway running on port:3000","service":"identity-services","timestamp":"2025-10-23T06:11:17.168Z"}
+{"level":"info","message":"Identity service si running on port http://localhost:3001","service":"identity-services","timestamp":"2025-10-23T06:11:17.171Z"}
+{"level":"info","message":"Post service is running on port http://localhost:3002","service":"identity-services","timestamp":"2025-10-23T06:11:17.171Z"}
+{"level":"info","message":"media service is running on port http://localhost:3003","service":"identity-services","timestamp":"2025-10-23T06:11:17.172Z"}
+{"level":"info","message":"Redis Url redis://localhost:6379","service":"identity-services","timestamp":"2025-10-23T06:11:17.172Z"}
+{"level":"info","message":"API gsteway running on port:3000","service":"identity-services","timestamp":"2025-10-23T06:16:18.638Z"}
+{"level":"info","message":"Identity service si running on port http://localhost:3001","service":"identity-services","timestamp":"2025-10-23T06:16:18.641Z"}
+{"level":"info","message":"Post service is running on port http://localhost:3002","service":"identity-services","timestamp":"2025-10-23T06:16:18.641Z"}
+{"level":"info","message":"media service is running on port http://localhost:3003","service":"identity-services","timestamp":"2025-10-23T06:16:18.642Z"}
+{"level":"info","message":"Redis Url redis://localhost:6379","service":"identity-services","timestamp":"2025-10-23T06:16:18.642Z"}
+{"level":"info","message":"received POST request to /v1/auth/register","service":"identity-services","timestamp":"2025-10-23T06:17:34.570Z"}
+{"level":"info","message":"Request body, [object Object]","service":"identity-services","timestamp":"2025-10-23T06:17:34.570Z"}
+{"level":"info","message":"Response received from identity service:201","service":"identity-services","timestamp":"2025-10-23T06:17:34.850Z"}
+{"level":"info","message":"received POST request to /v1/auth/login","service":"identity-services","timestamp":"2025-10-23T06:17:53.296Z"}
+{"level":"info","message":"Request body, [object Object]","service":"identity-services","timestamp":"2025-10-23T06:17:53.297Z"}
+{"level":"info","message":"Response received from identity service:200","service":"identity-services","timestamp":"2025-10-23T06:17:53.437Z"}
+{"level":"info","message":"received POST request to /v1/media/upload","service":"identity-services","timestamp":"2025-10-23T06:18:19.892Z"}
+{"level":"info","message":"Request body, undefined","service":"identity-services","timestamp":"2025-10-23T06:18:19.893Z"}
+{"level":"info","message":"Response received from media service: 201","service":"identity-services","timestamp":"2025-10-23T06:18:21.471Z"}
+{"level":"info","message":"received POST request to /v1/posts/create-post","service":"identity-services","timestamp":"2025-10-23T06:19:45.006Z"}
+{"level":"info","message":"Request body, [object Object]","service":"identity-services","timestamp":"2025-10-23T06:19:45.006Z"}
+{"level":"info","message":"Response received from Post service:201","service":"identity-services","timestamp":"2025-10-23T06:19:45.135Z"}
+{"level":"info","message":"received GET request to /v1/posts/all-posts","service":"identity-services","timestamp":"2025-10-23T06:19:56.596Z"}
+{"level":"info","message":"Request body, undefined","service":"identity-services","timestamp":"2025-10-23T06:19:56.596Z"}
+{"level":"warn","message":"Invalid token!","service":"identity-services","timestamp":"2025-10-23T06:19:56.597Z"}
+{"level":"info","message":"received GET request to /v1/posts/all-posts","service":"identity-services","timestamp":"2025-10-23T06:20:07.248Z"}
+{"level":"info","message":"Request body, undefined","service":"identity-services","timestamp":"2025-10-23T06:20:07.248Z"}
+{"level":"info","message":"Response received from Post service:200","service":"identity-services","timestamp":"2025-10-23T06:20:07.315Z"}
+{"level":"info","message":"received DELETE request to /v1/posts/68f9c901fbc4ea00b79c69ae","service":"identity-services","timestamp":"2025-10-23T06:20:45.808Z"}
+{"level":"info","message":"Request body, undefined","service":"identity-services","timestamp":"2025-10-23T06:20:45.808Z"}
+{"level":"warn","message":"Invalid token!","service":"identity-services","timestamp":"2025-10-23T06:20:45.809Z"}
+{"level":"info","message":"received POST request to /v1/auth/login","service":"identity-services","timestamp":"2025-10-23T06:20:51.017Z"}
+{"level":"info","message":"Request body, [object Object]","service":"identity-services","timestamp":"2025-10-23T06:20:51.017Z"}
+{"level":"info","message":"Response received from identity service:200","service":"identity-services","timestamp":"2025-10-23T06:20:51.152Z"}
+{"level":"info","message":"received DELETE request to /v1/posts/68f9c901fbc4ea00b79c69ae","service":"identity-services","timestamp":"2025-10-23T06:21:04.281Z"}
+{"level":"info","message":"Request body, undefined","service":"identity-services","timestamp":"2025-10-23T06:21:04.281Z"}
+{"level":"info","message":"Response received from Post service:404","service":"identity-services","timestamp":"2025-10-23T06:21:04.314Z"}
+{"level":"info","message":"received GET request to /v1/posts/all-posts","service":"identity-services","timestamp":"2025-10-23T06:22:18.599Z"}
+{"level":"info","message":"Request body, undefined","service":"identity-services","timestamp":"2025-10-23T06:22:18.600Z"}
+{"level":"info","message":"Response received from Post service:200","service":"identity-services","timestamp":"2025-10-23T06:22:18.605Z"}
+{"level":"info","message":"received GET request to /v1/media/get","service":"identity-services","timestamp":"2025-10-23T06:24:38.093Z"}
+{"level":"info","message":"Request body, undefined","service":"identity-services","timestamp":"2025-10-23T06:24:38.093Z"}
+{"level":"warn","message":"Invalid token!","service":"identity-services","timestamp":"2025-10-23T06:24:38.093Z"}
+{"level":"info","message":"received GET request to /v1/media/get","service":"identity-services","timestamp":"2025-10-23T06:24:55.647Z"}
+{"level":"info","message":"Request body, undefined","service":"identity-services","timestamp":"2025-10-23T06:24:55.648Z"}
+{"level":"info","message":"Response received from media service: 200","service":"identity-services","timestamp":"2025-10-23T06:24:55.697Z"}
+{"level":"info","message":"received GET request to /v1/posts/all-posts","service":"identity-services","timestamp":"2025-10-23T06:25:03.350Z"}
+{"level":"info","message":"Request body, undefined","service":"identity-services","timestamp":"2025-10-23T06:25:03.350Z"}
+{"level":"info","message":"Response received from Post service:200","service":"identity-services","timestamp":"2025-10-23T06:25:03.356Z"}
+{"level":"info","message":"received DELETE request to /v1/posts/68f9c901fbc4ea00b79c69ae","service":"identity-services","timestamp":"2025-10-23T06:25:17.182Z"}
+{"level":"info","message":"Request body, undefined","service":"identity-services","timestamp":"2025-10-23T06:25:17.183Z"}
+{"level":"info","message":"Response received from Post service:404","service":"identity-services","timestamp":"2025-10-23T06:25:17.228Z"}
+{"level":"info","message":"received DELETE request to /v1/posts/68f9c901fbc4ea00b79c69ae","service":"identity-services","timestamp":"2025-10-23T06:27:12.235Z"}
+{"level":"info","message":"Request body, undefined","service":"identity-services","timestamp":"2025-10-23T06:27:12.236Z"}
+{"level":"info","message":"Response received from Post service:404","service":"identity-services","timestamp":"2025-10-23T06:27:12.417Z"}
+{"level":"info","message":"received DELETE request to /v1/posts/68f9c901fbc4ea00b79c69ae","service":"identity-services","timestamp":"2025-10-23T06:27:31.795Z"}
+{"level":"info","message":"Request body, undefined","service":"identity-services","timestamp":"2025-10-23T06:27:31.795Z"}
+{"level":"info","message":"Response received from Post service:404","service":"identity-services","timestamp":"2025-10-23T06:27:31.826Z"}
+{"level":"info","message":"received DELETE request to /v1/posts/68f9c901fbc4ea00b79c69ae","service":"identity-services","timestamp":"2025-10-23T06:28:31.805Z"}
+{"level":"info","message":"Request body, undefined","service":"identity-services","timestamp":"2025-10-23T06:28:31.806Z"}
+{"level":"info","message":"Response received from Post service:404","service":"identity-services","timestamp":"2025-10-23T06:28:31.842Z"}
+{"level":"info","message":"received DELETE request to /v1/posts/68f9c901fbc4ea00b79c69ae","service":"identity-services","timestamp":"2025-10-23T06:29:52.819Z"}
+{"level":"info","message":"Request body, undefined","service":"identity-services","timestamp":"2025-10-23T06:29:52.819Z"}
+{"level":"info","message":"Response received from Post service:404","service":"identity-services","timestamp":"2025-10-23T06:29:52.864Z"}
+{"level":"info","message":"API gsteway running on port:3000","service":"identity-services","timestamp":"2025-10-23T06:43:02.716Z"}
+{"level":"info","message":"Identity service si running on port http://localhost:3001","service":"identity-services","timestamp":"2025-10-23T06:43:02.719Z"}
+{"level":"info","message":"Post service is running on port http://localhost:3002","service":"identity-services","timestamp":"2025-10-23T06:43:02.719Z"}
+{"level":"info","message":"media service is running on port http://localhost:3003","service":"identity-services","timestamp":"2025-10-23T06:43:02.719Z"}
+{"level":"info","message":"Redis Url redis://localhost:6379","service":"identity-services","timestamp":"2025-10-23T06:43:02.719Z"}
+{"level":"info","message":"API gsteway running on port:3000","service":"identity-services","timestamp":"2025-10-23T06:43:06.603Z"}
+{"level":"info","message":"Identity service si running on port http://localhost:3001","service":"identity-services","timestamp":"2025-10-23T06:43:06.606Z"}
+{"level":"info","message":"Post service is running on port http://localhost:3002","service":"identity-services","timestamp":"2025-10-23T06:43:06.606Z"}
+{"level":"info","message":"media service is running on port http://localhost:3003","service":"identity-services","timestamp":"2025-10-23T06:43:06.606Z"}
+{"level":"info","message":"Redis Url redis://localhost:6379","service":"identity-services","timestamp":"2025-10-23T06:43:06.607Z"}
+{"level":"info","message":"API gsteway running on port:3000","service":"identity-services","timestamp":"2025-10-23T06:43:07.682Z"}
+{"level":"info","message":"Identity service si running on port http://localhost:3001","service":"identity-services","timestamp":"2025-10-23T06:43:07.684Z"}
+{"level":"info","message":"Post service is running on port http://localhost:3002","service":"identity-services","timestamp":"2025-10-23T06:43:07.685Z"}
+{"level":"info","message":"media service is running on port http://localhost:3003","service":"identity-services","timestamp":"2025-10-23T06:43:07.685Z"}
+{"level":"info","message":"Redis Url redis://localhost:6379","service":"identity-services","timestamp":"2025-10-23T06:43:07.685Z"}
+{"level":"info","message":"received DELETE request to /v1/posts/68f9c901fbc4ea00b79c69ae","service":"identity-services","timestamp":"2025-10-23T06:43:16.645Z"}
+{"level":"info","message":"Request body, undefined","service":"identity-services","timestamp":"2025-10-23T06:43:16.646Z"}
+{"level":"warn","message":"Invalid token!","service":"identity-services","timestamp":"2025-10-23T06:43:16.649Z"}
+{"level":"info","message":"received POST request to /v1/auth/login","service":"identity-services","timestamp":"2025-10-23T06:43:20.018Z"}
+{"level":"info","message":"Request body, [object Object]","service":"identity-services","timestamp":"2025-10-23T06:43:20.018Z"}
+{"level":"info","message":"Response received from identity service:200","service":"identity-services","timestamp":"2025-10-23T06:43:20.240Z"}
+{"level":"info","message":"received DELETE request to /v1/posts/68f9c901fbc4ea00b79c69ae","service":"identity-services","timestamp":"2025-10-23T06:43:32.504Z"}
+{"level":"info","message":"Request body, undefined","service":"identity-services","timestamp":"2025-10-23T06:43:32.504Z"}
+{"level":"info","message":"Response received from Post service:404","service":"identity-services","timestamp":"2025-10-23T06:43:32.560Z"}
+{"level":"info","message":"received DELETE request to /v1/posts/68f9c901fbc4ea00b79c69ae","service":"identity-services","timestamp":"2025-10-23T06:44:34.469Z"}
+{"level":"info","message":"Request body, undefined","service":"identity-services","timestamp":"2025-10-23T06:44:34.470Z"}
+{"level":"info","message":"Response received from Post service:404","service":"identity-services","timestamp":"2025-10-23T06:44:34.502Z"}
+{"level":"info","message":"API gsteway running on port:3000","service":"identity-services","timestamp":"2025-10-23T07:03:00.184Z"}
+{"level":"info","message":"Identity service si running on port http://localhost:3001","service":"identity-services","timestamp":"2025-10-23T07:03:00.187Z"}
+{"level":"info","message":"Post service is running on port http://localhost:3002","service":"identity-services","timestamp":"2025-10-23T07:03:00.187Z"}
+{"level":"info","message":"media service is running on port http://localhost:3003","service":"identity-services","timestamp":"2025-10-23T07:03:00.188Z"}
+{"level":"info","message":"Redis Url redis://localhost:6379","service":"identity-services","timestamp":"2025-10-23T07:03:00.188Z"}
+{"level":"info","message":"received DELETE request to /v1/posts/68f9c901fbc4ea00b79c69ae","service":"identity-services","timestamp":"2025-10-23T07:03:56.109Z"}
+{"level":"info","message":"Request body, undefined","service":"identity-services","timestamp":"2025-10-23T07:03:56.110Z"}
+{"level":"warn","message":"Invalid token!","service":"identity-services","timestamp":"2025-10-23T07:03:56.113Z"}
+{"level":"info","message":"received POST request to /v1/auth/login","service":"identity-services","timestamp":"2025-10-23T07:04:02.462Z"}
+{"level":"info","message":"Request body, [object Object]","service":"identity-services","timestamp":"2025-10-23T07:04:02.462Z"}
+{"level":"info","message":"Response received from identity service:200","service":"identity-services","timestamp":"2025-10-23T07:04:02.650Z"}
+{"level":"info","message":"received DELETE request to /v1/posts/68f9c901fbc4ea00b79c69ae","service":"identity-services","timestamp":"2025-10-23T07:04:11.168Z"}
+{"level":"info","message":"Request body, undefined","service":"identity-services","timestamp":"2025-10-23T07:04:11.168Z"}
+{"level":"info","message":"Response received from Post service:404","service":"identity-services","timestamp":"2025-10-23T07:04:11.241Z"}
+{"level":"info","message":"received DELETE request to /v1/posts/68f9c901fbc4ea00b79c69ae","service":"identity-services","timestamp":"2025-10-23T07:04:26.706Z"}
+{"level":"info","message":"Request body, undefined","service":"identity-services","timestamp":"2025-10-23T07:04:26.706Z"}
+{"level":"info","message":"Response received from Post service:404","service":"identity-services","timestamp":"2025-10-23T07:04:26.738Z"}
+{"level":"info","message":"API gsteway running on port:3000","service":"identity-services","timestamp":"2025-10-23T07:42:40.749Z"}
+{"level":"info","message":"Identity service si running on port http://localhost:3001","service":"identity-services","timestamp":"2025-10-23T07:42:40.751Z"}
+{"level":"info","message":"Post service is running on port http://localhost:3002","service":"identity-services","timestamp":"2025-10-23T07:42:40.752Z"}
+{"level":"info","message":"media service is running on port http://localhost:3003","service":"identity-services","timestamp":"2025-10-23T07:42:40.752Z"}
+{"level":"info","message":"Redis Url redis://localhost:6379","service":"identity-services","timestamp":"2025-10-23T07:42:40.753Z"}
+{"level":"info","message":"received POST request to /v1/auth/register","service":"identity-services","timestamp":"2025-10-23T07:43:30.310Z"}
+{"level":"info","message":"Request body, [object Object]","service":"identity-services","timestamp":"2025-10-23T07:43:30.310Z"}
+{"level":"info","message":"Response received from identity service:201","service":"identity-services","timestamp":"2025-10-23T07:43:30.590Z"}
+{"level":"info","message":"received POST request to /v1/auth/login","service":"identity-services","timestamp":"2025-10-23T07:43:54.143Z"}
+{"level":"info","message":"Request body, [object Object]","service":"identity-services","timestamp":"2025-10-23T07:43:54.143Z"}
+{"level":"info","message":"Response received from identity service:200","service":"identity-services","timestamp":"2025-10-23T07:43:54.290Z"}
+{"level":"info","message":"received POST request to /v1/media/upload","service":"identity-services","timestamp":"2025-10-23T07:44:23.464Z"}
+{"level":"info","message":"Request body, undefined","service":"identity-services","timestamp":"2025-10-23T07:44:23.465Z"}
+{"level":"info","message":"Response received from media service: 201","service":"identity-services","timestamp":"2025-10-23T07:44:25.335Z"}
+{"level":"info","message":"received POST request to /v1/posts/create-post","service":"identity-services","timestamp":"2025-10-23T07:45:05.977Z"}
+{"level":"info","message":"Request body, [object Object]","service":"identity-services","timestamp":"2025-10-23T07:45:05.977Z"}
+{"level":"info","message":"Response received from Post service:500","service":"identity-services","timestamp":"2025-10-23T07:45:06.045Z"}
+{"level":"info","message":"received POST request to /v1/media/upload","service":"identity-services","timestamp":"2025-10-23T07:45:45.782Z"}
+{"level":"info","message":"Request body, undefined","service":"identity-services","timestamp":"2025-10-23T07:45:45.782Z"}
+{"level":"info","message":"Response received from media service: 201","service":"identity-services","timestamp":"2025-10-23T07:45:48.061Z"}
+{"level":"info","message":"received POST request to /v1/posts/create-post","service":"identity-services","timestamp":"2025-10-23T07:46:01.385Z"}
+{"level":"info","message":"Request body, [object Object]","service":"identity-services","timestamp":"2025-10-23T07:46:01.385Z"}
+{"level":"info","message":"Response received from Post service:500","service":"identity-services","timestamp":"2025-10-23T07:46:01.395Z"}
+{"level":"info","message":"received POST request to /v1/posts/create-post","service":"identity-services","timestamp":"2025-10-23T07:46:15.219Z"}
+{"level":"info","message":"Request body, [object Object]","service":"identity-services","timestamp":"2025-10-23T07:46:15.219Z"}
+{"level":"info","message":"Response received from Post service:500","service":"identity-services","timestamp":"2025-10-23T07:46:15.227Z"}
+{"level":"info","message":"received POST request to /v1/posts/create-post","service":"identity-services","timestamp":"2025-10-23T07:51:38.668Z"}
+{"level":"info","message":"Request body, [object Object]","service":"identity-services","timestamp":"2025-10-23T07:51:38.668Z"}
+{"level":"info","message":"Response received from Post service:500","service":"identity-services","timestamp":"2025-10-23T07:51:38.726Z"}
+{"level":"info","message":"received POST request to /v1/posts/create-post","service":"identity-services","timestamp":"2025-10-23T07:52:16.956Z"}
+{"level":"info","message":"Request body, [object Object]","service":"identity-services","timestamp":"2025-10-23T07:52:16.957Z"}
+{"level":"info","message":"Response received from Post service:500","service":"identity-services","timestamp":"2025-10-23T07:52:16.999Z"}
+{"level":"info","message":"received POST request to /v1/posts/create-post","service":"identity-services","timestamp":"2025-10-23T07:55:40.852Z"}
+{"level":"info","message":"Request body, [object Object]","service":"identity-services","timestamp":"2025-10-23T07:55:40.853Z"}
+{"level":"warn","message":"Invalid token!","service":"identity-services","timestamp":"2025-10-23T07:55:40.855Z"}
+{"level":"info","message":"received POST request to /v1/auth/login","service":"identity-services","timestamp":"2025-10-23T07:55:51.638Z"}
+{"level":"info","message":"Request body, [object Object]","service":"identity-services","timestamp":"2025-10-23T07:55:51.639Z"}
+{"level":"info","message":"Response received from identity service:200","service":"identity-services","timestamp":"2025-10-23T07:55:51.848Z"}
+{"level":"info","message":"received POST request to /v1/posts/create-post","service":"identity-services","timestamp":"2025-10-23T07:56:14.679Z"}
+{"level":"info","message":"Request body, [object Object]","service":"identity-services","timestamp":"2025-10-23T07:56:14.679Z"}
+{"level":"info","message":"Response received from Post service:500","service":"identity-services","timestamp":"2025-10-23T07:56:14.735Z"}
+{"level":"info","message":"received POST request to /v1/posts/create-post","service":"identity-services","timestamp":"2025-10-23T07:58:12.359Z"}
+{"level":"info","message":"Request body, [object Object]","service":"identity-services","timestamp":"2025-10-23T07:58:12.360Z"}
+{"level":"info","message":"Response received from Post service:201","service":"identity-services","timestamp":"2025-10-23T07:58:12.435Z"}
+{"level":"info","message":"received GET request to /v1/posts/all-posts","service":"identity-services","timestamp":"2025-10-23T07:58:36.923Z"}
+{"level":"info","message":"Request body, undefined","service":"identity-services","timestamp":"2025-10-23T07:58:36.924Z"}
+{"level":"warn","message":"Invalid token!","service":"identity-services","timestamp":"2025-10-23T07:58:36.925Z"}
+{"level":"info","message":"received GET request to /v1/posts/all-posts","service":"identity-services","timestamp":"2025-10-23T07:59:01.193Z"}
+{"level":"info","message":"Request body, undefined","service":"identity-services","timestamp":"2025-10-23T07:59:01.194Z"}
+{"level":"warn","message":"Invalid token!","service":"identity-services","timestamp":"2025-10-23T07:59:01.194Z"}
+{"level":"info","message":"received GET request to /v1/posts/all-posts","service":"identity-services","timestamp":"2025-10-23T07:59:19.435Z"}
+{"level":"info","message":"Request body, undefined","service":"identity-services","timestamp":"2025-10-23T07:59:19.435Z"}
+{"level":"info","message":"Response received from Post service:200","service":"identity-services","timestamp":"2025-10-23T07:59:19.507Z"}
+{"level":"info","message":"received DELETE request to /v1/posts/68f9e0146f9ed2acd56db4e1","service":"identity-services","timestamp":"2025-10-23T07:59:31.389Z"}
+{"level":"info","message":"Request body, undefined","service":"identity-services","timestamp":"2025-10-23T07:59:31.389Z"}
+{"level":"info","message":"Response received from Post service:404","service":"identity-services","timestamp":"2025-10-23T07:59:31.424Z"}
+{"level":"info","message":"received DELETE request to /v1/posts/68f9e0146f9ed2acd56db4e1","service":"identity-services","timestamp":"2025-10-23T08:00:53.963Z"}
+{"level":"info","message":"Request body, undefined","service":"identity-services","timestamp":"2025-10-23T08:00:53.963Z"}
+{"level":"info","message":"Response received from Post service:404","service":"identity-services","timestamp":"2025-10-23T08:00:54.027Z"}
+{"level":"info","message":"received DELETE request to /v1/posts/68f9e0146f9ed2acd56db4e1","service":"identity-services","timestamp":"2025-10-23T08:01:05.931Z"}
+{"level":"info","message":"Request body, undefined","service":"identity-services","timestamp":"2025-10-23T08:01:05.932Z"}
+{"level":"info","message":"Response received from Post service:404","service":"identity-services","timestamp":"2025-10-23T08:01:05.968Z"}
+{"level":"info","message":"received DELETE request to /v1/posts/68f9e0146f9ed2acd56db4e1","service":"identity-services","timestamp":"2025-10-23T08:03:03.139Z"}
+{"level":"info","message":"Request body, undefined","service":"identity-services","timestamp":"2025-10-23T08:03:03.139Z"}
+{"level":"info","message":"Response received from Post service:404","service":"identity-services","timestamp":"2025-10-23T08:03:03.202Z"}
+{"level":"info","message":"received DELETE request to /v1/posts/68f9e0146f9ed2acd56db4e1","service":"identity-services","timestamp":"2025-10-23T08:05:51.054Z"}
+{"level":"info","message":"Request body, undefined","service":"identity-services","timestamp":"2025-10-23T08:05:51.054Z"}
+{"level":"warn","message":"Invalid token!","service":"identity-services","timestamp":"2025-10-23T08:05:51.055Z"}
+{"level":"info","message":"received DELETE request to /v1/posts/68f9e0146f9ed2acd56db4e1","service":"identity-services","timestamp":"2025-10-23T08:06:13.286Z"}
+{"level":"info","message":"Request body, undefined","service":"identity-services","timestamp":"2025-10-23T08:06:13.286Z"}
+{"level":"warn","message":"Invalid token!","service":"identity-services","timestamp":"2025-10-23T08:06:13.287Z"}
+{"level":"info","message":"received POST request to /v1/auth/login","service":"identity-services","timestamp":"2025-10-23T08:06:18.269Z"}
+{"level":"info","message":"Request body, [object Object]","service":"identity-services","timestamp":"2025-10-23T08:06:18.269Z"}
+{"level":"info","message":"Response received from identity service:200","service":"identity-services","timestamp":"2025-10-23T08:06:18.447Z"}
+{"level":"info","message":"received DELETE request to /v1/posts/68f9e0146f9ed2acd56db4e1","service":"identity-services","timestamp":"2025-10-23T08:06:29.720Z"}
+{"level":"info","message":"Request body, undefined","service":"identity-services","timestamp":"2025-10-23T08:06:29.720Z"}
+{"level":"info","message":"Response received from Post service:200","service":"identity-services","timestamp":"2025-10-23T08:06:29.791Z"}
+{"level":"info","message":"API gsteway running on port:3000","service":"identity-services","timestamp":"2025-10-23T11:56:43.846Z"}
+{"level":"info","message":"Identity service si running on port http://localhost:3001","service":"identity-services","timestamp":"2025-10-23T11:56:43.848Z"}
+{"level":"info","message":"Post service is running on port http://localhost:3002","service":"identity-services","timestamp":"2025-10-23T11:56:43.849Z"}
+{"level":"info","message":"media service is running on port http://localhost:3003","service":"identity-services","timestamp":"2025-10-23T11:56:43.850Z"}
+{"level":"info","message":"Redis Url redis://localhost:6379","service":"identity-services","timestamp":"2025-10-23T11:56:43.850Z"}
+{"level":"info","message":"received POST request to /v1/auth/login","service":"identity-services","timestamp":"2025-10-23T11:57:48.200Z"}
+{"level":"info","message":"Request body, [object Object]","service":"identity-services","timestamp":"2025-10-23T11:57:48.200Z"}
+{"level":"info","message":"Response received from identity service:200","service":"identity-services","timestamp":"2025-10-23T11:57:48.407Z"}
+{"level":"info","message":"received POST request to /v1/media/upload","service":"identity-services","timestamp":"2025-10-23T11:58:47.867Z"}
+{"level":"info","message":"Request body, undefined","service":"identity-services","timestamp":"2025-10-23T11:58:47.867Z"}
+{"level":"info","message":"Response received from media service: 201","service":"identity-services","timestamp":"2025-10-23T11:58:49.765Z"}
+{"level":"info","message":"received GET request to /v1/media/get","service":"identity-services","timestamp":"2025-10-23T11:59:10.366Z"}
+{"level":"info","message":"Request body, undefined","service":"identity-services","timestamp":"2025-10-23T11:59:10.367Z"}
+{"level":"warn","message":"Invalid token!","service":"identity-services","timestamp":"2025-10-23T11:59:10.367Z"}
+{"level":"info","message":"received POST request to /v1/posts/create-post","service":"identity-services","timestamp":"2025-10-23T11:59:25.553Z"}
+{"level":"info","message":"Request body, [object Object]","service":"identity-services","timestamp":"2025-10-23T11:59:25.553Z"}
+{"level":"info","message":"Response received from Post service:201","service":"identity-services","timestamp":"2025-10-23T11:59:25.661Z"}
+{"level":"info","message":"received GET request to /v1/media/get","service":"identity-services","timestamp":"2025-10-23T11:59:58.587Z"}
+{"level":"info","message":"Request body, undefined","service":"identity-services","timestamp":"2025-10-23T11:59:58.587Z"}
+{"level":"warn","message":"Invalid token!","service":"identity-services","timestamp":"2025-10-23T11:59:58.587Z"}
+{"level":"info","message":"received GET request to /v1/media/get","service":"identity-services","timestamp":"2025-10-23T12:00:03.808Z"}
+{"level":"info","message":"Request body, undefined","service":"identity-services","timestamp":"2025-10-23T12:00:03.808Z"}
+{"level":"warn","message":"Invalid token!","service":"identity-services","timestamp":"2025-10-23T12:00:03.808Z"}
+{"level":"info","message":"received GET request to /v1/media/get","service":"identity-services","timestamp":"2025-10-23T12:00:20.631Z"}
+{"level":"info","message":"Request body, undefined","service":"identity-services","timestamp":"2025-10-23T12:00:20.631Z"}
+{"level":"info","message":"Response received from media service: 200","service":"identity-services","timestamp":"2025-10-23T12:00:20.670Z"}
+{"level":"info","message":"received GET request to /v1/posts/all-posts","service":"identity-services","timestamp":"2025-10-23T12:00:29.867Z"}
+{"level":"info","message":"Request body, undefined","service":"identity-services","timestamp":"2025-10-23T12:00:29.867Z"}
+{"level":"info","message":"Response received from Post service:200","service":"identity-services","timestamp":"2025-10-23T12:00:29.939Z"}
+{"level":"info","message":"received DELETE request to /v1/posts/68fa189df9f9bcec9c8cd78f","service":"identity-services","timestamp":"2025-10-23T12:01:51.701Z"}
+{"level":"info","message":"Request body, undefined","service":"identity-services","timestamp":"2025-10-23T12:01:51.701Z"}
+{"level":"info","message":"Response received from Post service:200","service":"identity-services","timestamp":"2025-10-23T12:01:51.757Z"}
+{"level":"info","message":"received GET request to /v1/posts/all-posts","service":"identity-services","timestamp":"2025-10-23T12:02:22.125Z"}
+{"level":"info","message":"Request body, undefined","service":"identity-services","timestamp":"2025-10-23T12:02:22.125Z"}
+{"level":"info","message":"Response received from Post service:200","service":"identity-services","timestamp":"2025-10-23T12:02:22.186Z"}
+{"level":"info","message":"received GET request to /v1/media/get","service":"identity-services","timestamp":"2025-10-23T12:04:16.632Z"}
+{"level":"info","message":"Request body, undefined","service":"identity-services","timestamp":"2025-10-23T12:04:16.633Z"}
+{"level":"info","message":"Response received from media service: 200","service":"identity-services","timestamp":"2025-10-23T12:04:16.667Z"}
+{"level":"info","message":"API gsteway running on port:3000","service":"api-gateway","timestamp":"2025-10-23T12:18:47.178Z"}
+{"level":"info","message":"Identity service si running on port http://localhost:3001","service":"api-gateway","timestamp":"2025-10-23T12:18:47.184Z"}
+{"level":"info","message":"Post service is running on port http://localhost:3002","service":"api-gateway","timestamp":"2025-10-23T12:18:47.185Z"}
+{"level":"info","message":"media service is running on port http://localhost:3003","service":"api-gateway","timestamp":"2025-10-23T12:18:47.185Z"}
+{"level":"info","message":"Redis Url redis://localhost:6379","service":"api-gateway","timestamp":"2025-10-23T12:18:47.185Z"}
+{"level":"info","message":"API gsteway running on port:3000","service":"api-gateway","timestamp":"2025-10-23T12:19:53.748Z"}
+{"level":"info","message":"Identity service si running on port http://localhost:3001","service":"api-gateway","timestamp":"2025-10-23T12:19:53.751Z"}
+{"level":"info","message":"Post service is running on port http://localhost:3002","service":"api-gateway","timestamp":"2025-10-23T12:19:53.751Z"}
+{"level":"info","message":"media service is running on port http://localhost:3003","service":"api-gateway","timestamp":"2025-10-23T12:19:53.752Z"}
+{"level":"info","message":"Redis Url redis://localhost:6379","service":"api-gateway","timestamp":"2025-10-23T12:19:53.752Z"}
+{"level":"info","message":"received POST request to /v1/media/upload","service":"api-gateway","timestamp":"2025-10-23T12:21:17.866Z"}
+{"level":"info","message":"Request body, undefined","service":"api-gateway","timestamp":"2025-10-23T12:21:17.866Z"}
+{"level":"info","message":"Response received from media service: 201","service":"api-gateway","timestamp":"2025-10-23T12:21:19.781Z"}
+{"level":"info","message":"received POST request to /v1/posts/create-post","service":"api-gateway","timestamp":"2025-10-23T12:21:42.086Z"}
+{"level":"info","message":"Request body, [object Object]","service":"api-gateway","timestamp":"2025-10-23T12:21:42.086Z"}
+{"level":"info","message":"Response received from Post service:201","service":"api-gateway","timestamp":"2025-10-23T12:21:42.187Z"}
+{"level":"info","message":"received DELETE request to /v1/posts/68fa189df9f9bcec9c8cd78f","service":"api-gateway","timestamp":"2025-10-23T12:21:47.314Z"}
+{"level":"info","message":"Request body, undefined","service":"api-gateway","timestamp":"2025-10-23T12:21:47.314Z"}
+{"level":"info","message":"Response received from Post service:404","service":"api-gateway","timestamp":"2025-10-23T12:21:47.351Z"}
+{"level":"info","message":"received GET request to /v1/posts/all-posts","service":"api-gateway","timestamp":"2025-10-23T12:21:53.608Z"}
+{"level":"info","message":"Request body, undefined","service":"api-gateway","timestamp":"2025-10-23T12:21:53.609Z"}
+{"level":"info","message":"Response received from Post service:200","service":"api-gateway","timestamp":"2025-10-23T12:21:53.677Z"}
+{"level":"info","message":"received DELETE request to /v1/posts/68fa1dd6e0c137bcacb8be52","service":"api-gateway","timestamp":"2025-10-23T12:22:40.816Z"}
+{"level":"info","message":"Request body, undefined","service":"api-gateway","timestamp":"2025-10-23T12:22:40.816Z"}
+{"level":"info","message":"Response received from Post service:200","service":"api-gateway","timestamp":"2025-10-23T12:22:40.868Z"}
+{"level":"info","message":"received GET request to /v1/posts/all-posts","service":"api-gateway","timestamp":"2025-10-23T12:23:11.199Z"}
+{"level":"info","message":"Request body, undefined","service":"api-gateway","timestamp":"2025-10-23T12:23:11.199Z"}
+{"level":"info","message":"Response received from Post service:200","service":"api-gateway","timestamp":"2025-10-23T12:23:11.259Z"}
+{"level":"info","message":"API gsteway running on port:3000","service":"api-gateway","timestamp":"2025-10-23T16:38:01.245Z"}
+{"level":"info","message":"Identity service si running on port http://localhost:3001","service":"api-gateway","timestamp":"2025-10-23T16:38:01.247Z"}
+{"level":"info","message":"Post service is running on port http://localhost:3002","service":"api-gateway","timestamp":"2025-10-23T16:38:01.248Z"}
+{"level":"info","message":"media service is running on port http://localhost:3003","service":"api-gateway","timestamp":"2025-10-23T16:38:01.248Z"}
+{"level":"info","message":"Redis Url redis://localhost:6379","service":"api-gateway","timestamp":"2025-10-23T16:38:01.248Z"}
+{"level":"info","message":"API gsteway running on port:3000","service":"api-gateway","timestamp":"2025-10-23T16:39:24.365Z"}
+{"level":"info","message":"Identity service si running on port http://localhost:3001","service":"api-gateway","timestamp":"2025-10-23T16:39:24.368Z"}
+{"level":"info","message":"Post service is running on port http://localhost:3002","service":"api-gateway","timestamp":"2025-10-23T16:39:24.368Z"}
+{"level":"info","message":"media service is running on port http://localhost:3003","service":"api-gateway","timestamp":"2025-10-23T16:39:24.369Z"}
+{"level":"info","message":"Search service is running on port http://localhost:3004","service":"api-gateway","timestamp":"2025-10-23T16:39:24.369Z"}
+{"level":"info","message":"Redis Url redis://localhost:6379","service":"api-gateway","timestamp":"2025-10-23T16:39:24.369Z"}
+{"level":"info","message":"API gsteway running on port:3000","service":"api-gateway","timestamp":"2025-10-23T18:11:27.456Z"}
+{"level":"info","message":"Identity service si running on port http://localhost:3001","service":"api-gateway","timestamp":"2025-10-23T18:11:27.459Z"}
+{"level":"info","message":"Post service is running on port http://localhost:3002","service":"api-gateway","timestamp":"2025-10-23T18:11:27.460Z"}
+{"level":"info","message":"media service is running on port http://localhost:3003","service":"api-gateway","timestamp":"2025-10-23T18:11:27.460Z"}
+{"level":"info","message":"Search service is running on port http://localhost:3004","service":"api-gateway","timestamp":"2025-10-23T18:11:27.460Z"}
+{"level":"info","message":"Redis Url redis://localhost:6379","service":"api-gateway","timestamp":"2025-10-23T18:11:27.461Z"}

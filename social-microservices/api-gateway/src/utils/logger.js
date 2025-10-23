@@ -10,7 +10,7 @@ export const logger = winston.createLogger({
     winston.format.json()
   ),
   defaultMeta: {
-    service: "identity-services"
+    service: "api-gateway"
   },
   transports: [ // ooutput destinationf of the logs
     new winston.transports.Console({ // log will appeared in terminal
