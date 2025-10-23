@@ -9,7 +9,7 @@ import { ConnectDb } from "./config/db.config.js";
 import { logger } from "./utils/logger.js";
 
 import { router } from "./routes/identity.routes.js";
-import { errorHandler } from "./middleware/errorhandler.middleware.js";
+import { errorHandler } from "./middleware/errorhandler.js";
 
 config();
 const app = express();
