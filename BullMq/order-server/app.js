@@ -7,8 +7,7 @@ const port = 5000;
 config();
 app.use(express.json());
 
-// mail queue
-const mailQueue = new Queue("email-queue", {
+const emailNotification = new Queue("email-queue", {
   connection: {
     host: "127.0.0.1",
     port: 6379,
@@ -17,7 +16,6 @@ const mailQueue = new Queue("email-queue", {
     },
   },
 });
-//user verification queue
 const verifyUser = new Queue("user-verification-queue", {
   connection: {
     host: "127.0.0.1",
@@ -32,7 +30,6 @@ const verifyUser = new Queue("user-verification-queue", {
 const verificationQueueEvents = new QueueEvents("user-verification-queue", {
   connection: { host: "127.0.0.1", port: 6379 },
 });
-
 
 const checkUserVerification = (jobId) => {
   return new Promise((resolve, reject) => {
@@ -74,7 +71,7 @@ app.post("/order", async (req, res) => {
 
     // save order to db
     // all do ncerssary works first and less important task async
-    const mailJob = await mailQueue.add("send mail", {
+    const mailJob = await emailNotification.add("send mail", {
       from: "apnicompany@gmail.com",
       to: userData.email,
       subject: "thank you",
