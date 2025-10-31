@@ -1,5 +1,6 @@
 import Redis from "ioredis";
-
+import { config } from "dotnev";
+config();
 export const redisClient = new Redis(process.env.REDIS_URL);
 
 redisClient.on("connect", () => console.log(" Connected to Redis"));
