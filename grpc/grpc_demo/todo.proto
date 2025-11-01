@@ -1,0 +1,25 @@
+syntax = "proto3";
+
+import "google/protobuf/empty.proto";
+service TodoService{
+    rpc CreateTodo (Todo) returns (Todo){}
+    // app.post("/todo", (req, res) => {...});
+    rpc GetTodo (TodoRequest) returns (Todo){}
+    // app.get("/todo/:id", (req, res) => {...});
+    rpc ListTodos (Empty) returns (TodoList) {}
+    // app.get("/todo", (req, res) => {...});
+}
+// 
+message Empty{}
+message Todo{
+    string id = 1;
+    string title = 2;
+    optional string content =3;
+}
+message TodoList{
+    repeated Todo todos=1;
+}
+
+message TodoRequest{
+    string id=1;
+}
