@@ -24,6 +24,7 @@ const toolSchema = new mongoose.Schema(
           "VERSION_CONTROL",
           "DATABASE",
           "DESIGN",
+          "AI",
           "PRODUCTIVITY",
           "OTHER",
         ],

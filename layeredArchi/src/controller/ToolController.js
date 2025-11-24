@@ -22,51 +22,53 @@ export class ToolController {
    *
    * - /api/tools?category='Frontend'&popular=true&limit=10
    * - /api/tools?category='Frontend'&limit=10
+   * - ?sort=price:desc
+   *  field="price",order="desc"
+   * const field = "name";
+      const obj = { [field]: 1 };
+
    */
   getAllTools = async (req, res) => {
     try {
-      const { category, popular, search, limit, skip, sort } = req.query;
-
+      const { category, popular, search, limit, skip, sort, populate, select } =
+        req.query;
       const filters = {};
+
       if (category) filters.category = category;
       if (popular === "true") filters.isPopular = true;
 
       const options = {};
-      if (limit) options.limit = parseInt(limit);
-      if (skip) options.skip = parseInt(skip);
+      if (limit && !isNaN(limit)) options.limit = Number(limit);
+      if (skip && !isNaN(skip)) options.skip = Number(skip);
+      // if (limit) options.limit = parseInt(limit);
+      // if (skip) options.skip = parseInt(skip);
+
       // if (sort) {
-      //     // HOMEWORK
+      //   const [field, order] = sort.split(":");
+      //   options.sort = {
+      //     [field]: order === "desc" ? -1 : 1,
+      //   };
       // }
 
       let tools;
-
       if (search) {
         tools = await this.ToolService.searchTools(search);
       } else {
         tools = await this.ToolService.getAllTools(filters, options);
       }
-
-      // res.status(200).json({
-      //     success: true,
-      //     count: tools.length,
-      //     data: tools
-      // })
+      const count = tools ? tools.length : 0;
       return ApiResponse.ok(res, tools, Messages.FETCHED, {
-        count: tools.length,
+        count,
       });
     } catch (error) {
       return ApiResponse.error(res, error.message);
-      //   res.status(500).json({
-      //     success: false,
-      //     message: error.message,
-      //   });
     }
   };
 
   createTool = async (req, res) => {
     try {
       const toolData = req.body;
-
+      
       const tool = await this.ToolService.createTool(toolData);
 
       res.status(201).json({
