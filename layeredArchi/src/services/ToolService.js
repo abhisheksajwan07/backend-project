@@ -4,10 +4,10 @@ import { ToolRepository } from "../repositories/ToolRepository.js";
  */
 export class ToolService {
   // constructor() {
-  //     this.toolRepository = new ToolRepository()
+  //     this.ToolRepository = new ToolRepository()
   // }
-  constructor(toolRepository) {
-    this.toolRepository = toolRepository;
+  constructor(ToolRepository) {
+    this.ToolRepository = ToolRepository;
   }
 
   /**
@@ -17,13 +17,13 @@ export class ToolService {
    */
   async createTool(toolData) {
     try {
-      const existingTool = await this.toolRepository.findByName(toolData.name);
+      const existingTool = await this.ToolRepository.findByName(toolData.name);
 
       if (existingTool) {
         throw new Error("Tool with this name already exists");
       }
 
-      const savedTool = await this.toolRepository.create(toolData);
+      const savedTool = await this.ToolRepository.create(toolData);
 
       return savedTool;
     } catch (error) {
@@ -55,7 +55,7 @@ export class ToolService {
 
   async getAllTools(filters = {}, options = {}) {
     try {
-      const tools = await this.toolRepository.findAll(filters, options);
+      const tools = await this.ToolRepository.findAll(filters, options);
       return tools;
     } catch (error) {
       throw new Error(`Failed to fetch tools: ${error.message}`);
@@ -64,7 +64,7 @@ export class ToolService {
 
   async getToolById(id) {
     try {
-      const tool = await this.toolRepository.findById(id);
+      const tool = await this.ToolRepository.findById(id);
       if (!tool) {
         throw new Error("Tool not found");
       }
@@ -76,7 +76,7 @@ export class ToolService {
 
   async updateTool(id, updateData) {
     try {
-      const tool = await this.toolRepository.updateById(id, updateData);
+      const tool = await this.ToolRepository.updateById(id, updateData);
 
       if (!tool) {
         throw new Error("Tool not found");
@@ -94,7 +94,7 @@ export class ToolService {
 
   async deleteTool(id) {
     try {
-      const tool = await this.toolRepository.deleteById(id);
+      const tool = await this.ToolRepository.deleteById(id);
       if (!tool) {
         throw new Error("Tool not found");
       }
@@ -128,7 +128,7 @@ export class ToolService {
 
   async getToolsByCategory(category) {
     try {
-      const tools = await this.toolRepository.findByCategory(category);
+      const tools = await this.ToolRepository.findByCategory(category);
       return tools;
     } catch (error) {
       throw new Error(`Failed to fetch tools by category: ${error.message}`);
@@ -137,7 +137,7 @@ export class ToolService {
 
   async getPopularTools() {
     try {
-      const tools = await this.toolRepository.findPopular();
+      const tools = await this.ToolRepository.findPopular();
       return tools;
     } catch (error) {
       throw new Error(`Failed to fetch popular tools: ${error.message}`);
@@ -146,7 +146,7 @@ export class ToolService {
 
   async searchTools(query) {
     try {
-      const tools = await this.toolRepository.search(query);
+      const tools = await this.ToolRepository.search(query);
       return tools;
     } catch (error) {
       throw new Error(`Failed to search tools: ${error.message}`);

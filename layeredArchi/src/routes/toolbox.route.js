@@ -4,10 +4,10 @@ import { ToolService } from "../services/ToolService.js";
 import { ToolRepository } from "../repositories/ToolRepository.js";
 
 const router = express.Router();
-const Repository = new ToolService();
-const tool = new ToolService(Repository);
+const toolRepository = new ToolRepository();
+const toolService = new ToolService(toolRepository);
 
-const toolController = new ToolController(tool);
+const toolController = new ToolController(toolService);
 
 // localhost:5000/api/tools/
 router.get("/", toolController.getAllTools);
@@ -29,3 +29,5 @@ router.delete("/delete/bulk", toolController.deleteBulkTools);
 router.delete("/delete/:id", toolController.deleteTool);
 
 export default router;
+
+

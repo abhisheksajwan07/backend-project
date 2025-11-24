@@ -11,6 +11,7 @@ class ApiResponse {
    * @param {object|null} data - Response data
    * @param {object|null} meta - Additional metadata
    */
+
   static success(
     res,
     statusCode = HttpStatus.OK,

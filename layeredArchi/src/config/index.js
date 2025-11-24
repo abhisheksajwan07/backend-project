@@ -18,3 +18,4 @@ export const Config = {
     credentials: true,
   },
 };
+
